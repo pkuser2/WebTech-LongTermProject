@@ -1,0 +1,32 @@
+INTERNET
+
+- internetwork
+	INTER
+		-crossing boundaries
+	NETWORK
+		-connecting / connection
+
+IoT
+- any appliance that can connect to the network
+- can access remotely
+
+Protocols
+- communication standards
+- rules of communicating into the network
+
+Serial Connection
+- one wire connecting 2 computers
+- binary connection
+
+1960's
+- Start of Internet
+Research about:
+(1) Pocket Switch
+- single line connection
+- more appropriate for computer connection
+
+(2) Circuit Connection
+- establish and maintain the connection
+
+1972
+- first high level application : eMail
