@@ -30,3 +30,15 @@ Research about:
 
 1972
 - first high level application : eMail
+
+
+
+World Wide Web
+	- English scientist Tim Berners-Lee invented the World Wide Web in 1989
+	- application that uses the infrastructure of the internet
+	- information system on the internet that allows documents to be connected to other documents to be connected to other documents by hypertext links, enabling the user to search for information by moving from one document to another
+
+WAIS (Wide Area Information Servers)
+ Gopher - protocol designed for ditributing,searching and retrieving documents over the internet
+ Usenet - worldwide distributed discussion system available on computers
+ 
