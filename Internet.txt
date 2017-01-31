@@ -47,4 +47,19 @@ WAIS (Wide Area Information Servers)
   - application layer communications protocol used to access resources(hypertext/hypermedia) on the World Wide Web
   - invented by Tim Berners-Lee
   - jointly developed by the W3C and the IETF
+  
 Version History:
+  - HTTP 0.9(1991)
+  - HTTP 1.0(RFC 1945, May 1996)
+  - HTTP 1.1(RFC 2068 Jan 1997, RFC 2616 June 1999), RFC 7230-7235(June 2014)
+  - HTTP 2(RFC 7540 May 2015)
+  
+ HTTP Fundamentals
+  - HTTP runs on top of TCP/IP, using TCP port 80 by default or TCP port 443 for HTTPS(HTTP over SSL/TLS)
+  - HTTP is based on a client-server architecture
+     - clients a.k.a. user agents(UA):
+        - web browsers, web crawlers/spiders, other end user tools and applications
+     - servers
+     	- origin servers
+	- proxy servers, gateways, tunnels
+
