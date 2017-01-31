@@ -42,3 +42,9 @@ WAIS (Wide Area Information Servers)
  Gopher - protocol designed for ditributing,searching and retrieving documents over the internet
  Usenet - worldwide distributed discussion system available on computers
  
+ 
+ HTTP
+  - application layer communications protocol used to access resources(hypertext/hypermedia) on the World Wide Web
+  - invented by Tim Berners-Lee
+  - jointly developed by the W3C and the IETF
+Version History:
