@@ -73,6 +73,9 @@ ex.- ascii,unicode etc..
 -Content/transfer coding - when you sent something it will be recieve as is
 -Content negotiation - if the other one cant`t recieve zip file then don`t send it as a zip file you it must specify which
 			version fit there capabilities the best.
+-Persistent Connection introduce in protocol 1.1 - The idea of this is to send and recieve multiple http request using only single 
+							TCP connection.
+
 
 
 
