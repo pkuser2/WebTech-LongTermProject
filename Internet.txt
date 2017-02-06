@@ -43,7 +43,7 @@ WAIS (Wide Area Information Servers)
  Usenet - worldwide distributed discussion system available on computers
  
  
- HTTP
+ HTTP (HyperText Markup Language)
   - application layer communications protocol used to access resources(hypertext/hypermedia) on the World Wide Web
   - invented by Tim Berners-Lee
   - jointly developed by the W3C and the IETF
