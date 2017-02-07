@@ -62,9 +62,13 @@ Version History:
      - servers
      	- origin servers
 	- proxy servers, gateways, tunnels
+  - HTTP uses a request-response standard protocol
+	- the client sends an HTTP request message to the server
+	- the server processes the request and replies with an HTTP response message
+  - HTTP is a stateless communications protocol
+	- servers do not keep information about clients in-between requests	
 	
-	
-HTTP provides support for other functions such as;
+HTTP provides support for other functionalities, such as;
 
 -Cache Control - storoge that is available locally
 -Content Media Type - is a two-part identifier for file formats and format contents transmitted on the Internet.
@@ -75,6 +79,8 @@ ex.- ascii,unicode etc..
 			version fit there capabilities the best.
 -Persistent Connection introduce in protocol 1.1 - The idea of this is to send and recieve multiple http request using only single 
 							TCP connection.
+-Request pipelining
+-Authentication/Authorization
 
 
 
