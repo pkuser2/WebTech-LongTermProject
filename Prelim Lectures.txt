@@ -7,46 +7,45 @@ INTERNET
 		-connecting / connection
 
 IoT
-- any appliance that can connect to the network
-- can access remotely
+- is any appliance that can connect to the network.
+- can be accessed remotely.
 
 Protocols
-- communication standards
-- rules of communicating into the network
+- are communication standards.
+- are rules of communicating into the network.
 
 Serial Connection
-- one wire connecting 2 computers
-- binary connection
+- is one wire connecting 2 computers.
+- and is also a binary connection.
 
 1960's
 - Start of Internet
 Research about:
 (1) Pocket Switch
-- single line connection
-- more appropriate for computer connection
+- is a single line connection.
+- and is more appropriate for computer connection.
 
 (2) Circuit Connection
-- establish and maintain the connection
+- is used to establish and maintain the connection.
 
 1972
-- first high level application : eMail
-
+- this was the year where the first high level application was invented, the Email.
 
 
 World Wide Web
-	- English scientist Tim Berners-Lee invented the World Wide Web in 1989
-	- application that uses the infrastructure of the internet
-	- information system on the internet that allows documents to be connected to other documents to be connected to other documents by hypertext links, enabling the user to search for information by moving from one document to another
+	- English scientist Tim Berners-Lee invented the World Wide Web in 1989.
+	- it is application that uses the infrastructure of the internet.
+	- information system on the internet that allows documents to be connected to other documents that would be connected to other documents by hypertext links. This enables the user to search for information by moving from one document to another.
 
 WAIS (Wide Area Information Servers)
- Gopher - protocol designed for ditributing,searching and retrieving documents over the internet
- Usenet - worldwide distributed discussion system available on computers
+ Gopher - The protocol designed for distributing,searching and retrieving documents over the internet.
+ Usenet - It is a worldwide distributed discussion system available on computers.
  
  
  HTTP (HyperText Markup Language)
-  - application layer communications protocol used to access resources(hypertext/hypermedia) on the World Wide Web
-  - invented by Tim Berners-Lee
-  - jointly developed by the W3C and the IETF
+  - application layer communications protocol used to access resources(hypertext/hypermedia) on the World Wide Web.
+  - it was invented by Tim Berners-Lee.
+  - jointly developed by the W3C and the IETF.
   
 Version History:
   - HTTP 0.9(1991)
@@ -55,18 +54,18 @@ Version History:
   - HTTP 2(RFC 7540 May 2015)
   
  HTTP Fundamentals
-  - HTTP runs on top of TCP/IP, using TCP port 80 by default or TCP port 443 for HTTPS(HTTP over SSL/TLS)
-  - HTTP is based on a client-server architecture
+  - HTTP runs on top of TCP/IP, using TCP port 80 by default or TCP port 443 for HTTPS(HTTP over SSL/TLS).
+  - HTTP is based on a client-server architecture.
      - clients a.k.a. user agents(UA):
      	- web browsers, web crawlers/spiders, other end user tools and applications
      - servers
      	- origin servers
 	- proxy servers, gateways, tunnels
   - HTTP uses a request-response standard protocol
-	- the client sends an HTTP request message to the server
-	- the server processes the request and replies with an HTTP response message
+	- the client sends an HTTP request message to the server.
+	- the server processes the request and replies with an HTTP response message.
   - HTTP is a stateless communications protocol
-	- servers do not keep information about clients in-between requests	
+	- servers do not keep information about clients in-between requests.	
 	
   - HTTP provides support for other functionalities, such as;
 	-Cache Control - storoge that is available locally
@@ -74,8 +73,8 @@ Version History:
 	-Language and character set specification
 	ex.- ascii,unicode etc..
 	-Content/transfer coding - when you sent something it will be recieve as is
-	-Content negotiation - if the other one cant`t recieve zip file then don`t send it as a zip file you it must specify which version fit there capabilities the best.
-	-Persistent Connection introduce in protocol 1.1 - The idea of this is to send and recieve multiple http request using only single TCP connection.
+	-Content negotiation - if the other one can't recieve the zip file then don`t send it as a zip file. It must specify which version should fit its capabilities the best.
+	-Persistent Connection introduce in Protocol 1.1 - The idea of this is to send and recieve multiple http request using only single TCP connection.
 	-Request pipelining
 	-Authentication/Authorization
 
@@ -88,8 +87,8 @@ HTTP Resource Addressing
 		     - domain name (resolved to an IP address using DNS) of the server where the resource resides (or will be created)
 		- port number
 	- path to resource(resolved to the document root on the server)
-		- may refer to a static or dynamic resource
+		- may refer to a static or dynamic resource.
 	- query
 		- typically provided as key = value pairs, with ampersan (&) separators between key/value pairs.
-		- may be URL-encoded
+		- may be URL-encoded.
 	- Fragment Identifier
