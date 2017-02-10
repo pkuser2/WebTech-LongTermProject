@@ -92,3 +92,33 @@ HTTP Resource Addressing
 		- typically provided as key = value pairs, with ampersan (&) separators between key/value pairs.
 		- may be URL-encoded.
 	- Fragment Identifier
+
+Standard Methods
+
+GET - Transfer a current selected representation of the resource identified by the request URI
+HEAD - same as GET with one difference (returns only the statusline and the headers)
+	- used to retrieve metadata about the entity implied by the request without transferring the entity itself
+
+PUT - store enclosed entity in the message body under the specified request URI
+
+OPTIONS-
+
+TRACE - request a loop-back of the request message
+
+CONNECT - use only for HTTPS communication
+	- request the establishment of a tunel to the destination origin server, and if successful thereafter restrict it behavior
+
+safemethods,idempotent methods,cacheable method
+
+General Header Fields
+
+cache control - allow us to control caching
+connection- use to establish persistent connection
+date - to control the lifetime of cache resources
+pragma - general directive in older version of HTTP
+Trailer - header that is pass/provided after the data
+Transfer-encoding -
+Upgrade - to switch to a different protocol
+via - 
+warning -
+
