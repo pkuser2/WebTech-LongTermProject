@@ -124,7 +124,7 @@ connection- used to establish persistent connection
 date - to control the lifetime of cache resources
 pragma - general directive in older version of HTTP
 Trailer - header that is pass/provided after the data
-Transfer-encoding -
+Transfer-encoding - to notify the server it expects to receive additional fields in the trailer
 Upgrade - to switch to a different protocol
 via - where the message was passed
 warning - general warning about possible problems with the entity body
