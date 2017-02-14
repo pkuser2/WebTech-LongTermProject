@@ -67,17 +67,17 @@ Version History:
      - servers
      	- origin servers
 	- proxy servers, gateways, tunnels
+	 *proxy servers--- allows yout to authenticate pass to one another until it reaches origin server.
   - HTTP uses a request-response standard protocol
 	- the client sends an HTTP request message to the server.
 	- the server processes the request and replies with an HTTP response message.
   - HTTP is a stateless communications protocol
 	- servers do not keep information about clients in-between requests.	
-	
   - HTTP provides support for other functionalities, such as;
 	-Cache Control - storoge that is available locally
 	-Content Media Type - is a two-part identifier for file formats and format contents transmitted on the Internet.
 	-Language and character set specification
-	ex.- ascii,unicode etc..
+	ex.- ascii(8 bit representation), UNICODE(multi-byte)
 	-Content/transfer coding - when you sent something it will be recieve as is
 	-Content negotiation - if the other one can't recieve the zip file then don`t send it as a zip file. It must specify which version should fit its capabilities the best.
 	-Persistent Connection introduce in Protocol 1.1 - The idea of this is to send and recieve multiple http request using only single TCP connection.
@@ -98,6 +98,21 @@ HTTP Resource Addressing
 		- typically provided as key = value pairs, with ampersan (&) separators between key/value pairs.
 		- may be URL-encoded.
 	- Fragment Identifier
+
+
+HTTP Request Message 
+  	Request Line (CRLF - terminated line consisting of three space -separated values)
+		- Method
+	        - Request URL
+		- HTTP Protocol Version
+ 	Message Headers (general,request and/or entity headers)
+		- HTTP 1.1 requires atleast the host ......
+			-General
+			-Request
+			-Response
+			-Entity
+	Empty Line (CRLF)
+	Message Body a.k.a.payload(optional)
 
 8 Standard Methods
 
