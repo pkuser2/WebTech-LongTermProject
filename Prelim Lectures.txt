@@ -114,6 +114,19 @@ HTTP Request Message
 	Empty Line (CRLF)
 	Message Body a.k.a.payload(optional)
 
+HTTP Response Status
+	-HTTP Protocol
+	-Status Code
+	-Reason Phrase
+	
+ 1xx - informational
+ 2xx - success
+ 3xx - redirection
+ 4xx - client error - 400 bad request
+ 5xx - server error - 500 internal server error
+ 
+	Message Headers(general,response and/or entity headers)
+	Empty Line
 8 Standard Methods
 
 1. GET	-Transfer a current selected representation of the resource identified by the request URI
