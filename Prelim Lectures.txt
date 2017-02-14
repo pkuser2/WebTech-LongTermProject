@@ -49,15 +49,21 @@ WAIS (Wide Area Information Servers)
   
 Version History:
   - HTTP 0.9(1991)
+  	1.connection
+	2.request
+	3.response
+	4.disconnection
   - HTTP 1.0(RFC 1945, May 1996)
   - HTTP 1.1(RFC 2068 Jan 1997, RFC 2616 June 1999), RFC 7230-7235(June 2014)
   - HTTP 2(RFC 7540 May 2015)
+  	SPDY - invented by google
   
  HTTP Fundamentals
   - HTTP runs on top of TCP/IP, using TCP port 80 by default or TCP port 443 for HTTPS(HTTP over SSL/TLS).
   - HTTP is based on a client-server architecture.
      - clients a.k.a. user agents(UA):
      	- web browsers, web crawlers/spiders, other end user tools and applications
+  - HTTP provides an encryption panel
      - servers
      	- origin servers
 	- proxy servers, gateways, tunnels
@@ -93,32 +99,33 @@ HTTP Resource Addressing
 		- may be URL-encoded.
 	- Fragment Identifier
 
-Standard Methods
+8 Standard Methods
 
-GET - Transfer a current selected representation of the resource identified by the request URI
-HEAD - same as GET with one difference (returns only the statusline and the headers)
+1. GET	-Transfer a current selected representation of the resource identified by the request URI
+	- Fetch resources
+2. HEAD - same as GET with one difference (returns only the statusline and the headers)
 	- used to retrieve metadata about the entity implied by the request without transferring the entity itself
+3. PUT  - store the enclosed entity in the message body under the specified request URI
+4. OPTIONS - tell you what you can do or request information about communication
+5. TRACE   - used to request a loop-back of the request message
+	   - used for testing/diagnostics of the request/response chain
+6. CONNECT - use only for HTTPS communication
+	   - request the establishment of a tunel to the destination origin server, and if successful thereafter restrict its behavior
+	   to blind forwarding of packets
 
-PUT - store enclosed entity in the message body under the specified request URI
-
-OPTIONS-
-
-TRACE - request a loop-back of the request message
-
-CONNECT - use only for HTTPS communication
-	- request the establishment of a tunel to the destination origin server, and if successful thereafter restrict it behavior
-
-safemethods,idempotent methods,cacheable method
+safemethod,idempotent method,cacheable method
+*Safe Method - doesn't make ang change
+*Idempotent Method - you can use a method multiple times but get the same result
 
 General Header Fields
-
-cache control - allow us to control caching
-connection- use to establish persistent connection
+	--usable by client and server
+cache control - allow us to control caching and the information won't be saved
+connection- used to establish persistent connection
 date - to control the lifetime of cache resources
 pragma - general directive in older version of HTTP
 Trailer - header that is pass/provided after the data
 Transfer-encoding -
 Upgrade - to switch to a different protocol
-via - 
-warning -
+via - where the message was passed
+warning - general warning about possible problems with the entity body
 
