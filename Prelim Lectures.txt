@@ -159,3 +159,24 @@ Upgrade - to switch to a different protocol
 via - where the message was passed
 warning - general warning about possible problems with the entity body
 
+Request Header Fields
+Accept
+Accept-Charset
+Accept-Encoding
+Accept-Language
+Authorization
+Expect
+FROM
+Host
+If-match
+If-modified
+If-None-Match
+If-Range
+If-Unmodified-Since
+Max-Forwards
+Proxy-Authorization
+Range
+Referer
+TE
+User-agent
+
