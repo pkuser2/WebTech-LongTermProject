@@ -100,7 +100,7 @@ HTTP Resource Addressing
 	- Fragment Identifier
 
 
-HTTP Request Message 
+HTTP Request Message (FROM CLIENT)
   	Request Line (CRLF - terminated line consisting of three space -separated values)
 		- Method
 	        - Request URL
@@ -114,7 +114,8 @@ HTTP Request Message
 	Empty Line (CRLF)
 	Message Body a.k.a.payload(optional)
 
-HTTP Response Status
+HTTP Response Message (FROM SERVERS)
+	Status Line (CRLF - terminated the consisting of three space - separated values)
 	-HTTP Protocol
 	-Status Code
 	-Reason Phrase
@@ -125,8 +126,9 @@ HTTP Response Status
  4xx - client error - 400 bad request
  5xx - server error - 500 internal server error
  
-	Message Headers(general,response and/or entity headers)
+	Message Headers (general,response and/or entity headers)
 	Empty Line
+	Message Body (optional)
 8 Standard Methods
 
 1. GET	-Transfer a current selected representation of the resource identified by the request URI
