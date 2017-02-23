@@ -160,6 +160,7 @@ via - where the message was passed
 warning - general warning about possible problems with the entity body
 
 Request Header Fields
+
 Accept
 Accept-Charset
 Accept-Encoding
@@ -180,3 +181,14 @@ Referer
 TE
 User-agent
 
+Response Header Fields
+
+Accept-Ranges
+Age
+ETag
+Proxy-Authenticate
+Location
+Retry-After
+Server
+Vary
+www-authenticate
