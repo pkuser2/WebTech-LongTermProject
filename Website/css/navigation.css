@@ -23,8 +23,8 @@ li a {
 }
 
 ul .logo{
-    float: left;
-    width: 100%;
+    left: 0;
+    position: fixed;
     position: absolute;
     top: -15px;
     
