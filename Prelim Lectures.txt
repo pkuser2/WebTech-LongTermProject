@@ -192,3 +192,70 @@ Retry-After
 Server
 Vary
 www-authenticate
+
+
+  Entity Header Fields
+-Allow
+-Content-Encoding
+-Content-Language
+-Content-Location
+-Content-MDS
+-Content-Range
+-Content-Type
+-Expires
+-Last-Modified
+-Content-Length
+
+HTTP Status Code
+Informational(1xx)
+100 -continue
+101 -switching protocols
+
+Success (2xx)
+200 -Ok
+201 -created
+202 -Accepted
+203 -Non-Authorative
+204 -No content
+205 -Reset Content
+206 -Partial Content
+
+Redirection (3xx)
+300 -Multiple Choices
+301 -Moved Permanently
+302 -Found
+303 -See other
+304 -Not Modified
+305 -Use proxy
+306 -(unused)
+307 -Temporary Redirect
+
+Error (4xx)
+400 -bad request
+401 -unauthorized
+402 -payment required
+403 -Forbidden
+404 -Not found
+405 -Method Not allowed
+406 -Not acceptable
+407 -proxy Authentication Required
+408 -Request Time-out
+409 -Conflict
+410 -Gone
+411 -Length Required
+412 -Precondition Failed
+413 -
+414 -Request-URI Too large
+415 -Unsupported Media Type
+416 -Requested Range Not Satisfied
+417 -Expectation Failed
+426 -Upgrade Required
+
+Server Error(5xx)
+500 -Internal Server Error
+501 -Not Implemented
+502 -Bad Gateway
+503 -Service unavailable
+504 -Gateway Time-out
+505 -HTTP version Not Supported
+
