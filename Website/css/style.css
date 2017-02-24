@@ -1,3 +1,76 @@
+body{
+	margin-top: 50px;
+	height: 100%;
+	margin: 0;
+}
+
+
+/*STYLES FOR FONTS*/
+body{
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	text-transform: uppercase;
+}
+
+nav ul{
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	text-transform: uppercase;
+}
+
+.sect{
+  height: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  padding-top: 150px;
+}
+
+.subSection{ 
+  height:70%;
+  background-color: #023749;
+  padding-left: 25px;
+  padding-top: 25px;
+  padding-right: 25px;
+  padding-bottom: 25px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+@keyframes slidy {
+0% { left: 0%; }
+20% { left: 0%; }
+25% { left: -100%; }
+45% { left: -100%; }
+50% { left: -200%; }
+70% { left: -200%; }
+75% { left: -300%; }
+95% { left: -300%; }
+100% { left: -400%; }
+}
+
+#slider { 
+	overflow: hidden; 
+	margin-top: -150px;
+}
+#slider figure img { 
+	width: 20%; 
+	float: left; 
+}
+#slider figure { 
+  position: relative;
+  width: 500%;
+  margin: auto;
+  animation: 25s slidy infinite; 
+}
+
+#About h1{
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 50px;
+	color: #ffffff;
+}
+
 .LessonProper h1{
 	font-size: 35px;
 	font-family: "Trebuchet MS", Helvetica, sans-serif;
@@ -9,3 +82,6 @@
 	font-family: "Trebuchet MS", Helvetica, sans-serif;
 	font-style: italic;
 }
+
+
+
