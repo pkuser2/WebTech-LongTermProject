@@ -9,11 +9,11 @@ body{
 
 /*STYLES FOR FONTS*/
 body{
-	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	font-family: "Myriad Set Pro","Helvetica Neue","Helvetica","Arial",sans-serif;
 	text-transform: uppercase;
 }
 nav ul{
-	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	font-family: "Myriad Set Pro","Helvetica Neue","Helvetica","Arial",sans-serif;
 	text-transform: uppercase;
 }
 
@@ -29,7 +29,7 @@ nav ul{
 }
 .subSection{ 
   height:100%;
-  background-color: #262626;
+  background-color: #232634;
   padding-left: 25px;
   padding-top: 25px;
   padding-right: 25px;
@@ -41,7 +41,8 @@ nav ul{
 }
 .subSection1{ 
   height:100%;
-  background-image: url("../images/Prelim_subSection.jpg");
+  background-color: #232634;
+  color:#A8FFF2;
   padding-left: 25px;
   padding-top: 25px;
   padding-right: 25px;
