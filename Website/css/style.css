@@ -210,6 +210,16 @@ nav ul.nav-fixed {
     top: 0;
     width: 100%;
 }
+.indent{
+  text-indent: 18px;
+}
+dl {
+  line-height: 1.5;
+}
+
+.indentp{
+  text-indent: 35px;
+}
 
 
 
