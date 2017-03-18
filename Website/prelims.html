@@ -9,7 +9,7 @@
 </head>
 
 <body>
-    <nav>
+    
     <nav>
         <ul>
             <li class="logo">
@@ -87,29 +87,278 @@
     </div>
 
     <div id="TopicLesson2" class="subSection1">
-    <p>HTTP (HyperText Markup Language)<br /> - application layer communications protocol used to access resources(hypertext/hypermedia) on the World Wide Web.<br /> - it was invented by Tim Berners-Lee.<br /> - jointly developed by the W3C and the IETF.<br /> <br />Version History:<br /> - HTTP 0.9(1991)<br /> 1.connection<br /> 2.request<br /> 3.response<br /> 4.disconnection<br /> - HTTP 1.0(RFC 1945, May 1996)<br /> - HTTP 1.1(RFC 2068 Jan 1997, RFC 2616 June 1999), RFC 7230-7235(June 2014)<br /> - HTTP 2(RFC 7540 May 2015)<br /> SPDY - invented by google</p>
+        <dl>
+        <dt>HTTP (HyperText Markup Language)</dt>
+        <dd>- application layer communications protocol used to access resources(hypertext/hypermedia) on the World Wide Web.</dd>
+        <dd>- it was invented by Tim Berners-Lee.</dd>
+        <dd>- jointly developed by the W3C and the IETF (Internet Engineering Task Force).</dd>
+        <br />
+        <dt>Version History:</dt>
+        <br />
+        <dt> HTTP 0.9(1991)</dt>
+        <dd>
+            <ol>
+               <li>connection</li> 
+               <li>request</li> 
+               <li>response</li>  
+               <li>disconnection</li> 
+            </ol>
+        </dd>
 
-    <p>HTTP (HyperText Markup Language)<br /> - application layer communications protocol used to access resources(hypertext/hypermedia) on the World Wide Web.<br /> - it was invented by Tim Berners-Lee.<br /> - jointly developed by the W3C and the IETF.<br /> <br />Version History:<br /> - HTTP 0.9(1991)<br /> 1.connection<br /> 2.request<br /> 3.response<br /> 4.disconnection<br /> - HTTP 1.0(RFC 1945, May 1996)<br /> - HTTP 1.1(RFC 2068 Jan 1997, RFC 2616 June 1999), RFC 7230-7235(June 2014)<br /> - HTTP 2(RFC 7540 May 2015)<br /> SPDY - invented by google</p>
+        <dt> HTTP 1.0(RFC 1945, May 1996)</dt>
+        <dt>HTTP 1.1(RFC 2068 Jan 1997, RFC 2616 June 1999), RFC 7230-7235(June 2014)</dt>
+        <dt> HTTP 2(RFC 7540 May 2015)</dt>
+        </dl>
 
-    <p>HTTP Fundamentals<br /> - HTTP runs on top of TCP/IP, using TCP port 80 by default or TCP port 443 for HTTPS(HTTP over SSL/TLS).<br /> - HTTP is based on a client-server architecture.<br /> - clients a.k.a. user agents(UA):<br /> - web browsers, web crawlers/spiders, other end user tools and applications<br /> - HTTP provides an encryption panel<br /> - servers<br /> - origin servers<br /> - proxy servers, gateways, tunnels<br /> *proxy servers--- allows yout to authenticate pass to one another until it reaches origin server.<br /> - HTTP uses a request-response standard protocol<br /> - the client sends an HTTP request message to the server.<br /> - the server processes the request and replies with an HTTP response message.<br /> - HTTP is a stateless communications protocol<br /> - servers do not keep information about clients in-between requests. <br /> - HTTP provides support for other functionalities, such as;<br /> -Cache Control - storoge that is available locally<br /> -Content Media Type - is a two-part identifier for file formats and format contents transmitted on the Internet.<br /> -Language and character set specification<br /> ex.- ascii(8 bit representation), UNICODE(multi-byte)<br /> -Content/transfer coding - when you sent something it will be recieve as is<br /> -Content negotiation - if the other one can't recieve the zip file then don`t send it as a zip file. It must specify which version should fit its capabilities the best.<br /> -Persistent Connection introduce in Protocol 1.1 - The idea of this is to send and recieve multiple http request using only single TCP connection.<br /> -Request pipelining<br /> -Authentication/Authorization</p>
+        <dl>
+            <dt>HTTP Fundamentals</dt>
+            <dd>HTTP runs on top of TCP/IP, using TCP port 80 by default or TCP port 443 for HTTPS(HTTP over SSL/TLS).</dd>
+            <dd> HTTP is based on a client-server architecture.</dd>
+            <dd>clients a.k.a. user agents(UA):</dd>
+            <dd>web browsers, web crawlers/spiders, other end user tools and applications</dd>
+            <dd>HTTP provides an encryption panel</dd>
+            <dd></dd>
+        </dl>  
+        
+        <dl>
+            <dt>servers</dt>
+            <dt>origin servers</dt>
+            <dt>proxy servers</dt>
+            <dd> allows yout to authenticate pass to one another until it reaches origin server.</dd>
 
-    <p>HTTP Resource Addressing<br /> - HTTP resources are identified using URIs (RFC 3986),or, more specifically, HTTP URLs<br /> - scheme(http or https)<br /> - authority<br /> - user information or authentication credentials(deprecated)<br /> - host<br /> - domain name (resolved to an IP address using DNS) of the server where the resource resides (or will be created)<br /> - port number<br /> - path to resource(resolved to the document root on the server)<br /> - may refer to a static or dynamic resource.<br /> - query<br /> - typically provided as key = value pairs, with ampersan (&amp;) separators between key/value pairs.<br /> - may be URL-encoded.<br /> - Fragment Identifier</p>
+            <dt>gateways</dt> 
+            <dt>tunnels</dt> 
+        </dl>
 
-    <p>HTTP Request Message (FROM CLIENT)<br /> Request Line (CRLF - terminated line consisting of three space -separated values)<br /> - Method<br /> - Request URL<br /> - HTTP Protocol Version<br /> Message Headers (general,request and/or entity headers)<br /> - HTTP 1.1 requires atleast the host ......<br /> -General<br /> -Request<br /> -Response<br /> -Entity<br /> Empty Line (CRLF)<br /> Message Body a.k.a.payload(optional)</p>
+        <dl>
+          
+            <dd> HTTP uses a request-response standard protocol</dd>
+            <dd>the client sends an HTTP request message to the server</dd>
+            <dd>the server processes the request and replies with an HTTP response message.</dd>
+            <dd>HTTP is a stateless communications protocol</dd>
+            <dd>servers do not keep information about clients in-between requests</dd>
+            <dd></dd>
 
-    <p>HTTP Response Message (FROM SERVERS)<br /> Status Line (CRLF - terminated the consisting of three space - separated values)<br /> -HTTP Protocol<br /> -Status Code<br /> -Reason Phrase<br /> <br /> 1xx - informational<br /> 2xx - success<br /> 3xx - redirection<br /> 4xx - client error - 400 bad request<br /> 5xx - server error - 500 internal server error<br /> <br /> Message Headers (general,response and/or entity headers)<br /> Empty Line<br /> Message Body (optional)<br />8 Standard Methods</p>
-    <p>1. GET -Transfer a current selected representation of the resource identified by the request URI<br /> - Fetch resources<br />2. HEAD - same as GET with one difference (returns only the statusline and the headers)<br /> - used to retrieve metadata about the entity implied by the request without transferring the entity itself<br />3. PUT - store the enclosed entity in the message body under the specified request URI<br />4. OPTIONS - tell you what you can do or request information about communication<br />5. TRACE - used to request a loop-back of the request message<br /> - used for testing/diagnostics of the request/response chain<br />6. CONNECT - use only for HTTPS communication<br /> - request the establishment of a tunel to the destination origin server, and if successful thereafter restrict its behavior<br /> to blind forwarding of packets</p>
+            <dt>HTTP provides support for other functionalities, such as;</dt>
+            <dd>Cache Control</dd>
+            <dd>storoge that is available locally (Local Storage)</dd>
 
-    <p>safemethod,idempotent method,cacheable method<br />*Safe Method - doesn't make ang change<br />*Idempotent Method - you can use a method multiple times but get the same result</p>
+            <dt>Content Media Type</dt>
+            <dd>is a two-part identifier for file formats and format contents transmitted on the Internet.</dd>
 
-    <p>General Header Fields<br /> --usable by client and server<br />cache control - allow us to control caching and the information won't be saved<br />connection- used to establish persistent connection<br />date - to control the lifetime of cache resources<br />pragma - general directive in older version of HTTP<br />Trailer - header that is pass/provided after the data<br />Transfer-encoding - to notify the server it expects to receive additional fields in the trailer<br />Upgrade - to switch to a different protocol<br />via - where the message was passed<br />warning - general warning about possible problems with the entity body</p>
+            <dt>Language and character set specification</dt>
+            <dd>ex.</dd>
+            <dd>ascii(8 bit representation)</dd>
+            <dd>UNICODE(multi-byte)</dd>
 
-    <p>Request Header Fields</p>
-    <p>Accept<br />Accept-Charset<br />Accept-Encoding<br />Accept-Language<br />Authorization<br />Expect<br />FROM<br />Host<br />If-match<br />If-modified<br />If-None-Match<br />If-Range<br />If-Unmodified-Since<br />Max-Forwards<br />Proxy-Authorization<br />Range<br />Referer<br />TE<br />User-agent</p>
+            <dt>Content/transfer coding</dt>
+            <dd>when you sent something it will be recieve as is</dd>
+            <dt>Content negotiation</dt>
+            <dd>if the other one can't recieve the zip file then don`t send it as a zip file. It must specify which version should fit its capabilities the best.
+            </dd>
+            <br>
 
-    <p>Response Header Fields</p>
-    <p>Accept-Ranges<br />Age<br />ETag<br />Proxy-Authenticate<br />Location<br />Retry-After<br />Server<br />Vary<br />www-authenticate</p>
-    <p><br /> Entity Header Fields<br />-Allow<br />-Content-Encoding<br />-Content-Language<br />-Content-Location<br />-Content-MDS<br />-Content-Range<br />-Content-Type<br />-Expires<br />-Last-Modified<br />-Content-Length</p>
+            <dt>Persistent Connection introduce in Protocol 1.1</dt>
+            <dd>The idea of this is to send and recieve multiple http request using only single TCP connection.</dd>
+            <dt>Request pipelining</dt>
+            <dd>Authentication/Authorization</dd>
+
+
+        </dl>
+
+        <dl>
+           <dt>HTTP Resource Addressing</dt>
+           <dd>HTTP resources are identified using URIs (RFC 3986),or, more specifically, HTTP URLs</dd> 
+           <dd>scheme(http or https)</dd>
+           <dd>authority</dd>
+           <dd>user information or authentication credentials(deprecated)</dd>
+           <dd>host</dd>
+           <dd>domain name (resolved to an IP address using DNS) of the server where the resource resides (or will be created)</dd>
+           <dd>port number</dd>
+           <dd> path to resource(resolved to the document root on the server)</dd>
+           <dd> may refer to a static or dynamic resource.</dd>
+           <dd>query</dd>
+           <dd> typically provided as key = value pairs, with ampersan (&amp;) separators between key/value pairs.</dd>
+           <dd>may be URL-encoded.</dd>
+           <dd>Fragment Identifier</dd> 
+
+
+         <dl>
+            <dt>HTTP Request Message (FROM CLIENT)</dt>
+            <dd>
+                <ul>
+                    <li>Request Line (CRLF - terminated line consisting of three space -separated values)</li>
+                    <li>Method</li>
+                    <li>Request URL</li>
+                    <li>HTTP Protocol Version</li>
+                    <li>Message Headers (general,request and/or entity headers)</li>
+                    <dd> HTTP 1.1 requires atleast the host ......</dd>
+                    <li>General</li>
+                    <li>Request</li>
+                    <li>Response</li>
+                    <li>Entity</li>
+                    <li>Empty Line (CRLF)</li>
+                    <li> Message Body a.k.a.payload(optional)</li>
+                </ul>
+            </dd>
+         </dl>  
+
+        <dl>
+            <dt>HTTP Response Message (FROM SERVERS)</dt>
+            <dd>
+                <ul>
+                    <li>Status Line (CRLF - terminated the consisting of three space - separated values)</li>
+                    <li>HTTP Protoco</li>
+                    <li>Status Code</li>
+                    <li>Reason Phrase</li>
+                    <li> Message Headers (general,response and/or entity headers)</li>
+                    <li> Empty Line</li>
+                    <li>Message Body (optional)</li>
+                </ul>
+            </dd>      
+        </dl>
+
+
+        <dl>
+            <dt> 8 Standard Methods</dt>
+
+            <dt>
+                <ol>
+
+                <li>GET</li>
+                <dd>- Transfer a current selected representation of the resource identified by the request URI</dd>
+                <dd>- Fetch resources</dd>
+
+                <li>HEAD</li>
+                <dd>- same as GET with one difference (returns only the statusline and the headers)</dd>
+                <dd> - used to retrieve metadata about the entity implied by the request without transferring the entity itself</dd>
+
+                <li>PUT</li>
+                     <dd>- store the enclosed entity in the message body under the specified request URI</dd>
+
+                <li>OPTIONS</li>
+                     <dd>- tell you what you can do or request information about communication</dd>
+
+                <li>TRACE</li>
+                <dd> - used to request a loop-back of the request message</dd>
+                <dd>- used for testing/diagnostics of the request/response chain</dd>
+                
+                <li>CONNECT</li>
+                     <dd> - use only for HTTPS communication</dd>
+                     <dd> - request the establishment of a tunel to the destination origin server, and if successful thereafter restrict its behavior to blind forwarding of packets
+                     <dd>
+                </ol>
+
+            </dt>
+            <dt>Different Types of Methods</dt>
+            <dd>
+            <ol>
+                <li>Safe Method</li>
+                <dd>doesn't make any change</dd>
+
+                <li>Idempotent Method</li>
+                <dd>you can use a method multiple times but get the same result</dd>
+
+                <li>cacheable method</li>
+                <dd></dd>
+
+            </ol>
+            </dd>
+        </dl>
+
+
+        <dl>
+            <dt>General Header Fields</dt>
+              <dd>usable by client and server</dd>
+
+            <dt>cache control</dt>
+              <dd>- allow us to control caching and the information won't be saved</dd>
+
+            <dt>connection</dt>
+              <dd>- used to establish persistent connection</dd>
+
+            <dt>date</dt>
+              <dd>- to control the lifetime of cache resources</dd>
+
+            <dt>pragma</dt>
+              <dd>- general directive in older version of HTTP</dd>
+
+            <dt>Trailer</dt> 
+                <dd>- header that is pass/provided after the data</dd>
+            <dt>Transfer-encoding</dt>    
+                <dd>- to notify the server it expects to receive additional fields in the trailer</dd>
+            <dt>Upgrade</dt>    
+                <dd> - to switch to a different protocol</dd>
+
+            <dt>via</dt>    
+                <dd>- where the message was passed</dd>
+
+            <dt>warning</dt>    
+                <dd>- general warning about possible problems with the entity body</dd>
+        </dl>
+
+
+        <dl>
+            <dt>REQUEST HEADER FIELDS</dt>
+            
+            <dd>
+                <ul>
+                    <li>Accept</li>
+                    <li>ACCEPT-CHARSET</li>
+                    <li>ACCEPT-ENCODING</li>
+                    <li>ACCEPT-LANGUAGE</li>
+                    <li>AUTHORIZATION</li>
+                    <li>EXPECT</li>
+                    <li>FROM</li>
+                    <li>HOST</li>
+                    <li>IF-MATCH</li>
+                    <li>IF-MODIFIED</li>
+                    <li>IF-NONE-MATCHIF-RANGE</li>
+                    <li>IF-RANGE</li>
+                    <li>IF-UNMODIFIED-SINCE</li>
+                    <li>MAX-FORWARDS</li>
+                    <li>PROXY-AUTHORIZATION</li>
+                    <li>RANGE</li>
+                    <li>REFERER</li>
+                    <li>TE</li>
+                    <li>USER-AGENT</li>
+                </ul>
+            </dd>
+
+            <dt>RESPONSE HEADER FIELDS</dt>
+            <dd>
+                <ul>
+                    <li>ACCEPT-RANGES</li>
+                    <li>AGE</li>
+                    <li>ETAG</li>
+                    <li>PROXY-AUTHENTICATE</li>
+                    <li>LOCATION</li>
+                    <li>RETRY-AFTER</li>
+                    <li>SERVER</li>
+                    <li>VARY</li>
+                    <li>WWW-AUTHENTICATE</li>
+                </ul>
+            </dd>
+
+            <dt>ENTITY HEADER FIELDS</dt>
+            <dd>
+                <ul>
+                    <li>ALLOW</li>
+                    <li>CONTENT-ENCODING</li>
+                    <li>CONTENT-LANGUAGE</li>
+                    <li>CONTENT-LOCATION</li>
+                    <li>CONTENT-MDS</li>
+                    <li>CONTENT-RANGE</li>
+                    <li>CONTENT-TYPE</li>
+                    <li>Expires</li>
+                    <li>Last-Modified</li>
+                    <li>Content-Length</li>
+                </ul>
+            </dd>
+        </dl>
+
+
+
     
     <p>HTTP Status Code<br />Informational(1xx)<br />100 -continue<br />101 -switching protocols</p>
     <p>Success (2xx)<br />200 -Ok<br />201 -created<br />202 -Accepted<br />203 -Non-Authorative<br />204 -No content<br />205 -Reset Content<br />206 -Partial Content</p>

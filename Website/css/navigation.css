@@ -1,4 +1,4 @@
-ul {
+nav ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -12,18 +12,18 @@ ul {
     z-index: 2;
 }
 
-li {
+nav li {
     float: right;
 }
 
-li a {
+nav li a {
     display: block;
     color: white;
     padding: 16px;
     text-decoration: none;
 }
 
-ul .logo{
+nav ul .logo{
     left: 0;
     position: fixed;
     position: absolute;
