@@ -194,9 +194,13 @@
                     <li>Message Headers (general,request and/or entity headers)</li>
                     <dd> HTTP 1.1 requires atleast the host ......</dd>
                     <li>General</li>
+                    <dd>This type of header field is used by both clients and servers.</dd>
                     <li>Request</li>
+                    <dd> This type of header field is used only by clients.    </dd>
                     <li>Response</li>
+                    <dd>This type of header field is used only by servers.</dd>
                     <li>Entity</li>
+                    <dd>This type of header field describes the entity.</dd>
                     <li>Empty Line (CRLF)</li>
                     <li> Message Body a.k.a.payload(optional)</li>
                 </ul>
@@ -208,7 +212,7 @@
             <dd>
                 <ul>
                     <li>Status Line (CRLF - terminated the consisting of three space - separated values)</li>
-                    <li>HTTP Protoco</li>
+                    <li>HTTP Protocol</li>
                     <li>Status Code</li>
                     <li>Reason Phrase</li>
                     <li> Message Headers (general,response and/or entity headers)</li>
@@ -260,7 +264,7 @@
                 <dd>you can use a method multiple times but get the same result</dd>
 
                 <li>cacheable method</li>
-                <dd></dd>
+                <dd>The response generated could be cachd or not.</dd>
 
             </ol>
             </dd>
