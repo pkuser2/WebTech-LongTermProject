@@ -258,10 +258,10 @@
             <dd>
             <ol>
                 <li>Safe Method</li>
-                <dd>doesn't make any change</dd>
+                <dd>A method that doesn't make any change.</dd>
 
                 <li>Idempotent Method</li>
-                <dd>you can use a method multiple times but get the same result</dd>
+                <dd>A method that you can use a method multiple times but get the same result.</dd>
 
                 <li>cacheable method</li>
                 <dd>The response generated could be cachd or not.</dd>
@@ -364,11 +364,54 @@
 
 
     
-    <p>HTTP Status Code<br />Informational(1xx)<br />100 -continue<br />101 -switching protocols</p>
-    <p>Success (2xx)<br />200 -Ok<br />201 -created<br />202 -Accepted<br />203 -Non-Authorative<br />204 -No content<br />205 -Reset Content<br />206 -Partial Content</p>
-    <p>Redirection (3xx)<br />300 -Multiple Choices<br />301 -Moved Permanently<br />302 -Found<br />303 -See other<br />304 -Not Modified<br />305 -Use proxy<br />306 -(unused)<br />307 -Temporary Redirect</p>
-    <p>Error (4xx)<br />400 -bad request<br />401 -unauthorized<br />402 -payment required<br />403 -Forbidden<br />404 -Not found<br />405 -Method Not allowed<br />406 -Not acceptable<br />407 -proxy Authentication Required<br />408 -Request Time-out<br />409 -Conflict<br />410 -Gone<br />411 -Length Required<br />412 -Precondition Failed<br />413 -<br />414 -Request-URI Too large<br />415 -Unsupported Media Type<br />416 -Requested Range Not Satisfied<br />417 -Expectation Failed<br />426 -Upgrade Required</p>
-    <p>Server Error(5xx)<br />500 -Internal Server Error<br />501 -Not Implemented<br />502 -Bad Gateway<br />503 -Service unavailable<br />504 -Gateway Time-out<br />505 -HTTP version Not Supported</p>
+    <p>HTTP Status Code<br />
+        Informational(1xx)<br />
+        100 -continue : A status code that would allow the performing of operations.<br />
+        101 -switching protocols : A status code that could switch to a higher protocol.</p>
+    <p>Success (2xx)<br />
+        200 -Ok : The operation carried out<br />
+        201 -created : The response to PUT request.<br />
+        202 -Accepted : The request has been recieved but not yet processed.<br />
+        203 -Non-Authorative : Same as above but does not come from origin or authority.<br />
+        204 -No content : It is successful but does not send anything back.<br />
+        205 -Reset Content : Te request has heen done and can be reset.<br />
+        206 -Partial Content: It does not send a full resource but has a range.</p>
+    <p>Redirection (3xx) : Redirected from another location.<br />
+        300 -Multiple Choices : Not much information was sent, so choices were given. <br />
+        301 -Moved Permanently : Means that what you are looking for is now in a different resource.<br />
+        302 -Found : Means that a resource was found after making a request.<br />
+        303 -See other : Means to see other resources avaiilable.<br />
+        304 -Not Modified : When you are  doing a conditional request.<br />
+        305 -Use proxy : You are not supposed to access directly from the resource but from the proxy itself. <br /> 
+        306 -(unused) : An unused status code as of now.<br /> 
+        307 -Temporary Redirect : It is redirected temporarily but can come back later.</p>
+    <p>Error (4xx)<br />
+        400 -bad request : Malformed resource.<br />
+        401 -unauthorized : Accessing from an unprotected resource.<br />
+        402 -payment required : Systems like e-commerce application are needed. e.g. PayPal<br />
+        403 -Forbidden : Not allowed to go to this resource.<br />
+        404 -Not found : The resource is not found.<br />
+        405 -Method Not allowed : Means it is not configured to allow.<br />
+        406 -Not acceptable : Appropriate representation is found on the server.<br />
+        407 -proxy Authentication Required : Authorization through proxy.<br />
+        408 -Request Time-out : The request is taking too long to process.<br />
+        409 -Conflict : You can look a resource.<br />
+        410 -Gone : The resource is gone and will never come back.<br />
+        411 -Length Required : It is expecting a content length but did not send.<br />
+        412 -Precondition Failed : Creating a resource that does not exist, but if it did exist then it failed.<br />
+        413 -Request Entity Too Large : The file is too large.<br />
+        414 -Request-URI Too large : If the URI is too long.<br />
+        415 -Unsupported Media Type : Sending something and specifying content type but server application cannot request.<br />
+        416 -Requested Range Not Satisfied : Range is not enough.<br />
+        417 -Expectation Failed : What you requested is not there at all.<br />
+        426 -Upgrade Required : It requires a higher version of a protocol.</p>
+    <p>Server Error(5xx)<br />
+        500 -Internal Server Error : It is misconfiguration on the server.<br />
+        501 -Not Implemented : It was not implemented.<br />
+        502 -Bad Gateway : There is something wrong witn the gateway.<br />
+        503 -Service unavailable : The service is unavailable.<br />
+        504 -Gateway Time-out : Gateway has timed out.<br />
+        505 -HTTP version Not Supported : When using a version of the protocol, in which they don't know how to communicate with.</p>
 
 
     </div>
