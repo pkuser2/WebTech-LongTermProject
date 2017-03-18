@@ -1,0 +1,136 @@
+The Website- is a collection of web resources.
+- The founder of HTML and W3C, Tim Berners Lee, also found the website.
+- It was established in 1989.
+
+HTML - The structure and content of a website.
+CSS - It is the presentational output of a page.
+- It is language level used to specify the presentation aspects of structurally worked up documents.
+- It is developed by Hakon Wium Lee (LHSS) & Bert Bos (JOP)
+Version:
+CSS 1
+CSS 2.1 - June 7, 2011
+CSS 3
+JS - Involves the behavioral aspect of the website.
+There was a 15 year hiatus from HTML 4.0 to 5.0.
+HTML 5.1 is the current HTML version being used.
+
+XHTML - Extensible Hypertext Markup Language
+- It is a reformulation in XML.
+- It is data interchanged format.
+XML - It is used to mark-up data.
+- Standard, Well defined, Text based.
+
+In XHTML -documents must be well-formed.
+- end tags are required.
+- attribute values must be quoted.
+- attribute minimization.
+
+2005-2006 Mobile technology is starting. 
+-Ian Hickson helped in contributing for mobile technology to advance.
+
+WHATWG - slowly became popular by 2012.
+
+Why should we have DOCTYPE
+- It triggers the "standards" mode rendering while the other would be in "quirks" mode.
+- meaning it is compliant with HTML.
+If you do not prefer DOCTYPE, it will switch to "quirks" mode. If it has DOCTYPE, It would render in "standards" mode.
+
+They are embodied in elements. 
+ex. <head>, <body>, <title>, <meta>, etc.
+-Each of them follows a certain syntax.
+example:
+<a href = "___" > (Link) </a> - This will all lead to a document tree structure element.
+<a href = "___" > - start tag
+a- tagname
+href- attribute name
+"__"- attribute value
+(Link) - content
+</a> - end tag
+Note: Empty elements do not have an end tag.
+<img src "__" alt = "__">
+
+CSS Preprocessor, CSS Frameworks
+- Sass, Less, 960 Grid System, Bootstrap, Foundation, Materialize
+SASS(Syntactically Awesome Style Sheets) - The most popular preprocessors and is implemented in Ruby.
+-You can also define variables.
+
+LESS- A Preprocessor implemented in Javascript
+
+HTML/XHTML Stylesheets
+-Author styles- what author created.
+-User styles- preference, seperate stylesheet.
+-User Agent styles- user viewing the file.
+-External stylesheets(recommended)- CSS link to HTML.
+-Emebedded styles- style element
+-Inline styles- style attribute
+
+CSS Statements
+@charset- character encoding scheme for mapping
+@import- import other documents
+@namespace- targets other documents
+@document- stylesheet only applies to documents in specific page
+@font-face- web donloadable files
+@key frames- CSS animation
+@media- responsive design
+
+CSS Rule Precedence- From highest to lowest priority
+-By origin and importance
+	-user agent important declarations
+	-user importance declorations
+	-author important declarations
+	-author normal declarations
+	-user normal declorations
+	-user agent normal declarations
+-By specificity- The higer the priority
+	-Inline style
+	-Number of ID selectors
+	-Number of class selectors, attribute selectors, pseudo-class
+	-Number of type selectors & pseudo-elements
+-By order - If it comes later, it goes first.
+
+CSS Declarations
+-Properties
+	-Shorthand properties
+	-vendor specific extensions (a.k.a. vendor prefixes)
+-Values
+	-keywords
+	-numbers(integers & reals indecimal notation)
+The elements of HTML:
+html
+	head
+		title, base, link, meta, style
+	body
+		article, aside, nav,section
+		header, footer
+		main
+		address
+		div
+		h1, h2, h3, h4, h5, h6
+		
+		p
+		hr
+		pre
+		
+		ol,ul,li
+		figure
+			figcaption
+			
+
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+XML 1.0 - 
+
+
