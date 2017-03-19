@@ -4,6 +4,7 @@ body{
 	margin-right: 0;
 	margin-left: 0;
 	margin-bottom: 0;
+  background-color: #f2f2f2;
 }
 
 
@@ -95,16 +96,20 @@ nav ul{
   color: #000000;
 }
 
-.about:last-child{
+.Sean{
   clear: both;
-  width:50%;
-  margin: 0 25% 0 25%;
+  width:100%;
   background-color: #f2f2f2;
 }
 
-.about:last-child img{
+.Sean figure{
   width: 50%;
   padding: 0 25% 0 25%;
+  margin-bottom: 3%;
+}
+
+.Sean img{
+  width: 42%;
   margin-bottom: 3%;
 }
 
