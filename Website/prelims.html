@@ -125,76 +125,79 @@
         <dd>- application layer communications protocol used to access resources(hypertext/hypermedia) on the World Wide Web.</dd>
         <dd>- it was invented by Tim Berners-Lee.</dd>
         <dd>- jointly developed by the W3C and the IETF (Internet Engineering Task Force).</dd>
-        <br />
-        <dt>Version History:</dt>
-        <br />
-        <dt> HTTP 0.9(1991)</dt>
-        <dd>
-            <ol>
+        <dd>-  it runs on TCP/IP protocol using port 80 by default, the secure
+version being TCP 443 (HTTPS, integrated TLS/SSL) </dd>
+         <dt>What is HTTP based on?</dt>  
+            <dd> HTTP is based on client-server architecture - a.k.a clients, user-agents (web browsers, web crawlers, other end
+user tools and applications) </dd>
+            
+        <br>
+        <center><h1>HTTP History</h1></center>
+        <table align="center">
+            <tr>
+            <th>Version & Date</th>
+            <th>Description</th>
+            </tr>
+            <tr>
+                <th>HTTP 0.9 (1991)</th>
+                <th><ol>
                <li>connection</li> 
                <li>request</li> 
                <li>response</li>  
                <li>disconnection</li> 
-            </ol>
-        </dd>
-
-        <dt> HTTP 1.0(RFC 1945, May 1996)</dt>
-        <dt>HTTP 1.1(RFC 2068 Jan 1997, RFC 2616 June 1999), RFC 7230-7235(June 2014)</dt>
-        <dt> HTTP 2(RFC 7540 May 2015)</dt>
-        </dl>
+            </ol></th>
+            </tr>
+           <tr>
+               <th>HTTP 1.0(RFC 1945, May 1996)</th>
+               <th>....</th>
+            </tr> 
+            <th>HTTP 1.1(RFC 2068 Jan 1997, RFC 2616 June 1999), RFC 7230-7235(June 2014) </th>
+            <th>....</th>
+            <tr>
+            <th>HTTP 1.1(RFC 2068 Jan 1997, RFC 2616 June 1999), RFC 7230-7235(June 2014)</th>
+            <th>....</th>
+            </tr>
+            <tr>
+                <th>HTTP 2(RFC 7540 May 2015)</th>
+                <th>...</th>
+            </tr>
+            </table>
 
         <dl>
-            <dt>HTTP Fundamentals</dt>
-            <dd>HTTP runs on top of TCP/IP, using TCP port 80 by default or TCP port 443 for HTTPS(HTTP over SSL/TLS).</dd>
-            <dd> HTTP is based on a client-server architecture.</dd>
-            <dd>clients a.k.a. user agents(UA):</dd>
-            <dd>web browsers, web crawlers/spiders, other end user tools and applications</dd>
-            <dd>HTTP provides an encryption panel</dd>
-            <dd></dd>
-        </dl>  
-        
-        <dl>
-            <dt>servers</dt>
-            <dt>origin servers</dt>
-            <dt>proxy servers</dt>
-            <dd> allows yout to authenticate pass to one another until it reaches origin server.</dd>
-
-            <dt>gateways</dt> 
-            <dt>tunnels</dt> 
+           <dt> * HTTP provides an encryption panel</dt>
+            <dd>- servers </dd>
+            <dd><li>origin server - ....</li>
+            <li>proxy server - allows yout to authenticate pass to one another until it reaches origin server</li></dd>
+            <dd><li>gateways</li></dd> 
+            <dd><li>tunnels</li></dd> 
         </dl>
 
         <dl>
           
-            <dd> HTTP uses a request-response standard protocol</dd>
-            <dd>the client sends an HTTP request message to the server</dd>
-            <dd>the server processes the request and replies with an HTTP response message.</dd>
-            <dd>HTTP is a stateless communications protocol</dd>
-            <dd>servers do not keep information about clients in-between requests</dd>
+            <dt> * HTTP uses a request-response standard protocol</dt>
+            <dd> - the client sends an HTTP request message to the server</dd>
+            <dd> - the server processes the request and replies with an HTTP response message.</dd>
+            <dt> * HTTP is a stateless communications protocol</dt>
+            <dd> - servers do not keep information about clients in-between requests</dd>
             <dd></dd>
 
-            <dt>HTTP provides support for other functionalities, such as;</dt>
-            <dd>Cache Control</dd>
-            <dd>storoge that is available locally (Local Storage)</dd>
+            <dt> * HTTP provides support for other functionalities, such as: </dt>
+            
+            <dd><li>Cache Control - storage that is available locally (Local Storage)</li></dd>
+            <dd><li>Content Media Type - is a two-part identifier for file formats and format contents transmitted on the Internet.</li></dd>
+            
+            <dd><li>Language and character set specification 
+                <dd> - ascii(8 bit representation) </dd>
+                <dd>
+                    - UNICODE(multi-byte)</li></dd></dd>
 
-            <dt>Content Media Type</dt>
-            <dd>is a two-part identifier for file formats and format contents transmitted on the Internet.</dd>
-
-            <dt>Language and character set specification</dt>
-            <dd>ex.</dd>
-            <dd>ascii(8 bit representation)</dd>
-            <dd>UNICODE(multi-byte)</dd>
-
-            <dt>Content/transfer coding</dt>
-            <dd>when you sent something it will be recieve as is</dd>
-            <dt>Content negotiation</dt>
-            <dd>if the other one can't recieve the zip file then don`t send it as a zip file. It must specify which version should fit its capabilities the best.
-            </dd>
-            <br>
-
-            <dt>Persistent Connection introduce in Protocol 1.1</dt>
-            <dd>The idea of this is to send and recieve multiple http request using only single TCP connection.</dd>
-            <dt>Request pipelining</dt>
-            <dd>Authentication/Authorization</dd>
+            <dd><li>Content/transfer coding - when you sent something it will be recieve as is </li></dd>
+            
+            <dd><li>Content negotiation - if the other one can't recieve the zip file then don`t send it as a zip file. It must specify which version should fit its capabilities the best.</li></dd>
+            
+            <dd><li> Persistent Connection - the idea of this is to send and recieve multiple http request using only single TCP connection.</dd>
+            
+            <dd><li>Request pipelining - one request at a time </li><li>Authentication/Authorization - configure all the server</li></dd>
 
 
         </dl>
