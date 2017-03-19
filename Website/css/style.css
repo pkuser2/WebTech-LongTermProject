@@ -19,6 +19,17 @@ nav ul{
 
 /*STYLES FOR CONTENT*/
 
+/*-----FOR THE HEADER-----*/
+
+.backgroundHeader {
+    background-image: url("../images/Header.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100vh;
+    width: 100%;
+}
+
 .sect{
   height: 50%;
   background-size: cover;
@@ -27,6 +38,7 @@ nav ul{
   padding-top: 100px;
   padding-bottom: 100px;
 }
+
 .subSection{ 
   height:100%;
   background-color: #232634;
@@ -52,84 +64,32 @@ nav ul{
   background-position: center;
   background-attachment: fixed;
 }
-@keyframes slidy {
-0% { left: 0%; }
-20% { left: 0%; }
-25% { left: -100%; }
-45% { left: -100%; }
-50% { left: -200%; }
-70% { left: -200%; }
-75% { left: -300%; }
-95% { left: -300%; }
-100% { left: -400%; }
-}
-#slider { 
-	overflow: hidden; 
-	margin-top: -150px;
-}
-#slider figure img { 
-	width: 20%; 
-	float: left; 
-}
-#slider figure { 
-  position: relative;
-  width: 500%;
-  margin: auto;
-  animation: 25s slidy infinite; 
-}
-#About h1{
-	text-align: center;
-	text-transform: uppercase;
-	font-size: 50px;
-	color: #ffffff;
-}
-.box{
-    width: 800px;
-    text-align: center;
-    margin: auto;     
-}
-.image{
-    width:250px;
-    height:250px;
-    z-index: -1;
-    transition: 0.1s ease-in-out;  
+  
+.about{
+  float: left;
+  width:50%;
 }
 
-.image:hover{
-    transform: scale(1.2);
-}
-.container{
-  max-width: 230px;
-  height:250px;
-  position: relative;
-  width: 900px;
-  margin: 50px;  
-  display:inline-block;
-} 
-.image_aboutUs{
-    width:250px;
-    height: 250px;
-    position: absolute;
-    left: 0;
-    top:0;
-    border-radius: 50px;
-    transition: 0.1s ease-in-out;
+.about img{
+  width: 40%;
+  padding: 0 30% 0 30%;
+  margin-top: 5%;
 }
 
-.image_aboutUs:hover{
-    transform: scale(1.2);
-}
-
-.container .text{
-  position: absolute;
-  top: 70%;
-  left: 15%;
-}
-.text{
-  color: #ffffff;
-  font-family: "Trebuchet MS", Helvetica, sans-serif;
+.about h1{
+  padding-top: 10px;
+  text-align: center;
   font-size: 20px;
+  color: #000000;
 }
+
+.about p{
+  padding-top: 10px;
+  text-align: center;
+  font-size: 13px;
+  color: #000000;
+}
+
 .PrelimSectOne{
   background-image: url("../images/PrelimSect1.jpg");
 }
@@ -147,79 +107,5 @@ nav ul{
 	font-family: "Trebuchet MS", Helvetica, sans-serif;
 	font-style: italic;
 }
-nav li a,
-.dropbtn {
-    font-size: 20px;
-    display: inline-block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-}
-nav li a:hover,
-.dropdown:hover .dropbtn {
-    background-color: #555555;
-}
-nav li.dropdown {
-    display: inline-block;
-}
-nav .dropdown-content {
-    display: none;
-    position: fixed;
-    background-color: rgba(0, 0, 0, 0.5);
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-    z-index: 1;
-}
-nav .dropdown-content a {
-    color: white;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-    text-align: left;
-}
-nav .dropdown:hover .dropdown-content {
-    display: block;
-}
-nav ul.nav {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: rgba(0, 0, 0, 0.5);
-}  
-.nav li {
-    font-size: 1.1em;
-    float: left;
-} 
-.nav.nav-right li {
-    float: left;
-}
-.nav li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-}
-.nav li a:hover {
-    background-color: #555555;
-} 
-nav ul.nav-fixed {
-    position: fixed;
-    top: 0;
-    width: 100%;
-}
-.indent{
-  text-indent: 18px;
-}
-dl {
-  line-height: 1.5;
-}
-
-.indentp{
-  text-indent: 35px;
-}
-
 
 
