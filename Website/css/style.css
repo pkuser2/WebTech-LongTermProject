@@ -111,10 +111,16 @@ nav ul{
 /*-----FOR THE LESSONS-----*/
 
 .PrelimSectOne{
-  background-image: url("../images/PrelimSect1.jpg");
+  background-image: url("../images/sectBG(1).jpg");
 }
 .PrelimSectTwo{
-  background-image: url("../images/PrelimSect2.jpg");
+  background-image: url("../images/sectBG(2).jpg");
+}
+.PrelimSectThree{
+  background-image: url("../images/sectBG(3).jpg");
+}
+.PrelimSectFour{
+  background-image: url("../images/sectBG(4).jpg");
 }
 
 .sect h1{
