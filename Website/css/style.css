@@ -30,6 +30,8 @@ nav ul{
     width: 100%;
 }
 
+/*-----FOR THE MAIN CONTENT-----*/
+
 .sect{
   height: 50%;
   background-size: cover;
@@ -37,15 +39,6 @@ nav ul{
   background-attachment: fixed;
   padding-top: 100px;
   padding-bottom: 100px;
-}
-
-.subSection{ 
-  height:auto;
-  background-color: #232634;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-attachment: fixed;
 }
 
 #AboutSection{ 
@@ -118,6 +111,8 @@ nav ul{
   margin-bottom: 3%;
 }
 
+/*-----FOR THE LESSONS-----*/
+
 .PrelimSectOne{
   background-image: url("../images/PrelimSect1.jpg");
 }
@@ -131,6 +126,15 @@ nav ul{
 	text-align: center;
 }
 
+#TopicContent{
+  padding: 3% 6% 3% 6%;
+}
+
+.tableTitle{
+  text-align: center; 
+  background-color: #000000;
+  color: #ffffff;
+}
 
 footer{
   background-color: black;
@@ -155,6 +159,7 @@ td, th {
     padding: 8px;
 }
 
-tr:nth-child(even) {
-    background-color: #dddddd;
+tr:first-child {
+    background-color: #669aa0;
+    text-transform: uppercase;
 }
