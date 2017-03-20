@@ -70,7 +70,10 @@ nav ul{
 }
 
 .about img{
-  width: 50%;
+  max-width: 50%;
+  min-width: 35%;
+  width: auto;
+  height: auto;
   padding: 0 25% 0 25%;
   margin-bottom: 3%;
 }
@@ -136,6 +139,18 @@ nav ul{
   color: #ffffff;
 }
 
+.globeImg{
+  float: right;
+}
+
+.imgHover a{
+  display: none;
+}
+
+.imgHover a:hover{
+  display: block;
+}
+
 footer{
   background-color: black;
   height: 100%;
@@ -151,7 +166,9 @@ table {
     font-family: arial, sans-serif;
     border-collapse: collapse;
     width: 90%;
+    box-shadow: 0 5px 30px 0 rgba(0, 0, 0, 0.3), 0 10px 30px 0 rgba(0, 0, 0, 0.20);
 }
+
 
 td, th {
     border: 1px solid #dddddd;
