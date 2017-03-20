@@ -1,6 +1,6 @@
-Request Header Fields
+Request Header Fields ( Where the client sends a message to the server ) 
 
-Accept: A field which can has content that are acceptable for response.
+Accept: A field which has content that are acceptable for response.
 Accept-Charset: Character sets that are viable for the response.
 Accept-Encoding: These are the encodings that are acceptable for the response.
 Accept-Language: These are the languages that are suitable for the response.
@@ -20,28 +20,28 @@ Referer: It is an optional header field. It allows links which are not suitable 
 TE- Also known as "Transfer Encodings", It indicates which transformation is needed to be applied on the message body to bes ent to the sender and client. 
 User-Agent: It contains the user agent that gave the request.
 
-Response Header Fields
+Response Header Fields (The sending of the servers response to the client )
 
 Accept-Ranges:Specify partial content range the server supports. 
 Age: It is the age of object through seconds with the use of cache in the proxy.
 ETAG: It is a identifier from a specific resource version.
-Proxy-Authenticate:Credentials are needed for this proxy
+Proxy-Authenticate: Credentials are needed for this proxy
 Location: Often used to redirect or if there is a new source.
 Retry-After: If entity is not current available, Retry-After is used to tell the client to try again sometime.
 Server: The server's name.
 Vary: Request header fields which determine, if a cache is used to reply to a following request.
-WWW-Authenticate:A scheme authentication that is used to obtain the specified entity.
+WWW-Authenticate: A scheme authentication that is used to obtain the specified entity.
 
-Entity Header Fields:
+Entity Header Fields ( Fields that describe the resources entities )
 
-Allow:
-Content-Encoding:
-Content-Language:
-Content-Location:
-Content-MDS:
-Content-Range:
-Content-Type:
-Content-Length:
-Expires:
-Last-Modified:
+Allow: These show methods which are viable for a resource that has been specified.
+Content-Encoding: It is the encoding that was used on the data.
+Content-Language: The language of the specified audience who will use the resource.
+Content-Location: It is an alternate location for the data.
+Content-MDS: A coded MD5 sum which is binary type for content purposes
+Content-Range: Meaning a partial range, a certain amout of content belongs in here.
+Content-Type: It shows what media type the resource is.
+Content-Length: It shows the length of the content through octets.
+Expires: Shows the modified date where the resource is not vialble anymore.
+Last-Modified: It shows the date where the object was last modified. 
 
