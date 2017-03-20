@@ -408,13 +408,13 @@ user tools and applications) </dd>
     <h2 class="statusCodes"> HTTP Status Code <h2>
 
    <details> 
-   <Summary>Informational(1xx)</summary>    
+   <Summary class="Informational" >Informational(1xx)</summary>    
         <p>100 -continue : A status code that would allow the performing of operations.</p></p>
         <p>101 -switching protocols : A status code that could switch to a higher protocol.</p>
     </details>
 
     <details>
-    <Summary>Success (2xx) </Summary>
+    <Summary class="Success">Success (2xx) </Summary>
         <p>200 -Ok : The operation carried out</p>
         <p>201 -created : The response to PUT request.</p>
         <p>202 -Accepted : The request has been recieved but not yet processed.</p>
@@ -425,7 +425,7 @@ user tools and applications) </dd>
     </details>
 
     <details>
-    <Summary>Redirection (3xx)</Summary>
+    <Summary class="Redirection">Redirection (3xx)</Summary>
         <p>300 -Multiple Choices : Not much information was sent, so choices were given. </p>
         <p>301 -Moved Permanently : Means that what you are looking for is now in a different resource.</p>
         <p>302 -Found : Means that a resource was found after making a request.</p>
@@ -437,7 +437,7 @@ user tools and applications) </dd>
     </details>
 
     <details>
-    <Summary>Error (4xx)</Summary>
+    <Summary class="Error">Error (4xx)</Summary>
         <p>400 -bad request : Malformed resource.</p>
         <p>401 -unauthorized : Accessing from an unprotected resource.</p>
         <p>402 -payment required : Systems like e-commerce application are needed. e.g. PayPal</p>
@@ -460,7 +460,7 @@ user tools and applications) </dd>
     </details>
 
     <details>
-    <Summary>Server Error(5xx)</Summary>
+    <Summary class="Server">Server Error(5xx)</Summary>
         <p>500 -Internal Server Error : It is misconfiguration on the server.</p>
         <p>501 -Not Implemented : It was not implemented.</p>
         <p>502 -Bad Gateway : There is something wrong witn the gateway.</p>

@@ -182,13 +182,39 @@ summary {
   margin-left: 200px;
   margin-right: 200px;
   margin-bottom: 8px;
+    box-shadow: 0 5px 30px 0 rgba(0, 0, 0, 0.3), 0 10px 30px 0 rgba(0, 0, 0, 0.20);
 }
 
-summary:hover{
-  background-color: #296993;
+.Informational:hover{
+  background-color: #72b4db;
   color: #ffffff;
   cursor: pointer;
 }
+
+.Success:hover{
+  background-color: #72db7e;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.Redirection:hover{
+  background-color: #d972db;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.Error:hover{
+  background-color: #db7272;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.Server:hover{
+  background-color: #dbd072;
+  color: #ffffff;
+  cursor: pointer;
+}
+
 
 .status p{
   font-size: 15px;
