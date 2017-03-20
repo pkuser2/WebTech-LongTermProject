@@ -174,11 +174,6 @@ tr:first-child {
 }
 
 /*STYLES FOR THE DROPDOWN DETAILS */
-.statusCodes{
-  text-align: center;
-  background-color: #000000;
-  color: #ffffff;
-}
 
 summary {
   background-color: #193a5b;
@@ -190,6 +185,12 @@ summary {
   margin-right: 200px;
   margin-bottom: 8px;
     box-shadow: 0 5px 30px 0 rgba(0, 0, 0, 0.3), 0 10px 30px 0 rgba(0, 0, 0, 0.20);
+}
+
+summary:hover{
+  background-color: #4fad73;
+  color: #ffffff;
+  cursor: pointer;
 }
 
 .Informational:hover{
