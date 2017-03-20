@@ -116,6 +116,7 @@ nav ul{
 .PrelimSectTwo{
   background-image: url("../images/PrelimSect2.jpg");
 }
+
 .sect h1{
 	font-size: 50px;
 	font-family: "Trebuchet MS", Helvetica, sans-serif;
@@ -214,7 +215,6 @@ summary {
   color: #ffffff;
   cursor: pointer;
 }
-
 
 .status p{
   font-size: 15px;
