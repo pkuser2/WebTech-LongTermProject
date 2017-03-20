@@ -41,6 +41,13 @@ nav ul{
   padding-bottom: 100px;
 }
 
+#HomeSection h1{
+  text-align: center;
+  vertical-align: middle;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
 #AboutSection{ 
   height:100%;
   background-color: #f2f2f2;
@@ -58,9 +65,13 @@ nav ul{
   color: #000000;
 }
 
+#AboutSection .subtitleAbout p{
+  text-align: center;
+}
+
 #AboutSection h1:hover{
   color: white;
-    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+  text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
 }
   
 .about{
@@ -70,11 +81,11 @@ nav ul{
 }
 
 .about img{
-  max-width: 50%;
-  min-width: 35%;
+  border-radius: 50%;
+  max-width: 35%;
   width: auto;
   height: auto;
-  padding: 0 25% 0 25%;
+  padding: 0 32.5% 0 32.5%;
   margin-bottom: 3%;
 }
 
@@ -85,9 +96,9 @@ nav ul{
 }
 
 .about figcaption{
-  padding-top: 10px;
-  padding-bottom: 10px;
+  padding: 10px 10px 10px 10px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  height: 120px;
 }
 
 .about p{
@@ -95,23 +106,6 @@ nav ul{
   text-align: center;
   font-size: 15px;
   color: #000000;
-}
-
-.Sean{
-  clear: both;
-  width:100%;
-  background-color: #f2f2f2;
-}
-
-.Sean figure{
-  width: 47%;
-  padding: 0 25% 0 25%;
-  margin-bottom: 3%;
-}
-
-.Sean img{
-  width: 42.5%;
-  margin-bottom: 3%;
 }
 
 /*-----FOR THE LESSONS-----*/
@@ -151,15 +145,6 @@ nav ul{
   display: block;
 }
 
-footer{
-  background-color: black;
-  height: 100%;
-}
-
-footer p{
-  text-align: center;
-  color: #ffffff;
-}
 
 /*STYLES FOR THE TABLE */
 table {
@@ -180,3 +165,35 @@ tr:first-child {
     background-color: #669aa0;
     text-transform: uppercase;
 }
+
+/*STYLES FOR THE DROPDOWN DETAILS */
+.statusCodes{
+  text-align: center;
+  background-color: #000000;
+  color: #ffffff;
+}
+
+summary {
+  background-color: #193a5b;
+  color: #ffffff;
+  text-align: center;
+  font-size: 25px;
+  height: 30px;
+  margin-left: 200px;
+  margin-right: 200px;
+  margin-bottom: 8px;
+}
+
+summary:hover{
+  background-color: #296993;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.status p{
+  font-size: 15px;
+  line-height: 18px;
+  margin-left: 250px;
+  margin-right: 250px;
+}
+

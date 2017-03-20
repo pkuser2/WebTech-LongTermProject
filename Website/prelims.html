@@ -97,7 +97,7 @@
             <br>
             <dt class="indent">Pocket Switch</dt>
             <dd>A single line connection. And is more appropriate for computer connection.</dd>
-            <br />
+            </p>
             <dt class="indent">Circuit Connection</dt>
             <dd>used to establish and maintain the connection.</dd>
 
@@ -108,7 +108,7 @@
             <dd class="indentp"> It is an application that uses the infrastructure of the internet, it is the English scientist Tim Berners-Lee who invented the World Wide Web in 1989. Information system on the internet that allows documents to be connected to other documents that would be connected to other documents by hypertext links.  This enables the user to search for information by moving from one document to another.
             </dd> 
            
-            <br />
+            </p>
             <dt>WAIS (Wide Area Information Servers)</dt>
             <dt class="indent">Gopher</dt>
             <dd> The protocol designed for distributing,searching and retrieving documents over the internet.</dd>
@@ -404,55 +404,71 @@ user tools and applications) </dd>
 
 
 
-    
-    <p>HTTP Status Code<br />
-        Informational(1xx)<br />
-        100 -continue : A status code that would allow the performing of operations.<br />
-        101 -switching protocols : A status code that could switch to a higher protocol.</p>
-    <p>Success (2xx)<br />
-        200 -Ok : The operation carried out<br />
-        201 -created : The response to PUT request.<br />
-        202 -Accepted : The request has been recieved but not yet processed.<br />
-        203 -Non-Authorative : Same as above but does not come from origin or authority.<br />
-        204 -No content : It is successful but does not send anything back.<br />
-        205 -Reset Content : Te request has heen done and can be reset.<br />
-        206 -Partial Content: It does not send a full resource but has a range.</p>
-    <p>Redirection (3xx) : Redirected from another location.<br />
-        300 -Multiple Choices : Not much information was sent, so choices were given. <br />
-        301 -Moved Permanently : Means that what you are looking for is now in a different resource.<br />
-        302 -Found : Means that a resource was found after making a request.<br />
-        303 -See other : Means to see other resources avaiilable.<br />
-        304 -Not Modified : When you are  doing a conditional request.<br />
-        305 -Use proxy : You are not supposed to access directly from the resource but from the proxy itself. <br /> 
-        306 -(unused) : An unused status code as of now.<br /> 
-        307 -Temporary Redirect : It is redirected temporarily but can come back later.</p>
-    <p>Error (4xx)<br />
-        400 -bad request : Malformed resource.<br />
-        401 -unauthorized : Accessing from an unprotected resource.<br />
-        402 -payment required : Systems like e-commerce application are needed. e.g. PayPal<br />
-        403 -Forbidden : Not allowed to go to this resource.<br />
-        404 -Not found : The resource is not found.<br />
-        405 -Method Not allowed : Means it is not configured to allow.<br />
-        406 -Not acceptable : Appropriate representation is found on the server.<br />
-        407 -proxy Authentication Required : Authorization through proxy.<br />
-        408 -Request Time-out : The request is taking too long to process.<br />
-        409 -Conflict : You can look a resource.<br />
-        410 -Gone : The resource is gone and will never come back.<br />
-        411 -Length Required : It is expecting a content length but did not send.<br />
-        412 -Precondition Failed : Creating a resource that does not exist, but if it did exist then it failed.<br />
-        413 -Request Entity Too Large : The file is too large.<br />
-        414 -Request-URI Too large : If the URI is too long.<br />
-        415 -Unsupported Media Type : Sending something and specifying content type but server application cannot request.<br />
-        416 -Requested Range Not Satisfied : Range is not enough.<br />
-        417 -Expectation Failed : What you requested is not there at all.<br />
-        426 -Upgrade Required : It requires a higher version of a protocol.</p>
-    <p>Server Error(5xx)<br />
-        500 -Internal Server Error : It is misconfiguration on the server.<br />
-        501 -Not Implemented : It was not implemented.<br />
-        502 -Bad Gateway : There is something wrong witn the gateway.<br />
-        503 -Service unavailable : The service is unavailable.<br />
-        504 -Gateway Time-out : Gateway has timed out.<br />
-        505 -HTTP version Not Supported : When using a version of the protocol, in which they don't know how to communicate with.</p>
+    <div class="status">
+    <h2 class="statusCodes"> HTTP Status Code <h2>
+
+   <details> 
+   <Summary>Informational(1xx)</summary>    
+        <p>100 -continue : A status code that would allow the performing of operations.</p></p>
+        <p>101 -switching protocols : A status code that could switch to a higher protocol.</p>
+    </details>
+
+    <details>
+    <Summary>Success (2xx) </Summary>
+        <p>200 -Ok : The operation carried out</p>
+        <p>201 -created : The response to PUT request.</p>
+        <p>202 -Accepted : The request has been recieved but not yet processed.</p>
+        <p>203 -Non-Authorative : Same as above but does not come from origin or authority.</p>
+        <p>204 -No content : It is successful but does not send anything back.</p>
+        <p>205 -Reset Content : Te request has heen done and can be reset.</p>
+        <p>206 -Partial Content: It does not send a full resource but has a range.</p>
+    </details>
+
+    <details>
+    <Summary>Redirection (3xx)</Summary>
+        <p>300 -Multiple Choices : Not much information was sent, so choices were given. </p>
+        <p>301 -Moved Permanently : Means that what you are looking for is now in a different resource.</p>
+        <p>302 -Found : Means that a resource was found after making a request.</p>
+        <p>303 -See other : Means to see other resources avaiilable.</p>
+        <p>304 -Not Modified : When you are  doing a conditional request.</p>
+        <p>305 -Use proxy : You are not supposed to access directly from the resource but from the proxy itself. </p> 
+        <p>306 -(unused) : An unused status code as of now.</p> 
+        <p>307 -Temporary Redirect : It is redirected temporarily but can come back later.</p>
+    </details>
+
+    <details>
+    <Summary>Error (4xx)</Summary>
+        <p>400 -bad request : Malformed resource.</p>
+        <p>401 -unauthorized : Accessing from an unprotected resource.</p>
+        <p>402 -payment required : Systems like e-commerce application are needed. e.g. PayPal</p>
+        <p>403 -Forbidden : Not allowed to go to this resource.</p>
+        <p>404 -Not found : The resource is not found.</p>
+        <p>405 -Method Not allowed : Means it is not configured to allow.</p>
+        <p>406 -Not acceptable : Appropriate representation is found on the server.</p>
+        <p>407 -proxy Authentication Required : Authorization through proxy.</p>
+        <p>408 -Request Time-out : The request is taking too long to process.</p>
+        <p>409 -Conflict : You can look a resource.</p>
+        <p>410 -Gone : The resource is gone and will never come back.</p>
+        <p>411 -Length Required : It is expecting a content length but did not send.</p>
+        <p>412 -Precondition Failed : Creating a resource that does not exist, but if it did exist then it failed.</p>
+        <p>413 -Request Entity Too Large : The file is too large.</p>
+        <p>414 -Request-URI Too large : If the URI is too long.</p>
+        <p>415 -Unsupported Media Type : Sending something and specifying content type but server application cannot request.</p>
+        <p>416 -Requested Range Not Satisfied : Range is not enough.</p>
+        <p>417 -Expectation Failed : What you requested is not there at all.</p>
+        <p>426 -Upgrade Required : It requires a higher version of a protocol.</p>
+    </details>
+
+    <details>
+    <Summary>Server Error(5xx)</Summary>
+        <p>500 -Internal Server Error : It is misconfiguration on the server.</p>
+        <p>501 -Not Implemented : It was not implemented.</p>
+        <p>502 -Bad Gateway : There is something wrong witn the gateway.</p>
+        <p>503 -Service unavailable : The service is unavailable.</p>
+        <p>504 -Gateway Time-out : Gateway has timed out.</p>
+        <p>505 -HTTP version Not Supported : When using a version of the protocol, in which they don't know how to communicate with.</p>
+    </details>
+        </div>
 
 
     </div>
