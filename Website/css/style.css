@@ -108,6 +108,13 @@ nav ul{
   color: #000000;
 }
 
+.image_aboutUs img{
+    transition: all .2s ease-in-out;
+}
+
+.image_aboutUs:hover{
+    transform: scale(1.2,1.2);
+}
 /*-----FOR THE LESSONS-----*/
 
 .PrelimSectOne{
@@ -230,3 +237,22 @@ summary:hover{
   margin-right: 250px;
 }
 
+.button {
+  position: relative;
+}
+
+.button figure {
+  display: none;
+  position: absolute;
+  top: 2em;
+  left: 1em;
+  padding: 0;
+  margin: 0;
+  background: black;
+  border-radius: 1em;
+}
+
+.button:focus figure,
+.button:hover figure {
+  display: block;
+}
