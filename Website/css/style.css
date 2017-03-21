@@ -246,6 +246,18 @@ summary:hover{
   cursor: pointer;
 }
 
+dt.standardMethods, 
+dd.methodTypes,
+.generalHeaderFields,
+dd.requestHeaderFields,
+dd.responseHeaderFields,
+dd.entityHeaderFields{
+  font-size: 15px;
+  line-height: 18px;
+  margin-left: 250px;
+  margin-right: 250px;
+}
+
 .status p{
   font-size: 15px;
   line-height: 18px;
