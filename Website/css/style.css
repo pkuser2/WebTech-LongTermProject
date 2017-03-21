@@ -30,6 +30,22 @@ nav ul{
     width: 100%;
 }
 
+img.head{
+  margin: 13% 25% 0% 25%;
+  width: 50%;
+}
+
+img.arrow {
+  width: 20px;
+  margin: 9% 40% 0 50%;
+  transition: all .2s ease-in-out;
+}
+
+img.arrow:hover {
+  transform: scale(1.5,1.5);
+  cursor: pointer;  
+}
+
 /*-----FOR THE MAIN CONTENT-----*/
 
 .sect{
