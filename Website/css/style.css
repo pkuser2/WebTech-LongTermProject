@@ -284,3 +284,21 @@ dd.entityHeaderFields{
 .button:hover figure {
   display: block;
 }
+
+footer{
+  background-color: #000000;
+  clear: both;
+  margin-top: -10px;
+  margin-bottom: -16px;
+}
+
+footer img{
+  height: 40px;
+  margin: 0 30% 0 45%;
+}
+
+footer p{
+  color: #ffffff;
+  text-align: center;
+  margin-top: -5px;
+}
