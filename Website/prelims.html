@@ -160,27 +160,39 @@ user tools and applications) </dd>
             </tr>
            <tr>
                <th>HTTP 1.0(RFC 1945, May 1996)</th>
-               <th>....</th>
+               <th><ul>
+               <li>Rapid Growth & Richer Metadata</li>
+               <li>Content Negotiation</li>
+               <li>Authorization</li>
+               <li>Cache</li>
+            <li>Character set support</li>
+                   </ul></th>
             </tr> 
                 <th>HTTP 1.1(RFC 2068 Jan 1997, RFC 2616 June 1999), RFC 7230-7235(June 2014) </th>
-                <th>....</th>
-                <tr>
-                <th>HTTP 1.1(RFC 2068 Jan 1997, RFC 2616 June 1999), RFC 7230-7235(June 2014)</th>
-                <th>....</th>
-            </tr>
+                <th><ul>
+               <li>Resolved Ambiguities</li>
+               <li>Change in semantics of HTTP protocol</li>
+               <li>Transfer Encoding&Language Negotiation</li>
+            <li>A lot of additional content</li>
+                   </ul></th>
             <tr>
                 <th>HTTP 2(RFC 7540 May 2015)</th>
-                <th>...</th>
+                 <th><ul>
+               <li>Improver Performance</li>
+               <li>Lower latency, Higher Throughput</li>
+               <li>Transition to embedded devices</li>
+               <li>Fast Progress</li>
+                   </ul></th>
             </tr>
             </table>
 
         <dl>
            <dt> &#9655; HTTP provides an encryption panel</dt>
-            <dd>&#9657; servers </dd>
-            <dd><li>origin server &#9657; ....</li>
-            <li>proxy server &#9657; allows yout to authenticate pass to one another until it reaches origin server</li></dd>
-            <dd><li>gateways</li></dd> 
-            <dd><li>tunnels</li></dd> 
+            <dd>&#9657; SERVERS </dd>
+            <dd><li>origin server &#9657; it is web server that contained the very First Web Page.</li>
+            <li>proxy server &#9657; allows you to authenticate pass to one another until it reaches origin server</li></dd>
+            <dd><li>gateways &#9657; it can convert protocols and can actually perform in any network later. HTTP traffic can be directed to gateways and then sent to proxies. </li></dd> 
+            <dd><li>tunnels  &#9657; a way in which various protocols from the network are encapsulated through the protocol of HTTP. HTTP tunnel applications are available for application software.</li></dd> 
         </dl>
 
         <dl>
@@ -215,17 +227,17 @@ user tools and applications) </dd>
  <dl>
             <h4> &#9655; HTTP Resource Addressing </h4>
            <dd>&#9657;HTTP resources are identified using URIs (RFC 3986),or, more specifically, HTTP URLs</dd> 
-           <dd> - scheme (HTTP/HTTPS/ISBN/UPC/URI/URN)
+           <dd> * scheme (HTTP/HTTPS/ISBN/UPC/URI/URN)
 </dd>
-           <dd> - authority</dd>
+           <dd> * authority</dd>
            <dd> &#9657; user information or authentication credentials(deprecated)</dd>
-           <dd> &#9657; host</dd>
-           <dd> &#9657; domain name (resolved to an IP address using DNS) of the server where the resource resides (or will be created)</dd>
-           <dd> - port number</dd>
-           <dd> - path to resource(resolved to the document root on the server)</dd>
+           <dd> &#9657; host - which hosts the servers and proxies.</dd>
+           <dd> &#9657; domain name - resolved to an IP address using DNS of the server where the resource resides (or will be created)</dd>
+           <dd> * port number - these numbers define what port you are using. The standard port of HTTP is 80.</dd>
+           <dd> * path to resource - resolved to the document root on the server</dd>
            <dd> &#9657; may refer to a static or dynamic resource.</dd>
-           <dd> - query</dd>
-           <dd> typically provided as key = value pairs, with ampersan (&amp;) separators between key/value pairs.</dd>
+           <dd> * query - a string is part of the Uniform Resource Locator(URL). It contains data that is not inline with the path structure.</dd>
+           <dd> typically provided as key value pairs, with ampersan (&amp;) separators between key/value pairs.</dd>
            <dd> &#9657;may be URL-encoded.</dd>
            <dd> &#9657;Fragment Identifier</dd> 
         </dl>
