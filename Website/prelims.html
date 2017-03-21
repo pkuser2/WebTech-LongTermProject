@@ -376,25 +376,24 @@ user tools and applications) </dd>
             <summary> Request Header Fields </summary>
             <dd>
                 <ul>
-                    <li>Accept</li>
-                    <li>ACCEPT-CHARSET</li>
-                    <li>ACCEPT-ENCODING</li>
-                    <li>ACCEPT-LANGUAGE</li>
-                    <li>AUTHORIZATION</li>
-                    <li>EXPECT</li>
-                    <li>FROM</li>
-                    <li>HOST</li>
-                    <li>IF-MATCH</li>
-                    <li>IF-MODIFIED</li>
-                    <li>IF-NONE-MATCH</li>
-                    <li>IF-RANGE</li>
-          <li>IF-UNMODIFIED-SINCE</li>
-                    <li>MAX-FORWARDS</li>
-                    <li>PROXY-AUTHORIZATION</li>
-                    <li>RANGE</li>
-                    <li>REFERER</li>
-                    <li>TE</li>
-                    <li>USER-AGENT</li>
+                    <li>Accept &#9657; A field which has content that are acceptable for response.</li>
+                    <li>ACCEPT-CHARSET&#9657;Character sets that are viable for the response. </li>
+                    <li>ACCEPT-ENCODING &#9657;These are the encodings that are acceptable for the response.</li>
+                    <li>ACCEPT-LANGUAGE &#9657;These are the languages that are suitable for the response.</li>
+                    <li>AUTHORIZATION&#9657;This needs your credentials for aunthentication so as to proceed.</li>
+                    <li>EXPECT &#9657;It needs certain behaviors that are demanded by the client.</li>
+                    <li>FROM &#9657;It contains the users email address. </li>
+                    <li>HOST &#9657; It contains the domain name of the server and also the port number which has the Transmission Control Protocol port.</li>
+                    <li>IF-MATCH &#9657; This request header makes a conditional request in which the client matches with entity located on the server.</li>
+                    <li>IF-MODIFIED &#9657; It makes a method conditional. It is noted that 304 will be encountered. </li>
+                    <li>IF-NONE-MATCH-IF-RANGE &#9657; The client has sources that were obtained from previous resources.</li>
+          <li>IF-UNMODIFIED-SINCE &#9657;</li>
+                    <li>MAX-FORWARDS &#9657;It sends the response only if the entity has not been modified since a specified time.</li>
+                    <li>PROXY-AUTHORIZATION &#9657;  Credentials are needed to access this proxy.</li>
+                    <li>RANGE &#9657; It has a partial copy but it has missing features. It requests a copy that is complete and suitable.</li>
+                    <li>REFERER&#9657; It is an optional header field. It allows links which are not suitable to be maintainted. It allows the server to generalete list of back-links such as references.</li>
+                    <li>TE&#9657; Also known as "Transfer Encodings", It indicates which transformation is needed to be applied on the message body to bes ent to the sender and client. </li>
+                    <li>USER-AGENT &#9657; It contains the user agent that gave the request.</li>
                 </ul>
 
             </details>
@@ -403,15 +402,15 @@ user tools and applications) </dd>
             <summary> Response Header Fields </summary>
             <dd>
                 <ul>
-                    <li>ACCEPT-RANGES</li>
-                    <li>AGE</li>
-                    <li>ETAG</li>
-                    <li>PROXY-AUTHENTICATE</li>
-                    <li>LOCATION</li>
-                    <li>RETRY-AFTER</li>
-                    <li>SERVER</li>
-                    <li>VARY</li>
-                    <li>WWW-AUTHENTICATE</li>
+                    <li>ACCEPT-RANGES &#9657;Specify partial content range the server supports. </li>
+                    <li>AGE &#9657; It is the age of object through seconds with the use of cache in the proxy.</li>
+                    <li>ETAG &#9657; It is a identifier from a specific resource version.</li>
+                    <li>PROXY-AUTHENTICATE &#9657; Credentials are needed for this proxy</li>
+                    <li>LOCATION &#9657; Often used to redirect or if there is a new source.</li>
+                    <li>RETRY-AFTER &#9657; If entity is not current available, Retry-After is used to tell the client to try again sometime.</li>
+                    <li>SERVER &#9657; The server's name.</li>
+                    <li>VARY &#9657; Request header fields which determine, if a cache is used to reply to a following request.</li>
+                    <li>WWW-AUTHENTICATE &#9657;A scheme authentication that is used to obtain the specified entity.</li>
                 </ul>
             </dd>
 
@@ -422,16 +421,16 @@ user tools and applications) </dd>
             <summary> Entity Header Fields </summary>
             <dd>
                 <ul>
-                    <li>ALLOW</li>
-                    <li>CONTENT-ENCODING</li>
-                    <li>CONTENT-LANGUAGE</li>
-                    <li>CONTENT-LOCATION</li>
-                    <li>CONTENT-MDS</li>
-                    <li>CONTENT-RANGE</li>
-                    <li>CONTENT-TYPE</li>
-                    <li>EXPIRES</li>
-                    <li>LAST-MODIFIED</li>
-                    <li>CONTENT-LENGTH</li>
+                    <li>ALLOW &#9657; These show methods which are viable for a resource that has been specified.</li>
+                    <li>CONTENT-ENCODING &#9657;It is the encoding that was used on the data. </li>
+                    <li>CONTENT-LANGUAGE &#9657;The language of the specified audience who will use the resource.</li>
+                    <li>CONTENT-LOCATION &#9657;It is an alternate location for the data.</li>
+                    <li>CONTENT-MDS &#9657;A coded MD5 sum which is binary type for content purposes </li>
+                    <li>CONTENT-RANGE&#9657;Meaning a partial range, a certain amout of content belongs in here.</li>
+                    <li>CONTENT-TYPE &#9657;It shows what media type the resource is.</li>
+                    <li>EXPIRES &#9657; Shows the modified date where the resource is not vialble anymore.</li>
+                    <li>LAST-MODIFIED&#9657;It shows the date where the object was last modified. </li>
+                    <li>CONTENT-LENGTH &#9657;It shows the length of the content through octets.</li>
                 </ul>
             </dd>
 
