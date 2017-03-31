@@ -6,11 +6,26 @@ HTML - The structure and content of a website.
 CSS - It is the presentational output of a page.
 - It is language level used to specify the presentation aspects of structurally worked up documents.
 - It is developed by Hakon Wium Lee (LHSS) & Bert Bos (JOP)
-Version:
+Versions of CSS:
 CSS 1
 CSS 2.1 - June 7, 2011
 CSS 3
 JS - Involves the behavioral aspect of the website.
+
+Versions of HTML:
+HTML 1.0
+HTML 2.0 - 1995
+HTML 3.0
+HTML 3.2
+HTML 4.0
+HTML 4.01 - December 24, 1999
+ -Strict
+ -Transitional
+ -Frameset
+HTML 5.0 - 2014
+HTML 5.01 - 2016
+
+From HTML 3.0 to 4.01 it was W3c Reccomendation 
 There was a 15 year hiatus from HTML 4.0 to 5.0.
 HTML 5.1 is the current HTML version being used.
 
