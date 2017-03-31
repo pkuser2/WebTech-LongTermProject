@@ -95,6 +95,21 @@ CSS Declarations
 -Values
 	-keywords
 	-numbers(integers & reals indecimal notation)
+	-dimensions
+		length, angle, duration, frequency, resolution
+	-length units:
+		font relative: em, ex, ch, rem
+		viewport precentage: vw, vh, vmin, vmax
+	-absolute lengths: cm, mm q, in, pt ,pc ,px
+	-angle units: deg, grad, rad, turn
+	-duration units:  s, ms
+	-frequency units: hz, khz
+	-resolution units: dpi, dpem, dppx
+	-percentages
+	-URLs and URIs
+	-colors
+	-strings
+	-functions: calc(), attr(), counter(), counters(), linear-gradient(), radial-gradient(), translate(), scale(), rotate()
 The elements of HTML:
 html
 	head
