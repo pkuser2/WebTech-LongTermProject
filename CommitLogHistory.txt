@@ -1,0 +1,527 @@
+commit 80b92a07f9a54be81934ed830631991e1147b5cf
+Author: AllenBasco <allenbascoo@gmail.com>
+Date:   Tue Mar 21 23:03:42 2017 +0800
+
+    Final retouch and modifications in the paddings, margins, typography and backgrounds
+
+commit 2a227c8942ef5f26040b5e72ef0d89f33020face
+Author: AllenBasco <allenbascoo@gmail.com>
+Date:   Tue Mar 21 22:51:06 2017 +0800
+
+    Added the design in the footer
+
+commit 19a8d1895fa0154f89b7fb4993c1a663be80a1ab
+Author: AllenBasco <allenbascoo@gmail.com>
+Date:   Tue Mar 21 22:50:18 2017 +0800
+
+    Added the paddings in the message header field
+
+commit c5807dc79757a7319463adcc0059b991330b705a
+Author: AllenBasco <allenbascoo@gmail.com>
+Date:   Tue Mar 21 22:49:26 2017 +0800
+
+    Changed the padding of the about page
+
+commit 955c26fae3eedda3659be3fec8f89b2802a0e97d
+Author: AllenBasco <allenbascoo@gmail.com>
+Date:   Tue Mar 21 22:48:48 2017 +0800
+
+    Added the design for the header in the about page
+
+commit 8b5ddb9c8e09bb165d6607764ec8cfe95a649f32
+Author: AllenBasco <allenbascoo@gmail.com>
+Date:   Tue Mar 21 22:47:14 2017 +0800
+
+    Added some lecture notes, specifically in the general header fields. And edited the capitalizations of the sentences
+
+commit 092a6862d5c4f0b90fbebf24aaac2bbc55d45761
+Author: AllenBasco <allenbascoo@gmail.com>
+Date:   Tue Mar 21 22:33:30 2017 +0800
+
+    Added a content in the header and modified the description of John Allen Basco
+
+commit 1cec03e5b6a7a021c79e5df7f39abe39a17deeac
+Author: AllenBasco <allenbascoo@gmail.com>
+Date:   Tue Mar 21 22:30:56 2017 +0800
+
+    Added a footer
+
+commit 0a0af9185e2868c2a70d6df83cbf737ecae45a74
+Author: Jessirine Nichole Gueco <nichole_gueco@yahoo.com>
+Date:   Tue Mar 21 22:27:32 2017 +0800
+
+    Added description on the About Section
+
+commit a3a8a21005ae22bccc951f8775ade70cea156d51
+Author: Jessirine Nichole Gueco <nichole_gueco@yahoo.com>
+Date:   Tue Mar 21 22:09:55 2017 +0800
+
+    Made some definitions on the different header fields
+
+commit ed11dd778d37c5e9e04ac7ed366165c54ce6e069
+Author: Jessirine Nichole Gueco <nichole_gueco@yahoo.com>
+Date:   Tue Mar 21 21:51:24 2017 +0800
+
+    Edited the structure and edited some parts that don't have any definition
+
+commit 09d2ed22344942988271e3c22cd3ce66a7197f04
+Author: Jessirine Nichole Gueco <nichole_gueco@yahoo.com>
+Date:   Tue Mar 21 21:49:24 2017 +0800
+
+    Added definition on the HTTP Request Message(CLIENT) and HTTP Response Message(SERVERS)
+
+commit 8c504efb6e43299f101bdd8fc0fb1f7923a79861
+Author: Jessirine Nichole Gueco <nichole_gueco@yahoo.com>
+Date:   Tue Mar 21 21:41:49 2017 +0800
+
+    Added description on the HTTP section and also edited some error
+
+commit 06d9962f3c27564691212429cb3ec64085523737
+Author: Jessirine Nichole Gueco <nichole_gueco@yahoo.com>
+Date:   Tue Mar 21 21:25:23 2017 +0800
+
+    Modified the structure
+
+commit 50fada4640215565dd2ce9b3d14fb896004bdcea
+Author: AllenBasco <allenbascoo@gmail.com>
+Date:   Tue Mar 21 19:37:12 2017 +0800
+
+    Reverted the commit to the previous one due to code errors
+
+commit 4e59790de090174b9dab6dc38da64f36f668a4fb
+Author: Samson Sean <samsonsean.10@gmail.com>
+Date:   Tue Mar 21 01:43:51 2017 +0800
+
+    Fix all the errors in HTML in modified some structure
+
+commit ba27aa53c1bf915752afe76711a219a30e5aa747
+Author: CJVRomero <caesarromero1805@gmail.com>
+Date:   Tue Mar 21 00:52:57 2017 +0800
+
+    added transition effect and description(Caesar Jim V. Romero) in the section About. I also added mouseover with an image effect.
+    
+    Signed-off-by: CJVRomero <caesarromero1805@gmail.com>
+
+commit bd7c599d0a8fce0e56f4b7fb51c5c003db04ea02
+Author: Jessirine Nichole Gueco <nichole_gueco@yahoo.com>
+Date:   Mon Mar 20 23:40:03 2017 +0800
+
+    Edited the structure and made the information more organized
+
+commit cadeba2c0d798caa9f64c74a71573a91fa35ff1a
+Author: Apollo Joshua Mina <apyolo111@gmail.com>
+Date:   Mon Mar 20 22:00:00 2017 +0800
+
+    Added some pics
+    
+    Added additional pics.
+
+commit f926c08a95d47c4721ebc40f00fd59e62c8b9e05
+Author: Apollo Joshua Mina <apyolo111@gmail.com>
+Date:   Mon Mar 20 21:59:08 2017 +0800
+
+    OtherInformation.txt
+    
+    Included the text for additional information.
+
+commit 824841f53e78c1cdf586481a671fcc6ee14aaddc
+Author: AllenBasco <allenbascoo@gmail.com>
+Date:   Mon Mar 20 20:44:11 2017 +0800
+
+    Modified and reverted the backup copy of the website
+
+commit e406d9be2566cdbde125de4c5dc55072447eaae3
+Author: Apollo Joshua Mina <apyolo111@gmail.com>
+Date:   Mon Mar 20 20:03:56 2017 +0800
+
+    Update HeaderFields.txt
+    
+    updated the overall header fields
+
+commit 760ad997a238053fc81f9daa0f0f4dd5722a2cbe
+Author: AllenBasco <allenbascoo@gmail.com>
+Date:   Mon Mar 20 20:01:06 2017 +0800
+
+    Modified the padding and margin in the Status Codes
+
+commit 63ab419090125eb79e7d69e4f6c7530255c54726
+Author: AllenBasco <allenbascoo@gmail.com>
+Date:   Mon Mar 20 19:52:31 2017 +0800
+
+    Added a subsection div for the topic contents
+
+commit 6e8298e7ecec7665fa3bdd3b74ce43ce8ff0afe6
+Author: AllenBasco <allenbascoo@gmail.com>
+Date:   Mon Mar 20 19:34:32 2017 +0800
+
+    Added hover effects on the Details Tag
+
+commit 5fa60f12017ea42dcd41ea32dbd2e5b4befcfca7
+Author: AllenBasco <allenbascoo@gmail.com>
+Date:   Mon Mar 20 19:21:45 2017 +0800
+
+    Added a Summary part in the Status Codes
+
+commit a1d5937c658bf74601b552a4c5cc3e84f837453d
+Author: Apollo Joshua Mina <apyolo111@gmail.com>
+Date:   Mon Mar 20 17:29:59 2017 +0800
+
+    Add files via upload
+    
+    Added header fields.
+
+commit 12929f186601c098679a6116397463494cbf4840
+Author: Apollo Joshua Mina <apyolo111@gmail.com>
+Date:   Mon Mar 20 16:37:00 2017 +0800
+
+    Update prelims.html
+    
+    Checked the spelling of the history.
+
+commit 1fff965b112fe08e4fbc24996630274fb1c69e91
+Author: AllenBasco <allenbascoo@gmail.com>
+Date:   Mon Mar 20 11:42:48 2017 +0800
+
+    Changed the pictures in the about page
+
+commit 92d00596b66f14dfc89df6b1e05c531a3600c055
+Author: AllenBasco <allenbascoo@gmail.com>
+Date:   Mon Mar 20 10:54:58 2017 +0800
+
+    Modified the table and added paddingg in the Lesson Content
+
+commit 97126853a2031f41dd16c68d3b0d02f9be4b65d8
+Author: Jessirine Nichole Gueco <nichole_gueco@yahoo.com>
+Date:   Mon Mar 20 02:04:44 2017 +0800
+
+    Added and edited information on Http
+
+commit 65b2f8c258a910d06dbe8dae5ec359196ba39bf5
+Author: Jessirine Nichole Gueco <nichole_gueco@yahoo.com>
+Date:   Mon Mar 20 00:56:21 2017 +0800
+
+    Added description on the Internet section
+
+commit cb26e727eca53d5ed0df890c7483866e7a4d467c
+Author: Jessirine Nichole Gueco <nichole_gueco@yahoo.com>
+Date:   Mon Mar 20 00:20:33 2017 +0800
+
+    Fixed and made a table for the important dates in the Internet section
+
+commit 4f5f19b57a02eadefd3b372ba8a5611d8d205397
+Author: Jessirine Nichole Gueco <nichole_gueco@yahoo.com>
+Date:   Mon Mar 20 00:00:15 2017 +0800
+
+    Added and edited the description
+
+commit 579625d4ea73a705a927b8267cc4f815bde30398
+Author: AllenBasco <allenbascoo@gmail.com>
+Date:   Sun Mar 19 21:29:28 2017 +0800
+
+    Added hover effects in the about names
+
+commit c534f2bd3d5a1c94e2e6d5479d466efacb75c1b9
+Author: SamsonSean <allenbascoo@gmail.com>
+Date:   Sun Mar 19 20:48:57 2017 +0800
+
+    Modified and added the footer
+
+commit 6e85ded67991ab5b0128563a0d3e6beba11a4daa
+Author: SamsonSean <allenbascoo@gmail.com>
+Date:   Sun Mar 19 20:03:12 2017 +0800
+
+    Changed and edited the about sesction
+
+commit b169f3acff4b7a0a56cd547820e4143793209865
+Author: SamsonSean <allenbascoo@gmail.com>
+Date:   Sun Mar 19 19:17:24 2017 +0800
+
+    Changed the font styles
+
+commit 3dfd097625a7b908c3c7de5d0f7828847bd6461d
+Author: SamsonSean <allenbascoo@gmail.com>
+Date:   Sun Mar 19 19:03:08 2017 +0800
+
+    Changed the Logo and edited the structure and design of the about page
+
+commit 6c0b4c1202be0cbb0f93762630397efa5a19cbca
+Author: jessirine <nichole_gueco@yahoo.com>
+Date:   Sun Mar 19 17:58:51 2017 +0800
+
+    Add files via upload
+    
+    Added pictures of people associated with the internet.
+
+commit 6ea3e7030aedf8c5fefb6bea761c4ce6c041da6b
+Author: jessirine <nichole_gueco@yahoo.com>
+Date:   Sun Mar 19 17:55:32 2017 +0800
+
+    Update prelims.html
+    
+    Included information for the Internet portion
+
+commit 39d1f86a46162d4c51fae40f9bf3f8cd1364c2db
+Author: Apollo Joshua Mina <apyolo111@gmail.com>
+Date:   Sun Mar 19 03:35:20 2017 +0800
+
+    Update prelims.html
+    
+    Added information in HTTP status codes.
+
+commit 99763c6ca085f9e84ba2a025fb0c59ebf32c8ccf
+Author: Apollo Joshua Mina <apyolo111@gmail.com>
+Date:   Sun Mar 19 02:49:43 2017 +0800
+
+    Update prelims.html
+    
+    Edited some parts by adding information.
+
+commit 48402ca641faa3e34b2ca8ab5aac96b37334d0f7
+Author: Apollo Joshua Mina <apyolo111@gmail.com>
+Date:   Sun Mar 19 02:20:01 2017 +0800
+
+    CSS topics
+    
+    I included some topics involving the discussion about CSS.
+
+commit 1e28a4b7b0130f1e02cc3deb7d85503dbfeb8ad0
+Author: Sean Samson <samsonsean.10@gmail.com>
+Date:   Sat Mar 18 22:26:29 2017 +0800
+
+    Modify the structure of lesson 2 in prelims.html
+
+commit 626cd141118d3e46597d40aff2c2ee8d9f4dd1b3
+Author: Apollo Joshua Mina <apyolo111@gmail.com>
+Date:   Thu Mar 16 16:58:02 2017 +0800
+
+    StandardMethods.txt
+    
+    I included the standard methods of HTTP and HTTPS.
+
+commit b4d67af59f0d45504741d54874fc886925ce7a2e
+Author: Sean Samson <samsonsean.10@gmail.com>
+Date:   Tue Mar 14 11:21:42 2017 -0200
+
+    Fix the structures of the paragraph in lesson 1
+
+commit ac4065e55d83a233a0e8fd3f5bcb7e31d9041aa6
+Author: Sean Samson <samsonsean.10@gmail.com>
+Date:   Tue Mar 14 11:03:22 2017 -0200
+
+    dDSASDFASDAS
+
+commit 9154fe78c8a48e00ef0ad1e0ff87e97ca846205c
+Author: CJVRomero <caesarromero1805@gmail.com>
+Date:   Mon Mar 6 18:07:38 2017 +0800
+
+    Changed the background color in the Home and Prelims Section, deleted a photo located in the images folder (Prelim_subSection.jpg) and changed the font style.
+    
+    Signed-off-by: CJVRomero <caesarromero1805@gmail.com>
+
+commit 30051ecf3ac23160e87ca5361e5ac3ca7fba6144
+Author: CJVRomero <caesarromero1805@gmail.com>
+Date:   Fri Mar 3 01:50:39 2017 +0800
+
+    Changed the background color and added content in the section About Us, added dropdown navigation menu in the Home Section and changed the background in the section Prelims.
+    
+    Signed-off-by: CJVRomero <caesarromero1805@gmail.com>
+
+commit c245c284d78af0412f64054fef18291853adfd8c
+Author: CJVRomero <caesarromero1805@gmail.com>
+Date:   Mon Feb 27 00:37:10 2017 +0800
+
+    removed white spaces on the style.css
+    
+    Signed-off-by: CJVRomero <caesarromero1805@gmail.com>
+
+commit 53f29afd68610ec69ba03a8e35105ab7e46b7e98
+Author: CJVRomero <caesarromero1805@gmail.com>
+Date:   Mon Feb 27 00:34:13 2017 +0800
+
+    added dropdown navigation menu in the Prelims Section.
+    
+    Signed-off-by: CJVRomero <caesarromero1805@gmail.com>
+
+commit 4288340b02f650e1edd5b04ffd5d9aba4d4f6d9d
+Author: AllenBasco <allenbascoo@gmail.com>
+Date:   Fri Feb 24 19:02:35 2017 +0800
+
+    Added the structure of the Prelims and inserted the lessons into the divisions
+
+commit a933b61240cb0a91526d5caf8ad2d93c9a18a73b
+Author: SamsonSean <allenbascoo@gmail.com>
+Date:   Fri Feb 24 16:38:53 2017 +0800
+
+    Edited the logo in the navigation bar
+
+commit 98e97be0201e4600b9f2a8a419923d433039f23d
+Author: AllenBasco <allenbascoo@gmail.com>
+Date:   Fri Feb 24 16:21:17 2017 +0800
+
+    Added slider in the banner and added a logo in the navigation bar
+
+commit 6078b2b039be37db2798c44e0753c9401b23819d
+Author: SamsonSean <samsonsean.10@gmail.com>
+Date:   Fri Feb 24 10:30:30 2017 +0800
+
+    Added the notes for HTTP status code
+
+commit 044a5016af2a6838d655bba3b97327ea98de8b2f
+Author: CJVRomero <caesarromero1805@gmail.com>
+Date:   Thu Feb 23 19:08:44 2017 +0800
+
+    added the Response Header Fields
+    
+    Signed-off-by: CJVRomero <caesarromero1805@gmail.com>
+
+commit 8f8c7a2ca471d5c164ced9e9ca83715e17e4791d
+Author: CJVRomero <caesarromero1805@gmail.com>
+Date:   Thu Feb 23 19:02:09 2017 +0800
+
+    added the Request Header Fields
+    
+    Signed-off-by: CJVRomero <caesarromero1805@gmail.com>
+
+commit 7668397a4ffcd532b7108efe0d5a4f6bebe4cc1f
+Author: CJVRomero <caesarromero1805@gmail.com>
+Date:   Thu Feb 23 18:57:35 2017 +0800
+
+    specified that the HTTP Request Message is FROM CLIENT and added some information in the HTTP Response Message.
+    
+    Signed-off-by: CJVRomero <caesarromero1805@gmail.com>
+
+commit fd04ba1ae7d986932d1c8d980f5f60f70b059879
+Author: jessirine <nichole_gueco@yahoo.com>
+Date:   Tue Feb 14 11:24:49 2017 +0800
+
+    Added HTTP Response Status
+
+commit 84622d4ba976af241c546d9cec64d05759b82fa3
+Author: jessirine <nichole_gueco@yahoo.com>
+Date:   Tue Feb 14 11:19:19 2017 +0800
+
+    Added HTTP Request Message
+
+commit e5e2cbdb2737b90367fd8fa3bce9b2b16c52c7ee
+Author: jessirine <nichole_gueco@yahoo.com>
+Date:   Tue Feb 14 11:05:58 2017 +0800
+
+    Added information about the General Header Fields
+
+commit f856f2e31d41b48443557275d79d9e611aa899bd
+Author: jessirine <nichole_gueco@yahoo.com>
+Date:   Tue Feb 14 11:01:38 2017 +0800
+
+    Added information about the Standard Methods
+
+commit c3b256d9a27ed62235e4c338ce2d882ef0a9630c
+Author: AllenBasco <allenbascoo@gmail.com>
+Date:   Fri Feb 10 17:00:33 2017 +0800
+
+    Changed some styles in the css for the main body of the lesson proper
+
+commit 104d9f4295017f810200eb135d7bbc6f1a13af51
+Author: SamsonSean <samsonsean.10@gmail.com>
+Date:   Fri Feb 10 16:37:46 2017 +0800
+
+    Added the Standard methods and the General header fields topic
+
+commit 56be6894dc6ee61663007a4819a6a6005f516cfc
+Author: Apollo111 <apyolo111@gmail.com>
+Date:   Thu Feb 9 17:00:38 2017 +0800
+
+    I edited the file and checked for some spelling errors.
+
+commit 69a047135b1efc2a12e153f8d7e0a3ccfc3056ec
+Author: AllenBasco <allenbascoo@gmail.com>
+Date:   Tue Feb 7 21:05:25 2017 +0800
+
+    Added the lessonos in the html and added a css style for the navigation
+
+commit 2ea96c055ce46e025112f61361392ff797acf0ca
+Author: AllenBasco <allenbascoo@gmail.com>
+Date:   Tue Feb 7 20:11:52 2017 +0800
+
+    Changed the text file to Prelim Lectures.txt
+
+commit 6ec5f426f2fdce983c08d7ba1fe49923b832f2f8
+Author: CJVRomero <caesarromero1805@gmail.com>
+Date:   Tue Feb 7 16:47:12 2017 +0800
+
+    added HTTP Resource Addressing
+    
+    Signed-off-by: CJVRomero <caesarromero1805@gmail.com>
+
+commit 51f373daeb2f232db96f0fe447b565196547088d
+Author: CJVRomero <caesarromero1805@gmail.com>
+Date:   Tue Feb 7 16:31:01 2017 +0800
+
+    added some information about the HTTP Fundamentals.
+    
+    Signed-off-by: CJVRomero <caesarromero1805@gmail.com>
+
+commit 342bc99985e56a42c101d85dcb5faf47afac5966
+Author: Apollo111 <apyolo111@gmail.com>
+Date:   Mon Feb 6 16:49:28 2017 +0800
+
+    I added some information in the HTML topic
+
+commit 0e9c418184712d38097df7dbd8dde4ed2da33883
+Author: SamsonSean <samsonsean.10@gmail.com>
+Date:   Sat Feb 4 17:02:25 2017 +0800
+
+    Update Internet.txt
+
+commit 3440f7a6f801acae584f37bdac418b4fa7c14b32
+Author: SamsonSean <samsonsean.10@gmail.com>
+Date:   Sat Feb 4 16:57:36 2017 +0800
+
+    Update Internet.txt
+    
+    add the last topic which is HTTP other functionalities
+
+commit fa1fd68237e928826ec5fce1ba2ed061e7f0f661
+Author: CJVRomero <caesarromero1805@gmail.com>
+Date:   Tue Jan 31 23:41:05 2017 +0800
+
+    Update Internet.txt
+    
+    Added the version history of HTTP and HTTP Fundamentals
+
+commit 7ea032d77b2b295afde9187dd1768474f6722671
+Author: Apollo111 <apyolo111@gmail.com>
+Date:   Tue Jan 31 23:19:06 2017 +0800
+
+    Add files via upload
+    
+    This is a text file with additional information about web technologies.
+
+commit 84ec382da77d4514060074eac61a856df3bcf236
+Author: jessirine <nichole_gueco@yahoo.com>
+Date:   Tue Jan 31 15:13:02 2017 +0800
+
+    Update Internet.txt
+    
+    Added HTTP
+
+commit f230c3947e3a3c9de4055fe23048e16f471a8b2d
+Author: jessirine <nichole_gueco@yahoo.com>
+Date:   Mon Jan 30 21:13:59 2017 +0800
+
+    Update Internet.txt
+    
+    Added the topic, World wide web
+
+commit 3a23401cda2bd8e2adf81f8e7753804e5ef80bfd
+Author: AllenBasco <allenbascoo@gmail.com>
+Date:   Fri Jan 27 22:55:19 2017 +0800
+
+    Add files via upload
+    
+    Added the first discussion that focuses on the Topic Internet
+
+commit f82b3e2075be64cfdf34edcd016fe6e4488235b6
+Author: AllenBasco <allenbascoo@gmail.com>
+Date:   Thu Jan 26 09:47:35 2017 +0800
+
+    Initial commit
