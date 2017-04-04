@@ -1,0 +1,8 @@
+.headerBackground{
+    background-image: url("../images/BG1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100vh;
+    width: 100%;
+}
