@@ -3,9 +3,12 @@ The Website- is a collection of web resources.
 - It was established in 1989.
 
 HTML - The structure and content of a website.
-CSS - It is the presentational output of a page.
+
+CSS 
+- It is the presentational output of a page.
 - It is language level used to specify the presentation aspects of structurally worked up documents.
 - It is developed by Hakon Wium Lee (LHSS) & Bert Bos (JOP)
+
 Versions of CSS:
 CSS 1
 CSS 2.1 - June 7, 2011
@@ -88,6 +91,33 @@ CSS Statements
 @key frames- CSS animation
 @media- responsive design
 
+CSS Selectors
+-specify which element you want to edit 
+     *Selector - used as a condition in a CSS rule
+     *Selector Syntax - chain of one or more sequences of simple selectors
+                      - always start with type selector  and universal selector
+-SIMPLE SELECTOR
+    - type 
+    - universal
+    - attribute 
+            - [attribute=value] ->> Selects all elements with target="_blank"
+            - [attribute~=value] ->> Selects all elements with a title attribute containing the value you put inside the attribute
+            - [attribute !=value] ->> Select elements that either don't have the specified attribute
+CLASS 
+    - targets the class attribute
+    
+    *PSEUDO CLASSES is used to define a special state of an element
+         dynamic pseudo class 
+         user action pseudo class - hover
+                                  - active
+                                  - focus
+                                  
+         target pseudo class -
+         language pseudo class -
+         ul element statement pseudo
+         structural pseudo clauses
+    
+    
 CSS Rule Precedence- From highest to lowest priority
 -By origin and importance
 	-user agent important declarations
@@ -162,5 +192,4 @@ html
 
 
 XML 1.0 - 
-
 
