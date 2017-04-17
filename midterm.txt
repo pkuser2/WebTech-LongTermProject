@@ -174,22 +174,27 @@ html
 		ol,ul,li
 		figure
 			figcaption
-			
 
-		
+DOM
+ - Implementation of DOM is not like Javascript
+ - Purpose of interacting the page
 
+JS
+ - Dynamical Type
+ 
+	Simple/Primitive
+	 - Boolean
+	 - Numbers
+	 - Strings
+	 - Undefined
+	 - Null
 
+Standard Objects
+- Get to know standard built-in objects Array, Boolean, Date, Error, Function, JSON, Math, Number, Object, RegExp, String, Map, Set, WeakMap and WeakSet
 
-
-
-
-
-
-
-
-
-
-
-
-XML 1.0 - 
-
+Expressions and Operators
+- instanceof
+- Typeof
+- new
+- this
+- the operator precedence
