@@ -233,9 +233,26 @@ JS
         * Standard Objects
         - Get to know standard built-in objects Array, Boolean, Date, Error, Function, JSON, Math, Number, Object, RegExp, String, Map, Set, WeakMap and WeakSet
 
-Expressions and Operators
-- instanceof
-- Typeof
-- new
-- this
-- the operator precedence
+        Expressions and Operators
+        - instanceof -> to check the type
+        - Typeof
+        - new
+        - this
+        - the operator precedence
+        
+        NaN - Not a Number
+        *Number 
+            - valueOf
+            - toString
+            - parseFloat
+            - parseInt
+            
+        *String
+            - length of a string (.length)
+            - concatenate
+            - toUpperCase
+            
+            Prototype
+                - object oriented implementation
+        
+        
