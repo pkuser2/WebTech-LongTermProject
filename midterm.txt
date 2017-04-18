@@ -254,5 +254,53 @@ JS
             
             Prototype
                 - object oriented implementation
+        *Math Class
+            - Math P.I
+            
+            
+            
+            
+Function - returns any kind of value
+ 
+  a. function sayHello(){
+        console.log('Hello');               x WRONG x
+    }
+  b. function greater(v1,v2){
+        if(v1 > v2){
+            return v1;
+        }else if(v2 > v1){                  * CORRECT! *
         
+        }
+  }
+  
+  
+  * function expressions *
+        var subtract = function(a,b){
+            return a-b;
+        }
+        
+  * arrow syntax *
+        var divide = (a,b) is equal to a/b;
+        var quotient = divide(10,20);
+        
+  * functions can be recursive *
+        function factorial(n){
+            if(n < 0){
+                throw "Invalid Arugument";
+            }else if(n == 0){
+                return 1;
+            }else{
+                return n * factorial(n-1);
+            }
+        }
+
+  * functions can be nested * 
+            function outer(){
+                //some code ..
+                function inner(){
+                //inner function code here
+                }
+            }
+
+  * function args() *
         
