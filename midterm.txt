@@ -214,15 +214,24 @@ JS
                                      console.log(x)
                                      }
                                     
-	Simple/Primitive
-	 - Boolean
-	 - Numbers
-	 - Strings
-	 - Undefined
-	 - Null
+	a.Simple/Primitive
+        * Boolean
+            1 is equal to "thruty"
+            0 is equal to "falsy"
+                - empty string -> false
+                - undefined -> false
+        * Numbers
+            hexadecimal
+            decimal
+            binary 
+            
+        * Strings - can be delimited by single qoute to remove the spacing
+	    * Undefined
+	    * Null
 
-Standard Objects
-- Get to know standard built-in objects Array, Boolean, Date, Error, Function, JSON, Math, Number, Object, RegExp, String, Map, Set, WeakMap and WeakSet
+    b. Standard Types
+        * Standard Objects
+        - Get to know standard built-in objects Array, Boolean, Date, Error, Function, JSON, Math, Number, Object, RegExp, String, Map, Set, WeakMap and WeakSet
 
 Expressions and Operators
 - instanceof
