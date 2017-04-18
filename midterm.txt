@@ -116,6 +116,7 @@ CLASS
          language pseudo class -
          ul element statement pseudo
          structural pseudo clauses
+         
     
     
 CSS Rule Precedence- From highest to lowest priority
@@ -180,8 +181,39 @@ DOM
  - Purpose of interacting the page
 
 JS
- - Dynamical Type
+ - more flexible
  
+   Imperative Programming Language
+            - create instruction
+            - you can also sequence the instruction
+   Dynamical Type
+            - 
+            
+            How to create variable?
+             You can use:
+                            var - you can put it inside the function or outside
+                                e.g 
+                                   function f(){
+                                        var x = 200;
+                                        if(true){
+                                        var x = 300;
+                                        console.log(x);
+                                        }
+                                        console.log(x)
+                                        }
+                                       
+                            let - 
+ 
+                                e.g
+                                    function f(){
+                                     let x = 200l
+                                     if(true){
+                                      let x = 300;
+                                      console.log(x);
+                                     } 
+                                     console.log(x)
+                                     }
+                                    
 	Simple/Primitive
 	 - Boolean
 	 - Numbers
