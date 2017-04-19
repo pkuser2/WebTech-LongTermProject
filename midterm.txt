@@ -182,6 +182,7 @@ DOM
 
 JS
  - more flexible
+ - Javascript has been standardized in ECMAscript language.
  
    Imperative Programming Language
             - create instruction
@@ -234,11 +235,18 @@ JS
         - Get to know standard built-in objects Array, Boolean, Date, Error, Function, JSON, Math, Number, Object, RegExp, String, Map, Set, WeakMap and WeakSet
 
         Expressions and Operators
-        - instanceof -> to check the type
-        - Typeof
-        - new
+        - instanceof -> to check the type.
+		syntax - object instanceof constructor
+
+        - Typeof -> returns a string indicating the type of the operand.
+		syntax - typeof operand
+
+        - new -> creates an instance of a user-defined object type.
+		syntax - new constructor[([arguments])]
+
         - this
-        - the operator precedence
+
+        - the operator precedence -> determines the oder in which operators are evaluated
         
         NaN - Not a Number
         *Number 
@@ -246,8 +254,14 @@ JS
             - toString
             - parseFloat
             - parseInt
+
+	   Methods
+		Number.isNan() -> Determine whether the passed value is NaN.
+		Number.isFinite() -> Determine whether the passed value is a finite number.+
+		Number.isInteger() -> Determine whether the passed value is an integer.
             
-        *String
+        *String - Strings in javascript is enclose by " " or ' '
+
             - length of a string (.length)
             - concatenate
             - toUpperCase
@@ -256,6 +270,14 @@ JS
                 - object oriented implementation
         *Math Class
             - Math P.I
+	
+	
+	*Date
+		Methods
+	    - Date.now() -> Returns the numeric value corresponding to the current time.
+	    - Date.parse() -> Parses a string representation of a date 
+
+	  
             
             
             
@@ -303,4 +325,6 @@ Function - returns any kind of value
             }
 
   * function args() *
+
+
         
