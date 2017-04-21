@@ -1,0 +1,307 @@
+body{
+	height: 100%;
+	margin-top: 50px;
+	margin-right: 0;
+	margin-left: 0;
+	margin-bottom: 0;
+  background-color: #f2f2f2;
+}
+
+
+/*STYLES FOR FONTS*/
+body{
+	font-family: "Myriad Set Pro","Helvetica Neue","Helvetica","Arial",sans-serif;
+}
+nav ul{
+	font-family: "Myriad Set Pro","Helvetica Neue","Helvetica","Arial",sans-serif;
+	text-transform: uppercase;
+}
+
+/*STYLES FOR CONTENT*/
+
+/*-----FOR THE HEADER-----*/
+
+.backgroundHeader {
+    background-image: url("../images/BG1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100vh;
+    width: 100%;
+}
+
+img.head{
+  margin: 13% 25% 0% 25%;
+  width: 50%;
+}
+
+img.arrow {
+  width: 20px;
+  margin: 9% 40% 0 50%;
+  transition: all .2s ease-in-out;
+}
+
+img.arrow:hover {
+  transform: scale(1.5,1.5);
+  cursor: pointer;  
+}
+
+/*-----FOR THE MAIN CONTENT-----*/
+
+.sect{
+  height: 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+#HomeSection h1{
+  text-align: center;
+  vertical-align: middle;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+#AboutSection{ 
+  height:100%;
+  background-color: #f2f2f2;
+  color:#A8FFF2;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+#AboutSection h1{
+  margin-top: 0;
+  padding-top: 5%;
+  text-align: center;
+  color: #000000;
+}
+
+#AboutSection .subtitleAbout p{
+  text-align: center;
+}
+
+#AboutSection h1:hover{
+  color: white;
+  text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+}
+  
+.about{
+  float: left;
+  width:50%;
+  background-color: #f2f2f2;
+}
+
+.about img{
+  border-radius: 50%;
+  max-width: 35%;
+  width: auto;
+  height: auto;
+  padding: 0 32.5% 0 32.5%;
+  margin-bottom: 3%;
+}
+
+.about h1{
+  text-align: center;
+  font-size: 20px;
+  color: #000000;
+}
+
+.about figcaption{
+  padding: 10px 10px 10px 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  height: 120px;
+}
+
+.about p{
+  padding-top: 10px;
+  text-align: center;
+  font-size: 15px;
+  color: #000000;
+}
+
+.image_aboutUs img{
+    transition: all .2s ease-in-out;
+}
+
+.image_aboutUs:hover{
+    transform: scale(1.2,1.2);
+}
+/*-----FOR THE LESSONS-----*/
+
+.PrelimSectOne{
+  background-image: url("../images/sectBG(1).jpg");
+}
+.PrelimSectTwo{
+  background-image: url("../images/sectBG(2).jpg");
+}
+.PrelimSectThree{
+  background-image: url("../images/sectBG(3).jpg");
+}
+.PrelimSectFour{
+  background-image: url("../images/sectBG(4).jpg");
+}
+
+.sect h1{
+	font-size: 50px;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	color: #ffffff;
+	text-align: center;
+}
+
+#TopicContent1,
+#TopicContent2,
+#TopicContent3,
+#TopicContent4{
+  padding: 3% 6% 3% 6%;
+}
+
+.tableTitle{
+  text-align: center; 
+  background-color: #000000;
+  color: #ffffff;
+}
+
+.globeImg{
+  float: right;
+}
+
+.imgHover a{
+  display: none;
+}
+
+.imgHover a:hover{
+  display: block;
+}
+
+
+/*STYLES FOR THE TABLE */
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 90%;
+    box-shadow: 0 5px 30px 0 rgba(0, 0, 0, 0.3), 0 10px 30px 0 rgba(0, 0, 0, 0.20);
+}
+
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: center;
+    padding: 8px;
+}
+
+tr:first-child {
+    background-color: #669aa0;
+    text-transform: uppercase;
+}
+
+/*STYLES FOR THE DROPDOWN DETAILS */
+
+summary {
+  background-color: #193a5b;
+  color: #ffffff;
+  text-align: center;
+  font-size: 25px;
+  height: 30px;
+  margin-left: 200px;
+  margin-right: 200px;
+  margin-bottom: 8px;
+    box-shadow: 0 5px 30px 0 rgba(0, 0, 0, 0.3), 0 10px 30px 0 rgba(0, 0, 0, 0.20);
+}
+
+summary:hover{
+  background-color: #4fad73;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.Informational:hover{
+  background-color: #72b4db;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.Success:hover{
+  background-color: #72db7e;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.Redirection:hover{
+  background-color: #d972db;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.Error:hover{
+  background-color: #db7272;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.Server:hover{
+  background-color: #dbd072;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+dt.standardMethods, 
+dd.methodTypes,
+.generalHeaderFields,
+dd.requestHeaderFields,
+dd.responseHeaderFields,
+dd.entityHeaderFields{
+  font-size: 15px;
+  line-height: 18px;
+  margin-left: 250px;
+  margin-right: 250px;
+}
+
+.status p{
+  font-size: 15px;
+  line-height: 18px;
+  margin-left: 250px;
+  margin-right: 250px;
+}
+
+.button {
+  position: relative;
+}
+
+.button figure {
+  display: none;
+  position: absolute;
+  top: 2em;
+  left: 1em;
+  padding: 0;
+  margin: 0;
+  background: black;
+  border-radius: 1em;
+}
+
+.button:focus figure,
+.button:hover figure {
+  display: block;
+}
+
+footer{
+  background-color: #000000;
+  clear: both;
+  margin-top: -10px;
+  margin-bottom: -16px;
+}
+
+footer img{
+  height: 40px;
+  margin: 0 30% 0 45%;
+}
+
+footer p{
+  color: #ffffff;
+  text-align: center;
+  margin-top: -5px;
+}

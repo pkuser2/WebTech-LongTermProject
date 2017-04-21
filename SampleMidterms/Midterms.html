@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Midterms</title>
+    <link rel="icon" href="images/Logo1.png">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/navigation.css">
+    <link rel="stylesheet" href="http://fontawesome.io/icons/">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font&#9657;awesome/4.7.0/css/font&#9657;awesome.min.css">
+</head>
+
+<body>
+    
+    <nav>
+        <ul>
+            <li class="logo">
+                <a href="index.html"><img src="images/LogoWhite.png" height="45" alt="WEBTEK"></a>
+            </li>
+            <li><a href="glossary.html">Glossary</a></li>
+            <li><a href="finals.html">Finals</a></li>
+            <li><a href="midterm.html">Midterms</a></li>
+            <li><a href="prelims.html">Prelims</a></li>
+            <li><a href="index.html">About</a></li>
+        </ul>
+    </nav>
+    
+    <div id="Topic1" class="sect PrelimSectOne">
+    <h1>HTML, CSS & JAVASCRIPT</h1>
+    </div>
+
+    <div id="TopicContent1" class="subSection ss1">
+
+
+            <div class="globeImg">
+                <a href=""> <img src="images/globe.png" alt="globe-image"></a>
+            </div>
+
+            <h1>HTML</h1>
+                <p> Language used to create web pages - electronic document</p>
+        
+        
+                <h3>ROLES IN MODERN WEB DEVELOPMENT</h3>
+        <p>1.Structure and Content (HTML)</p>
+        <p>2.Aesthetics / Presentational (CSS)</p>
+        <p>3.Behavioral Aspect (JavaScript)</p>
+
+
+                <h1 class = "tableTitle"> HTML History</h1>
+                <br>
+                <table align="center">
+                <tr>
+                <th>Version&Date</th>
+                <th>Description</th>
+                    </tr>
+                    <tr>
+                <th>HTML 1.0(1989)</th>
+                        <th>
+                            Very first HTML created by Tim-Berners Lee</th>
+                    </tr>
+                    <tr>
+                    <th>HTML 2.0(1995)</th>
+                        <th><p>Published with an actual standard</p>
+                        <p>RFC HTML 2.0</p>
+                            <p>W3C was already founded (World Wide Web Consortium)</p>
+                    </tr>
+                    <tr>
+                <th>HTML 3.0 / 3.2 / 4.0 / 4.01(1999)</th>
+                <th>
+                    <p> 3 Versions of HTML 4.01</p>
+                        <p>1.Strict - Deprecated elements/attribute</p>
+                        <p>2.Transitional - Can use the old elements</p>
+                        <p>3.Frameset - Divide the page into frames</p>
+                        </th>
+                    </tr>
+                    <tr>
+                <th>XHTML -  Extensible HyperText Markup Language(2000)</th>
+                <th>
+                    <p> Reformulation of HTML 4 in XML 1.0 - Used to markup data</p>
+                    <p>No optional, all elements are required</p>
+                    <p>Stricter set of authoring requirements</p>
+                    <p>Attribute value must always be quoted</p>
+                    <p>Case Sensitive</p>
+                        </th>
+                    </tr>
+                    <tr>
+                <th>(2005)</th> 
+                <th>Ian Hickson -  Founded WHAWG
+                    <p>Reformed HTML 4.01 and made HTML 5.0</p></th>
+                    </tr>
+                    <tr>
+                    <th>HTML 5.0(2014)</th>
+                    <th></th></tr>
+                    <tr>
+                    <th>HTML 5.1(2016)</th>
+                    <th></th>
+                    </tr>
+                </table>
+
+                <br>    
+        <h3>TYPICAL TEMPLATE OF HTML</h3>
+        <img src="template.png" style="width:400px;height:240px;">
+        
+        <h3>DOCTYPE </h3>
+        <p><b>Standard Mode Rendered</b>
+        <p>&#9657; The document is compliant to HTML5</p>
+        <p><b>Quirks Mode</b></p>
+        <p>&#9657; Rendering of browsers will render the document variously</p>
+        <img src="quirksmode.png" style="width:400px;height:228px;">
+        <p><b>Empty Element</b></p>
+        <p>&#9657; No content</p>
+        
+        <h3>CONTENT CATEGORIES OF HTML</h3>
+        <p>1.Metadata Content </p>
+        <p>&#9657; is content that sets up the presentation or behavior of the rest of the content, or that sets up the relationship of the document with other documents, or that conveys other "out of band" information.</p>
+        <p>2.Flow Content</p>
+        <p>&#9657; Most elements that are used in the body of documents and applications are categorized as flow content.</p>
+        <p>3.Sectioning Content</p>
+        <p>&#9657; Most elements that are used in the body of documents and applications are categorized as flow content.</p>
+        <p>4.Heading Content</p>
+        <p>&#9657; Defines the header of a section (whether explicitly marked up using sectioning content elements, or implied by the heading content itself)</p>
+        <p>5.Phrasing Content</p>
+        <p>&#9657; The text of the document, as well as elements that mark up that text at the intra-paragraph level. Runs of phrasing content form paragraphs.</p>
+        <p>A few other elements belong to this category, but only if a specific condition is fulfilled:</p>
+        <ul>
+        <li>area tag, if it is a descendant of a map element </li>
+        <li> del tag, if it is a descendant of a map element </li>
+        <li> link tag, if the itemprop attribute is present</li>
+        <li>map tag, if it contains only phrasing content</li>
+        <li>meta tag, if the itemprop</li></ul>
+        <p>6.Embedded Content</p>
+        <p>&#9657; It imports another resource or inserts content content from another mark-up language or namespace into the document. </p>
+        
+        <h3>HTML ATTRIBUTES</h3>
+        <p>1.The lang Attribute </p>
+        <p>&#9657; The language of the document can be declared in the html tag.</p>
+        <p>&#9657; The language is declared with the lang attribute.</p>
+        <p>&#9657; This attribute specifies the language to be used for a certain element.</p>
+        <p>2.The title Attribute</p>
+        <p>&#9657; A title attribute is added to the p element</p>
+        <p>&#9657; The title attribute helps describe information of a certain element.</p>
+        <p>3.The href Attribute</p>
+        <p>&#9657; HTML links are defined with the a tag. </p>
+        <p>&#9657; This attribute specifies the link and from where it originated. </p>
+        <p>4.Size Attribute</p>
+        <p>&#9657; HTML images are defined with the img tag.</p>
+        <p>&#9657; The filename of the source (src), and the size of the image (width and height) are all provided as attributes</p>
+        <p>&#9657; This attribute specifies the number of attributes in a certain element such as characters.</p>
+        <p>5.The alt Attribute </p>
+        <p>&#9657; The alt attribute specifies an alternative text to be used, when an image cannot be displayed.</p>
+        <p>&#9657; The value of the attribute can be read by screen readers. This way, someone "listening" to the webpage, e.g. a blind person, can "hear" the element.</p>
+        <p>&#9657; This attribute specifies the alternative text and would be applied if the text element is not working or compatible.</p>
+        
+        
+        
+        <h3>WAI-ARIA</h3>
+        <p>&#9657; Known as Web Accessibility Initiative – Accessible Rich Internet Applications </p>
+        <p>&#9657; WAI-ARIA are a set of attributes that improves web semantics for technology that help assist in improving computer performance. </p>
+        
+        <h3>WCAG</h3>
+        <p>&#9657; Known as Web Content Accessibility Guidelines </p>
+
+
+    <div id="Topic2" class="sect PrelimSectTwo">
+        <h1>Cascading Style Sheets</h1>
+    </div>
+
+    <div id="TopicContent2" class="subSection ss2">
+        <dl>
+        <h1> Cascading Style Sheets</h1>
+        <p>&#9657; Language used to specify the presentation aspects (e.g., formatting, layout) of structured marked up documents</p>
+        <p>&#9657; Developed by Hakon Wium Lie (CHSS) and Bert Bos (SSP)</p>
+            
+             <h1 class = "tableTitle"> CSS History</h1>
+                <br>
+                <table align="center">
+                <tr>
+                <th>Version&Date</th>
+                <th>Description</th>
+                    </tr>
+                    <tr>
+                <th>CSS1 </th>
+                        <th>
+                           ... </th>
+                    </tr>
+                    
+                    <tr>    
+                    <th>CSS 2.1 </th>
+                        <th>..</th>
+                    </tr>
+                    <tr>
+                <th>CSS 3 </th>
+                <th>
+                   ..</th>
+                    </tr>
+                </table>
+        <br>
+            <h3>What is CSS Preprocessors?</h3>
+            <p> &#9657; Sass</p>
+            <p> &#9657; Less</p>
+            <p> &#9657; 960 Grid System</p>
+            <p> &#9657; Bootstrap</p>
+            <p> &#9657; Foundation</p>
+            <p> &#9657; Materialize</p>
+
+            <h3> CSS SELECTORS</h3>
+            <p> &#9657; specify which element you want to edit </p>
+            
+            <h4>SELECTOR</h4>
+            <p>&#9657; used as a condition in a CSS rule</p>
+            <p>&#9657; it is also used to select elements also used in Javascript.</p>
+            
+            <h4>Selector Syntax</h4>
+            <p>&#9657; chain of one or more sequences of simple selectors
+	always start with type selector  and universal selector</p>
+            
+            <h4>BASIC SELECTORS</h4>
+            <p>1.Type Selector</p>
+            <p>&#9657; CSS type selectors match elements by node name. Used alone, therefore, a type selector for a particular node name selects all elements of that type — that is, with that node name — in the document.</p>
+            <p>2.Universal Selector </p>
+            <p>&#9657; An asterisk (*) is the universal selector for CSS. It matches a single element of any type. Omitting the asterisk with simple selectors has the same effect.</p>
+            <p>3.Attribute Selector</p>
+            <p>&#9657; Attribute selectors select an element using the presence of a given attribute or attribute value.
+</p>
+            <ul>
+            <li>[attr]</li>
+                <p>&#9657; Represents an element with an attribute name of attr.</p>
+            <li> [attribute=value]</li>
+                <p>&#9657; Selects all elements with target="_blank"</p>
+            <li> [attribute~=value]</li>
+                <p>&#9657; Selects all elements with a title attribute containing the value you put inside the attribute</p>
+            <li>  [attribute !=value]</li>
+                <p>&#9657; Select elements that either don't have the specified attribute.</p>
+            </ul>
+            <p>4.ID Selector</p>
+            <p>&#9657; It matches an element based on the contents of that element's id attribute, which must match exactly the value given in the selector.</p>
+            <p>5.Class Selector</p>
+            <p>&#9657; CSS class selectors match an element based on the contents of the element's class attribute.The class attribute is defined as a space-separated list of items, and one of those items must match exactly the class name given in the selector.</p>
+            <p>&#9655;Pseudo Classes</p>
+            <p>&#9657; is used to define a special state of an element</p>
+            <ul>
+            <li>Dynamic pseudo classes</li>
+                <ol>Link</ol>
+                <ol>Visited</ol>
+            <li> User action pseudo class </li>
+                <ol>Hover</ol>
+                <ol>Active</ol>
+                <ol>Focus</ol>
+            <li>Target pseudo class</li>
+                <ol>Target</ol>
+            <li>Language pseudo class</li>
+                <ol>Lang</ol>
+            <li>Ul element statement pseudo</li>
+                <ol>Enable</ol>
+                <ol>Disabled</ol>
+                <ol>Checked</ol>
+                <ol>Indeterminate</ol>
+            <li>Structural pseudo clauses</li>
+                <ol>Root(CSS3)</ol>
+                <ol>First-child</ol>
+                <ol>Last-child</ol>
+            </ul>
+            
+            <h3> CSS Rule Precedence</h3>
+            <p>1.By origin and importance</p>
+            <p>2.By specificity </p>
+            <p>3.By order</p>
+            
+            
+
+        <dl>
+           <dt> &#9655; By Origin and Importance</dt>
+            <p>&#9657; user agent important declarations </p>
+            <p>&#9657; user important declarations</p>
+            <p>&#9657; author important declarations</p>
+            <p>&#9657; author normal declarations</p>
+            <p>&#9657; user normal declarations</p>
+            <p>&#9657; user agent normal declarations</p>
+
+            </dl>   
+            
+           <dt> &#9655; By Specificity</dt>
+            <p>&#9657; inline Style</p>
+            <p>&#9657; number of ID selectors</p>
+            <p>&#9657; number of class selectors, attribute selectors, & pseudo-classes</p>
+            <p>&#9657; number of type selectors & pseudo elements</p>
+            <p>&#9657; number of class selectors, attribute selectors, & pseudo-classes</p>
+            <p>&#9657; number of type selectors</p>
+
+                
+              <dl>
+            <dt>&#9655; By Order</dt>
+            <p>&#9657; "if it comes later,it goes first"</p></dl>
+            
+            </dl>      
+        
+            <h3>CSS Statements</h3>
+            <p>&#9657; Import</p>
+            <p>&#9657; Namespace</p>
+            <p>&#9657; Document - this stylesheet only to documents in a specific page</p>
+            <p>&#9657; Font-face - web downloadable files, browser can be a substitute</p>
+            <p>&#9657;  Key frames  - CSS animation</p>
+            <p>Media - for responsive design</p>
+        
+            <h3>CSS Declarations</h3>
+            <p>&#9655; Properties</p>
+            <p>&#9657; shorthand properties</p>
+            <p>&#9657; vendor- specific extensions (a.k.a Vendor prefixes) </p>
+        
+            <p>&#9655; Values</p>
+            <p>&#9657; Keywords</p>
+            <p>&#9657; Numbers(Integers in decimal notation)</p>
+        
+            <p>&#9655; Dimensions</p>
+            <p>&#9657; Length</p>
+            <p>&#9657; Duration</p>
+            <p>&#9657; frequency</p>
+            
+
+        <div id="Topic3a" class="sect PrelimSectThree">
+            <h1>JAVASCRIPT</h1>
+        </div>
+
+        <div id="TopicContent3" class="subSection ss3">
+
+        <dl> 
+        <h1>Javascipt</h1>
+            <p>&#9657; Javascript has been standardized in ECMAscript language.</p>
+            <p>&#9657; JavaScript is an imperative programming language</p>
+            <p>&#9657; more flexible</p>
+            </dl>
+            
+            
+            <h4>CREATING VARIABLES IN JAVASCRIPT</h4>
+            <p>1.var</p>
+            <p>&#9657; keyword to define a variable </p>
+            <dl> ex : Var x = 5 </dl>
+            <dl> X now has a value of 5.</dl> 
+            <p>2.let</p>
+            <p>&#9657; also use to declare variables but in a block scope only. And can`t be use outside the function.</p>
+            <dl> ex :</dl>
+            <dl> function f(){ </dl>
+            <dl> let x =400;</dl>
+            <dl> if(true){</dl>
+            <dl> x=- 300;</dl>
+            <dl> }</dl>
+            <dl> return x;</dl>
+            <dl>Now the x is only defined inside of the function you can`t use x outside of the function
+Unlike var. Var can be used either inside or outside of the loop.</dl>
+            
+            
+            <h4>SIMPLE/PRIMITIVE</h4>
+            <dl>&#9655; Boolean</dl>
+            <dd>&#9657;1 is equal to "truthy"</dd>
+            <dd>&#9657; 0 is equal to "falsy"</dd>
+            <dd>&#9657; empty string = false</dd>
+            <dd>&#9657; undefined = false</dd>
+            
+            <dl>&#9655; Numbers</dl>
+            <dd>&#9657; hexadecimal</dd>
+            <dd>&#9657; decimal</dd>
+            <dd>&#9657; binary</dd>
+            
+            <dl>&#9655; Strings</dl>
+            <dd>&#9657; can be delimited by single qoute to remove the spacing.
+</dd>
+            <dd>&#9657; Strings in javascript is enclose by " " or ' '.</dd>
+            <dd>&#9657; Undefined or Null</dd>
+            
+            <h4>STANDARD TYPES</h4>
+            <dl>&#9655; Standard Objects</dl>
+            <dd>&#9657;  Get to know standard built-in objects Array, Boolean, Date, Error, Function, JSON, Math, Number, Object, RegExp, String, Map, Set, WeakMap and WeakSet</dd>
+            
+
+            
+            <h4>Expressions and Operators</h4>
+            <dl>&#9657; InstanceOf</dl>
+            <dd>&#9657; to check the type</dd>
+            <dd> syntax - ‘object instanceof constructor’</dd>
+            
+            
+            <dl>&#9657; TypeOf</dl>
+            <dd>&#9657; returns a string indicating the type of the operand.</dd>
+            <dd> syntax - ‘typeof operand’</dd>
+            <dd>&#9657; creates an instance of a user-defined object type.</dd>
+            <dd> syntax - ‘new constructor[([arguments])]’</dd>
+            
+            
+            <h4>NOT A NUMBER (NaN)</h4>
+            <dl>&#9655; Number</dl>
+            <dd>&#9657; valueOf</dd>
+            <dd>&#9657; toString</dd>
+            <dd>&#9657; parseFloat</dd>
+            <dd>&#9657; parseInt</dd>
+            
+            <h5>METHODS</h5>
+            <dd>1.Number.isNan() </dd>
+            <dd>&#9657; Determine whether the passed value is NaN.</dd>
+            <dd>2.Number.isFinite() </dd>
+            <dd>&#9657;  Determine whether the passed value is a finite number.+</dd>
+            <dd>3.Number.isInteger() </dd>
+            <dd>&#9657;Determine whether the passed value is an integer.</dd>
+            
+            
+            <dl>&#9655; String</dl>
+            <dd>&#9657; Strings in javascript is enclose by " " or ' '</dd>
+            <ul>
+            <li>length of a string (.length)</li>
+            <li>concatenate</li>
+            <li>toUpperCase</li>
+            
+            </ul>
+            
+            <dl>&#9655; Math Class</dl>
+            <dd>&#9657;Math P.I</dd>
+            
+            <dl>&#9655; Date</dl>
+            <dd>1.Date.now()</dd>
+            <dd>&#9657;Returns the numeric value corresponding to the current time.</dd>
+            <dd>2.Date.parse() </dd>
+            <dd>&#9657;Parses a string representation of a date </dd>
+            
+            
+            
+            
+        </div>
+        <footer>
+        <img src="images/LogoWhite.png">
+        <p> Copyright 2017 </p>
+    </footer>
+    
+</body>
+
+</html>
