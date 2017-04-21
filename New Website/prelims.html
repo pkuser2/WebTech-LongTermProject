@@ -112,53 +112,245 @@
     <div class="container">
         <div class="row">
             <div class="col-sm-8 col-sm-offset-2">
-                <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#8StandardMethods">8 Standard Methods</button>
+                <button type="button" class="btn btn-info btn-block btn-group-vertical" data-toggle="collapse" data-target="#8StandardMethods">8 Standard Methods</button>
                 <div id="8StandardMethods" class="collapse">
-                
                     <ol>
-
-                    <li>GET
-                        <ul>
-                            <li>&#9657; Transfer a current selected representation of the resource identified by the request URI</li>
-                            <li>&#9657; Fetch resources</li>   
-                        </ul>
-                    </li>
+                        <li>GET
+                            <ul>
+                                <li>Transfer a current selected representation of the resource identified by the request URI</li>
+                                <li>Fetch resources</li>   
+                            </ul>
+                        </li>
                         
+                        <li>HEAD
+                            <ul>
+                                <li>Same as GET with one difference (returns only the statusline and the headers)</li>
+                                <li>Used to retrieve metadata about the entity implied by the request without transferring the entity itself</li>
+                            </ul>
+                        </li>    
 
-                    <li>HEAD
-                        <ul>
-                            <li>&#9657; Same as GET with one difference (returns only the statusline and the headers)</li>
-                            <li> &#9657; Used to retrieve metadata about the entity implied by the request without transferring the entity itself</li>
-                        </ul>
-                    </li>    
+                        <li>PUT
+                            <ul>
+                              <li>Store the enclosed entity in the message body under the specified request URI</li>  
+                            </ul>
+                        </li>     
 
-                    <li>PUT
-                        <ul>
-                          <li>&#9657; Store the enclosed entity in the message body under the specified request URI</li>  
-                        </ul>
-                    </li>     
+                        <li>OPTIONS
+                            <ul>
+                                <li>Tell you what you can do or request information about communication</li>
+                            </ul>
+                        </li>     
 
-                    <li>OPTIONS
-                        <ul>
-                            <li>&#9657; Tell you what you can do or request information about communication</li>
-                        </ul>
-                    </li>     
-
-                    <li>TRACE
-                        <ul>
-                            <li> &#9657; Used to request a loop&#9657;back of the request message</li>
-                            <li>&#9657; Used for testing/diagnostics of the request/response chain</li>   
-                        </ul>
-                    </li>    
-                    
-                    <li>CONNECT
-                        <ul>
-                            <li> &#9657; Use only for HTTPS communication</li>
-                            <li> &#9657; Request the establishment of a tunel to the destination origin server, and if successful thereafter restrict its behavior to blind forwarding of packets</li>  
-                        </ul>
-                    </li>     
+                        <li>TRACE
+                            <ul>
+                                <li> Used to request a loop&#9657;back of the request message</li>
+                                <li> Used for testing/diagnostics of the request/response chain</li>   
+                            </ul>
+                        </li>    
+                        
+                        <li>CONNECT
+                            <ul>
+                                <li> Use only for HTTPS communication</li>
+                                <li> Request the establishment of a tunel to the destination origin server, and if successful thereafter restrict its behavior to blind forwarding of packets</li>  
+                            </ul>
+                        </li>     
                     </ol>
+                </div>
 
+                <button type="button" class="btn btn-info btn-block btn-group-vertical" data-toggle="collapse" data-target="#DifferentTypesOfMethods">Different Types of Methods</button>
+                <div id="DifferentTypesOfMethods" class="collapse">
+                    <ol>
+                        <li>Safe Method
+                            <ul>
+                                <li>A method that doesn't make any change.</li>
+                            </ul>
+                        </li>
+
+                        <li>Idempotent Method
+                            <ul>
+                                <li>A method that you can use a method multiple times but get the same result. </li>
+                            </ul>
+                        </li>
+
+                        <li>Cacheable method
+                            <ul>
+                                <li> The response generated could be cachd or not. </li>
+                            </ul>
+                        </li>
+                    </ol>
+                </div>
+
+                <button type="button" class="btn btn-info btn-block btn-group-vertical" data-toggle="collapse" data-target="#GeneralHeaderFields">General Header Fields</button>
+                <div id="GeneralHeaderFields" class="collapse">
+                    <ol>
+                        <li>Cache Control
+                            <ul>
+                                <li>allow us to control caching and the information won't be saved</li>
+                            </ul>
+                        </li>
+
+                        <li>Connection
+                            <ul>
+                                <li>used to establish persistent connection </li>
+                            </ul>
+                        </li>
+
+                        <li>Date
+                            <ul>
+                                <li> to control the lifetime of cache resources </li>
+                            </ul>
+                        </li>
+
+                        <li>Pragma
+                            <ul>
+                                <li> general directive in older version of HTTP </li>
+                            </ul>
+                        </li>
+
+                        <li>Trailer
+                            <ul>
+                                <li>header that is pass/provided after the data</li>
+                            </ul>
+                        </li>
+
+                        <li>Transfer
+                            <ul>
+                                <li>to notify the server it expects to receive additional fields in the trailer</li>
+                            </ul>
+                        </li>
+
+                        <li>Upgrade
+                            <ul>
+                                <li>to switch to a different protocol</li>
+                            </ul>
+                        </li>
+
+                        <li>Via
+                            <ul>
+                                <li>where the message was passed</li>
+                            </ul>
+                        </li>
+
+                        <li>Warning
+                            <ul>
+                                <li>general warning about possible problems with the entity body</li>
+                            </ul>
+                        </li>
+                    </ol>
+                </div>
+
+                <button type="button" class="btn btn-info btn-block btn-group-vertical" data-toggle="collapse" data-target="#RequestHeaderFields">Request Header Fields</button>
+                <div id="RequestHeaderFields" class="collapse">
+                    <ol>
+                        <li>ACCEPT
+                            <ul>
+                                <li>A field which has content that are acceptable for response.</li>
+                            </ul>
+                        </li>
+
+                        <li>ACCEPT-CHARSET
+                            <ul>
+                                <li>Character sets that are viable for the response.</li>
+                            </ul>
+                        </li>
+
+                        <li>ACCEPT-ENCODING
+                            <ul>
+                                <li>These are the encodings that are acceptable for the response.</li>
+                            </ul>
+                        </li>
+
+                        <li>ACCEPT-LANGUAGE
+                            <ul>
+                                <li>These are the languages that are suitable for the response.</li>
+                            </ul>
+                        </li>
+
+                        <li>AUTHORIZATION
+                            <ul>
+                                <li>This needs your credentials for aunthentication so as to proceed.</li>
+                            </ul>
+                        </li>
+
+                        <li>EXPECT
+                            <ul>
+                                <li>It needs certain behaviors that are demanded by the client.</li>
+                            </ul>
+                        </li>
+
+                        <li>FROM
+                            <ul>
+                                <li>It contains the users email address.</li>
+                            </ul>
+                        </li>
+
+                        <li>HOST
+                            <ul>
+                                <li>It contains the domain name of the server and also the port number which has the Transmission Control Protocol port.</li>
+                            </ul>
+                        </li>
+
+                        <li>IF-MATCH
+                            <ul>
+                                <li>This request header makes a conditional request in which the client matches with entity located on the server.</li>
+                            </ul>
+                        </li>
+
+                        <li>IF-MODIFIED 
+                            <ul>
+                                <li> It makes a method conditional. It is noted that 304 will be encountered.</li>
+                            </ul>
+                        </li>
+
+                        <li>IF-NONE-MATCH-IF-RANGE
+                            <ul>
+                                <li>The client has sources that were obtained from previous resources.</li>
+                            </ul>
+                        </li>
+
+                        <li>IF-UNMODIFIED-SINCE
+                            <ul>
+                                <li></li>
+                            </ul>
+                        </li>
+
+                        <li>MAX-FORWARDS
+                            <ul>
+                                <li>It sends the response only if the entity has not been modified since a specified time.</li>
+                            </ul>
+                        </li>
+
+                        <li>PROXY-AUTHORIZATION
+                            <ul>
+                                <li>Credentials are needed to access this proxy.</li>
+                            </ul>
+                        </li>
+
+                        <li>RANGE
+                            <ul>
+                                <li>It has a partial copy but it has missing features. It requests a copy that is complete and suitable.</li>
+                            </ul>
+                        </li>
+
+                        <li>REFERER
+                            <ul>
+                                <li> It is an optional header field. It allows links which are not suitable to be maintainted. It allows the server to generalete list of back-links such as references.</li>
+                            </ul>
+                        </li>
+
+                        <li>TE
+                            <ul>
+                                <li>Also known as "Transfer Encodings", It indicates which transformation is needed to be applied on the message body to bes ent to the sender and client.</li>
+                            </ul>
+                        </li>
+
+                        <li>USER-AGENT
+                            <ul>
+                                <li>It contains the user agent that gave the request.</li>
+                            </ul>
+                        </li>
+                        
+                    </ol>
                 </div>
             </div>
         </div>
