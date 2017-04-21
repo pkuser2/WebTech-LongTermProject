@@ -81,19 +81,19 @@ p {
   font-family: 'Lato', 'Helvetica', 'Arial', 'sans-serif';
   text-transform: uppercase;
   letter-spacing: 2px;
-  font-size: 11px;
+  font-size: 11px;s
 }
 .navbar-default .nav > li > a,
 .navbar-default .nav > li > a:focus {
-  color: #000000;
+  color: #222222;
 }
 .navbar-default .nav > li > a:hover,
 .navbar-default .nav > li > a:focus:hover {
-  color: #000000;
+  color: #fdcc52;
 }
 .navbar-default .nav > li.active > a,
 .navbar-default .nav > li.active > a:focus {
-  color: #000000 !important;
+  color: #fdcc52 !important;
   background-color: transparent;
 }
 .navbar-default .nav > li.active > a:hover,
@@ -110,7 +110,7 @@ p {
   }
   .navbar-default .navbar-header .navbar-brand:hover,
   .navbar-default .navbar-header .navbar-brand:focus {
-    color: black;
+    color: white;
   }
   .navbar-default .nav > li > a,
   .navbar-default .nav > li > a:focus {
@@ -371,10 +371,18 @@ footer p {
 footer img{
   width: 100px;
 }
-.bg-primary {
-  background: #fdcc52;
-  background: -webkit-linear-gradient(#fdcc52, #fdc539);
-  background: linear-gradient(#fdcc52, #fdc539);
+
+.bg-primary1{
+  background: url("../img/sectBG(5).jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.bg-primary2 {
+  background: url("../img/sectBG(1).jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 .text-primary {
   color: #fdcc52;
