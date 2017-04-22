@@ -372,36 +372,6 @@ footer img{
   width: 100px;
 }
 
-.bg-primary1{
-  background-color: #d1d1d1;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-}
-.bg-primary2 {
-  background: url("../img/sectBG(1).jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-}
-.bg-primary3 {
-  background: url("../img/sectBG(2).jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-}
-.bg-primary4 {
-  background: url("../img/sectBG(3).jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-}
-.bg-primary5 {
-  background: url("../img/sectBG(4).jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-}
 .text-primary {
   color: #fdcc52;
 }

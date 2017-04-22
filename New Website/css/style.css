@@ -1,3 +1,47 @@
+.bg-primaryContact{
+  background-color: #badce0;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.bg-primary1{
+  background-color: 
+#e6f271
+;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.bg-primary2 {
+  background: url("../img/sectBG(1).jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.bg-primary3 {
+  background: url("../img/sectBG(2).jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.bg-primary4 {
+  background: url("../img/sectBG(3).jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.bg-primary5 {
+  background: url("../img/sectBG(4).jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.teamImg{
+	width: 200px;
+}
+
 .MessageHeaders,
 .StatusCodes{
 	padding-top: 50px;
