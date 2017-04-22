@@ -37,6 +37,24 @@
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
+.bg-primary6 {
+  background: url("../img/sectBG(8).jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.bg-primary7 {
+  background: url("../img/sectBG(6).jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.bg-primary8 {
+  background: url("../img/sectBG(7).jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
 
 .teamImg{
 	width: 200px;
