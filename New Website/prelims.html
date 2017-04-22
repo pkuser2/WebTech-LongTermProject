@@ -95,7 +95,71 @@
     </section>
 
     <div class="container">
-        
+        <div class="HistoryHTTP container">
+            <div class="table-responsive History">   
+                <h1 class="text-center">HTTP History</h1>       
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th>Version</th>
+                    <th>Date</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>HTTP 0.9</td>
+                    <td>1991</td>
+                    <td>
+                        <ul>
+                            <li>Connection</li>
+                            <li>Request</li>
+                            <li>Response</li>
+                            <li>Disconnection</li>
+                        </ul>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>HTTP 1.0</td>
+                    <td>RFC 1945, May 1996</td>
+                    <td>
+                        <ul>
+                            <li>Rapid Growth and Richer Metadata</li>
+                            <li>Content Negotiation</li>
+                            <li>Authorization</li>
+                            <li>Cache</li>
+                            <li>Character set support</li>
+                        </ul>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>HTTP 1.1</td>
+                    <td>RFC 2068 Jan 1997, RFC 2616 June 1999</td>
+                    <td>
+                        <ul>
+                            <li>Resolved Ambiguities</li>
+                            <li>Change in semantics of HTTP protocol</li>
+                            <li>Transfer Encoding and Language Negotiation</li>
+                            <li>A lot of additional content</li>
+                        </ul>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>HTTP 2</td>
+                    <td>RFC 7540 May 2015</td>
+                    <td>
+                        <ul>
+                            <li>Improved Performance</li>
+                            <li>Lower latency, Higher Throughput</li>
+                            <li>Transition to embedded devices</li>
+                            <li>Fast Progress</li>
+                        </ul>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+              </div>
+        </div>
     </div>
 
     <section id="headers" class="sectBG bg-primary4 text-center">
@@ -111,7 +175,7 @@
     
     <div class="container">
         <div class="row">
-            <div class="col-sm-8 col-sm-offset-2">
+            <div class="col-sm-8 col-sm-offset-2 MessageHeaders">
                 <button type="button" class="btn btn-info btn-block btn-group-vertical" data-toggle="collapse" data-target="#8StandardMethods">8 Standard Methods</button>
                 <div id="8StandardMethods" class="collapse">
                     <ol>
@@ -349,12 +413,135 @@
                                 <li>It contains the user agent that gave the request.</li>
                             </ul>
                         </li>
-                        
                     </ol>
                 </div>
-            </div>
-        </div>
-    </div>
+
+                <button type="button" class="btn btn-info btn-block btn-group-vertical" data-toggle="collapse" data-target="#ResponseHeaderFields">Response Header Fields</button>
+                <div id="ResponseHeaderFields" class="collapse">
+                    <ol>
+                        <li>ACCEPT-RANGES
+                            <ul>
+                                <li>Specify partial content range the server supports.</li>
+                            </ul>
+                        </li>
+
+                        <li>AGE
+                            <ul>
+                                <li>It is the age of object through seconds with the use of cache in the proxy.</li>
+                            </ul>
+                        </li>
+
+                        <li>ETAG
+                            <ul>
+                                <li>It is a identifier from a specific resource version.</li>
+                            </ul>
+                        </li>
+
+                        <li>PROXY-AUTHENTICATE
+                            <ul>
+                                <li>Credentials are needed for this proxy</li>
+                            </ul>
+                        </li>
+
+                        <li>LOCATION
+                            <ul>
+                                <li>Often used to redirect or if there is a new source.</li>
+                            </ul>
+                        </li>
+
+                        <li>RETRY-AFTER
+                            <ul>
+                                <li>If entity is not current available, Retry-After is used to tell the client to try again sometime.</li>
+                            </ul>
+                        </li>
+
+                        <li>SERVER
+                            <ul>
+                                <li>The server's name.</li>
+                            </ul>
+                        </li>
+
+                        <li>VARY
+                            <ul>
+                                <li>Request header fields which determine, if a cache is used to reply to a following request.</li>
+                            </ul>
+                        </li>
+
+                        <li>WWW-AUTHENTICATE
+                            <ul>
+                                <li>A scheme authentication that is used to obtain the specified entity.</li>
+                            </ul>
+                        </li>
+                    </ol>
+                </div>
+
+                <button type="button" class="btn btn-info btn-block btn-group-vertical" data-toggle="collapse" data-target="#EntityHeaderFields">Entity Header Fields</button>
+                <div id="EntityHeaderFields" class="collapse">
+                    <ol>
+                        <li>ALLOW
+                            <ul>
+                                <li>These show methods which are viable for a resource that has been specified.</li>
+                            </ul>
+                        </li>
+
+                        <li>CONTENT-ENCODING 
+                            <ul>
+                                <li>It is the encoding that was used on the data.</li>
+                            </ul>
+                        </li>
+
+                        <li>CONTENT-LANGUAGE
+                            <ul>
+                                <li>The language of the specified audience who will use the resource.</li>
+                            </ul>
+                        </li>
+
+                        <li>CONTENT-LOCATION
+                            <ul>
+                                <li>It is an alternate location for the data.</li>
+                            </ul>
+                        </li>
+
+                        <li>CONTENT-MDS
+                            <ul>
+                                <li>A coded MD5 sum which is binary type for content purposes</li>
+                            </ul>
+                        </li>
+
+                        <li>CONTENT-RANGE
+                            <ul>
+                                <li>Meaning a partial range, a certain amout of content belongs in here.</li>
+                            </ul>
+                        </li>
+
+                        <li>CONTENT-TYPE
+                            <ul>
+                                <li>It shows what media type the resource is.</li>
+                            </ul>
+                        </li>
+
+                        <li>EXPIRES
+                            <ul>
+                                <li>Shows the modified date where the resource is not vialble anymore.</li>
+                            </ul>
+                        </li>
+
+                        <li>LAST-MODIFIED
+                            <ul>
+                                <li>It shows the date where the object was last modified.</li>
+                            </ul>
+                        </li>
+
+                        <li>CONTENT-LENGTH
+                            <ul>
+                                <li>It shows the length of the content through octets.</li>
+                            </ul>
+                        </li>
+                    </ol>
+                </div>
+            </div> <!--End of Division-->
+        </div> <!--End of Row-->
+    </div> <!--End of Container-->
 
     <section id="codes" class="sectBG bg-primary5 text-center">
         <div class="container">
@@ -367,8 +554,305 @@
     </section>
     
     <div class="container">
-        
-    </div>
+        <div class="row">
+            <div class="col-sm-8 col-sm-offset-2 StatusCodes">
+                <button type="button" class="btn btn-info btn-block btn-group-vertical" data-toggle="collapse" data-target="#Informational">Informational (1xx)</button>
+                <div id="Informational" class="collapse">
+                    <div class="table-responsive">          
+                        <table class="table">
+                            <thead>
+                                <tr>
+                                    <th>Status Number</th>
+                                    <th>Status Name</th>
+                                    <th>Description</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>100</td>
+                                    <td>Continue</td>
+                                    <td>A status code that would allow the performing of operations.</td>
+                                </tr>
+                                <tr>
+                                    <td>101</td>
+                                    <td>Switching Protocols</td>
+                                    <td>A status code that could switch to a higher protocol.</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div><!--End of Table Division-->
+                </div><!--End of Collapse Division-->
+
+                <button type="button" class="btn btn-success btn-block btn-group-vertical" data-toggle="collapse" data-target="#Success">Success (2xx)</button>
+                <div id="Success" class="collapse">
+                    <div class="table-responsive">          
+                        <table class="table">
+                            <thead>
+                                <tr>
+                                    <th>Status Number</th>
+                                    <th>Status Name</th>
+                                    <th>Description</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>200</td>
+                                    <td>Okay</td>
+                                    <td>The operation carried out</td>
+                                </tr>
+                                <tr>
+                                    <td>201</td>
+                                    <td>Created</td>
+                                    <td>The response to PUT request.</td>
+                                </tr>
+                                <tr>
+                                    <td>202</td>
+                                    <td>Accepted</td>
+                                    <td>The request has been recieved but not yet processed.</td>
+                                </tr>
+                                <tr>
+                                    <td>203</td>
+                                    <td>Non-Authorative</td>
+                                    <td>Same as above but does not come from origin or authority.</td>
+                                </tr>
+                                <tr>
+                                    <td>204</td>
+                                    <td>No content</td>
+                                    <td> It is successful but does not send anything back.</td>
+                                </tr>
+                                <tr>
+                                    <td>205</td>
+                                    <td>Reset Content</td>
+                                    <td>The request has heen done and can be reset.</td>
+                                </tr>
+                                <tr>
+                                    <td>206</td>
+                                    <td>Partial Content</td>
+                                    <td>It does not send a full resource but has a range.</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div><!--End of Table Division-->
+                </div><!--End of Collapse Division-->
+
+                <button type="button" class="btn btn-secondary btn-block btn-group-vertical" data-toggle="collapse" data-target="#Redirection">Redirection (3xx)</button>
+                <div id="Redirection" class="collapse">
+                    <div class="table-responsive">          
+                        <table class="table">
+                            <thead>
+                                <tr>
+                                    <th>Status Number</th>
+                                    <th>Status Name</th>
+                                    <th>Description</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>300</td>
+                                    <td>Multiple Choices</td>
+                                    <td>Not much information was sent, so choices were given.</td>
+                                </tr>
+                                <tr>
+                                    <td>301</td>
+                                    <td>Moved Permanently </td>
+                                    <td>Means that what you are looking for is now in a different resource.</td>
+                                </tr>
+                                <tr>
+                                    <td>302</td>
+                                    <td>Found</td>
+                                    <td>Means that a resource was found after making a request.</td>
+                                </tr>
+                                <tr>
+                                    <td>303</td>
+                                    <td>See other </td>
+                                    <td>Means to see other resources avaiilable.</td>
+                                </tr>
+                                <tr>
+                                    <td>304</td>
+                                    <td>Not Modified</td>
+                                    <td>When you are doing a conditional request.</td>
+                                </tr>
+                                <tr>
+                                    <td>305</td>
+                                    <td>Use proxy</td>
+                                    <td>You are not supposed to access directly from the resource but from the proxy itself.</td>
+                                </tr>
+                                <tr>
+                                    <td>306</td>
+                                    <td>Unused</td>
+                                    <td>Unused</td>
+                                </tr>
+                                <tr>
+                                    <td>307</td>
+                                    <td>Temporary Redirect</td>
+                                    <td>It is redirected temporarily but can come back later.</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div><!--End of Table Division-->
+                </div><!--End of Collapse Division-->
+
+                <button type="button" class="btn btn-danger btn-block btn-group-vertical" data-toggle="collapse" data-target="#Error">Error (4xx)</button>
+                <div id="Error" class="collapse">
+                    <div class="table-responsive">          
+                        <table class="table">
+                            <thead>
+                                <tr>
+                                    <th>Status Number</th>
+                                    <th>Status Name</th>
+                                    <th>Description</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>400</td>
+                                    <td>Bad Request</td>
+                                    <td>Malformed resource.</td>
+                                </tr>
+                                <tr>
+                                    <td>401</td>
+                                    <td>Unauthorized</td>
+                                    <td>Accessing from an unprotected resource.</td>
+                                </tr>
+                                <tr>
+                                    <td>402</td>
+                                    <td>Payment Required</td>
+                                    <td>Systems like e▹commerce application are needed. e.g. PayPal</td>
+                                </tr>
+                                <tr>
+                                    <td>403</td>
+                                    <td>Forbidden</td>
+                                    <td>Not allowed to go to this resource.</td>
+                                </tr>
+                                <tr>
+                                    <td>404</td>
+                                    <td>Not Found</td>
+                                    <td>The resource is not found.</td>
+                                </tr>
+                                <tr>
+                                    <td>405</td>
+                                    <td>Method Not Allowed</td>
+                                    <td>Means it is not configured to allow.</td>
+                                </tr>
+                                <tr>
+                                    <td>406</td>
+                                    <td>Not Acceptable</td>
+                                    <td>Appropriate representation is found on the server.</td>
+                                </tr>
+                                <tr>
+                                    <td>407</td>
+                                    <td>Proxy Authentication Required</td>
+                                    <td>Authorization through proxy.</td>
+                                </tr>
+                                <tr>
+                                    <td>408</td>
+                                    <td>Request Time Out</td>
+                                    <td>The request is taking too long to process.</td>
+                                </tr>
+                                <tr>
+                                    <td>409</td>
+                                    <td>Conflict</td>
+                                    <td>You can look a resource.</td>
+                                </tr>
+                                <tr>
+                                    <td>410</td>
+                                    <td>Gone</td>
+                                    <td>The resource is gone and will never come back.</td>
+                                </tr>
+                                <tr>
+                                    <td>411</td>
+                                    <td>Length Required</td>
+                                    <td>It is expecting a content length but did not send.</td>
+                                </tr>
+                                <tr>
+                                    <td>412</td>
+                                    <td>Precondition Failed</td>
+                                    <td>Creating a resource that does not exist, but if it did exist then it failed.</td>
+                                </tr>
+                                <tr>
+                                    <td>413</td>
+                                    <td>Request Entity Too Large</td>
+                                    <td>The file is too large.</td>
+                                </tr>
+                                <tr>
+                                    <td>414</td>
+                                    <td>Request URI Too large</td>
+                                    <td>If the URI is too long.</td>
+                                </tr>
+                                <tr>
+                                    <td>415</td>
+                                    <td>Unsupported Media Type </td>
+                                    <td>Sending something and specifying content type but server application cannot request.</td>
+                                </tr>
+                                <tr>
+                                    <td>416</td>
+                                    <td>Requested Range Not Satisfied</td>
+                                    <td>Range is not enough.</td>
+                                </tr>
+                                <tr>
+                                    <td>417</td>
+                                    <td>Expectation Failed</td>
+                                    <td>What you requested is not there at all.</td>
+                                </tr>
+                                <tr>
+                                    <td>426</td>
+                                    <td>Upgrade Required</td>
+                                    <td>It requires a higher version of a protocol.</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div><!--End of Table Division-->
+                </div><!--End of Collapse Division-->
+
+                <button type="button" class="btn btn-warning btn-block btn-group-vertical" data-toggle="collapse" data-target="#ServerError">Server Error (5xx)</button>
+                <div id="ServerError" class="collapse">
+                    <div class="table-responsive">          
+                        <table class="table">
+                            <thead>
+                                <tr>
+                                    <th>Status Number</th>
+                                    <th>Status Name</th>
+                                    <th>Description</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>500</td>
+                                    <td>Internal Server Error </td>
+                                    <td>It is misconfiguration on the server.</td>
+                                </tr>
+                                <tr>
+                                    <td>501</td>
+                                    <td>Not Implemented </td>
+                                    <td>It was not implemented.</td>
+                                </tr>
+                                <tr>
+                                    <td>502</td>
+                                    <td>Bad Gateway</td>
+                                    <td>There is something wrong witn the gateway.</td>
+                                </tr>
+                                <tr>
+                                    <td>503</td>
+                                    <td>Service unavailable</td>
+                                    <td>The service is unavailable.</td>
+                                </tr>
+                                <tr>
+                                    <td>504</td>
+                                    <td>Gateway Time-Out</td>
+                                    <td>Gateway has timed out.</td>
+                                </tr>
+                                <tr>
+                                    <td>505</td>
+                                    <td>HTTP version Not Supported</td>
+                                    <td>When using a version of the protocol, in which they don't know how to communicate with.</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div><!--End of Table Division-->
+                </div><!--End of Collapse Division-->
+            </div><!--End of Division-->
+        </div><!--End of Row-->
+    </div><!--End of Container-->
 
     <footer>
         <div class="container">
