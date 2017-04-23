@@ -1,0 +1,25 @@
+Methods of nodes
+appendChild()
+A selected childNode arguement will be included in the current node as last child.
+cloneNode()
+A node can be cloned and possibly, all the contents associated with it.
+compareDocumentPosition()
+Position will be compared from one node to another node originating from any document.
+contains()
+Elements that would be selected which are included in a string that is specified. 
+getRootNode()
+The root of the context object could include a shadow root as long as it is obtainable.
+hasChildNodes()
+A boolean will be returned if the element includes child nodes which are returned.
+insertBefore()
+The first node located in the parameter will be inserted. It will be included before the second child of the element in the Node.
+isEqualNode()
+A boolean that will be returned which could imply when two same type nodes match along with its established data point.
+isSameNode()
+A boolean that will be returned which could imply when two same type nodes are alike and reference the respective object.
+normalize()
+All text nodes will be cleaned on an element where adjacents will be merged and empty content will be removed. 
+removeChild()
+A child node that should be a child of a present node will be removed from the present element.
+replaceChild()
+A current child node will be replaced with a second node in a given parameter. 
