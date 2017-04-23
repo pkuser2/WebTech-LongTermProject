@@ -890,6 +890,337 @@
         </div>
     </section>
 
+    <div class="container">
+        <div class="row">
+            <dl>
+                <dt class="lead">What is JavaScript?</dt>
+                    <dd class="indentThis">Most used Client-Side Scripting. It’s most well-known as the scripting language for Web pages.</dd>
+                    <dd class="indentThis">Originate from Netscape</dd>
+                <dt class="lead">Ways of Associating Scripts</dt>
+                    <dd>
+                        <ol>
+                            <li>Externally Linked
+                                <ul>
+                                    <li><code>&lt;script src="myscripts.js"&gt; &lt;/script&gt;</code></li>
+                                </ul>
+                            </li>
+                            <li>Embedded
+                                <ul>
+                                    <li><code>&lt;script&gt; document.getElementById("demo").innerHTML = "My First JavaScript"; &lt;/script&gt;</code></li>
+                                </ul>
+                            </li>
+                            <li>Inline
+                                <ul>
+                                    <li><code>&lt;p&gt;&lt;script&gt;&lt; a href="#" onClick="alert('Hello');"&gt; Click Me &lt;/a&gt;&lt;/p&gt;</code></li>
+                                </ul>
+                            </li>
+                        </ol>
+                    </dd>
+                <dt class="lead">What is Top-Level / Global Code?</dt>
+                    <dd class="indentThis">Code that is not inside a function</dd>
+                    <dd class="indentThis">Only gets executed when you encounter them</dd>
+                <dt class="lead">What is Function Code?</dt>
+                    <dd class="indentThis">Code that is inside of a function</dd>
+                    <dd class="indentThis">Only gets executed when you call the function</dd>
+                <dt class="lead">Externally Linked Scripts</dt>
+                    <dd>
+                        <ol>
+                            <li><strong>Defer</strong>
+                                <ul>
+                                    <li>Fetches the code but waits until the document has done rendering before executing</li>
+                                </ul>
+                            </li>
+                            <li><strong>Async</strong>
+                                <ul>
+                                    <li>Asynchronous Loading / Fetching</li>
+                                    <li>Readily executes the script after compiling</li>
+                                </ul>
+                            </li>
+                            <li><strong>If Null</strong>
+                                <ul>
+                                    <li>The execution depends on where the code is placed</li>
+                                </ul>
+                            </li>
+                            <li><strong>No Script</strong>
+                                <ul>
+                                    <li>Displays when scripting in a browser is not accepted or is not enabled</li>
+                                    <li>Alternative content if the script support is not available</li>
+                                </ul>
+                            </li>
+                        </ol>
+                    </dd>
+                <dt class="lead"> BASIC SCRIPTING</dt>
+                <dt><strong>window</strong></dt>
+                    <dd class="indentThis">Global Object that is used to interact with the environment</dd>
+                    <dd>
+                        <ul>
+                            <li><strong>Properties of Window</strong>
+                                <ul>
+                                    <li>Navigator (Browser)</li>
+                                    <li>Vendor (Example: Google)</li>
+                                    <li>appVersion</li>
+                                    <li>appName</li>
+                                    <li>screen
+                                        <ul>
+                                            <li>width</li>
+                                            <li>height</li>
+                                            <li>orientation</li>
+                                            <li>colorDef</li>
+                                        </ul>
+                                    </li>
+                                    <li><strong>document</strong>
+                                        <ul>
+                                            <li>Represents the Document HTML</li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </dd>
+            </dl>
+            <div class="row">
+                <div class="col-md-6">
+                    <dl>
+                        <dt class="lead">EDITING THE CONTENT OF THE DOCUMENTS</dt>
+                            <dd>
+                                <ol>
+                                    <li>getElementById()
+                                        <ul>
+                                            <li>Returns a reference to the element by its ID</li>
+                                        </ul>
+                                    </li>
+
+                                    <li>getElementsByTagName()
+                                        <ul>
+                                            <li>Returns an HTMLCollection of elements with the given tag name</li>
+                                        </ul>
+                                    </li>
+
+                                    <li>textContent = “”</li>
+
+                                    <li>innerText = “”
+                                        <ul>
+                                            <li>Treated as Literal Text</li>
+                                        </ul>
+                                    </li>
+
+                                    <li>innerHTML = “”
+                                        <ul>
+                                            <li>Treated as Markup</li>
+                                        </ul>
+                                    </li>
+
+                                    <li>outerHTML = “”
+                                        <ul>
+                                            <li>Treated as Tag</li>
+                                        </ul>
+                                    </li>
+                                </ol>
+                            </dd>
+                    </dl>
+                </div>   
+                <div class="col-md-6">
+                    <img src="img/HTMLTags.png" class="img-responsive center-block" alt="HTML Tags Image representation">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <dl>
+                        <dt class="lead">CHANGING THE ATTRIBUTES IN THE DOCUMENT</dt>
+                            <dd><code>h = document.getElementById(‘h’)</code></dd>
+                        <dt class="lead">ADDING ATTRIBUTES IN THE DOCUMENT</dt>
+                            <dd><code>h.title = “en-us”</code></dd>
+                            <dd><code>h.lang = “en-uk” or h[‘lang’] = en-uk</code></dd>
+                            <dd><code>h.setAttribute(‘data-extra’, ‘value’)</code></dd>
+                            <dd><code>h.style = ‘color : blue’</code></dd>
+                            <dd><code>h.style.color = ‘must be a string</code></dd>
+                            <dd><code>h.style.fontSize = ‘3em’</code></dd>
+                            <dd><code>h.style.backgroundColor = ‘blue’ </code></dd>
+                            <dd><code>h.className = ‘green-text’</code></dd>
+                        <dt class="lead">document.querySelector()</dt>
+                            <dd>
+                                <ul>
+                                    <li>The first element of the document shall be returned if the chosen selector/s are matched</li>
+                                    <li><strong>Targeting the First Paragraph</strong>
+                                        <ul>
+                                            <li><code>document.querySelector(‘p’)</code></li>
+                                        </ul>
+                                    </li>
+
+                                    <li><strong>Targeting the First Type Paragraph</strong>
+                                        <ul>
+                                            <li><code>document.querySelector(‘p’ : first-of-type)</code></li>
+                                        </ul>
+                                    </li>
+
+                                    <li><strong>Targeting All that Matches</strong>
+                                        <ul>
+                                            <li><code>document.querySelectorAll</code></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </dd>
+                        <dt class="lead">document.childNode</dt>
+                            <dd class="indentThis">Methods which are definite to Node objectsthat have a possibility to have a parent and are contained within the childNodes interface.</dd>
+                        <dt class="lead">document.children</dt>
+                            <dd class="indentThis">A live HTML Collection is returned as a read-only property in the Node through child elements.</dd>
+                    </dl>
+                </div>
+                <div class="col-md-6">
+                    <img src="img/nodes.png" class="img-responsive center-block" alt="Node Img Representation">
+                </div>
+            </div>
+            <div class="row">
+                <div class="table-responsive PropertyNode">   
+                    <h2 class="text-center">PROPERTIES OF NODES</h2>       
+                      <table class="table">
+                        <thead>
+                          <tr>
+                            <th>Code</th>
+                            <th>Description</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                                <td><code>childNodes</code></td>
+                                <td>A NodeList which contains all children of a node is returned. Once NodeList is live and changes within the Node which have children, then the NodeList will be updated automatically. </td>
+                          </tr>
+
+                          <tr>
+                                <td><code>firstChild</code></td>
+                                <td>A node which represents the first child node is returned. If not, then the result would be null if no child were to be found.</td>
+                          </tr>
+
+                          <tr>
+                                <td><code>lastChild</code></td>
+                                <td>A node which represents the last child node is returned. If not, then the result would be null if no child were to be found.</td>
+                          </tr>
+
+                          <tr>
+                                <td><code>nextSibling</code></td>
+                                <td>This node will be represented by the following node in the tree. It will be null if there is no node.</td>
+                          </tr>
+
+                          <tr>
+                                <td><code>nodeName</code></td>
+                                <td></td>
+                          </tr>
+
+                          <tr>
+                                <td><code>nodeType</code></td>
+                                <td></td>
+                          </tr>
+
+                          <tr>
+                                <td><code>nodeValue</code></td>
+                                <td></td>
+                          </tr>
+
+                          <tr>
+                                <td><code>ownerDocument</code></td>
+                                <td></td>
+                          </tr>
+
+                          <tr>
+                                <td><code>parentNode</code></td>
+                                <td></td>
+                          </tr>
+
+                          <tr>
+                                <td><code>parentElement</code></td>
+                                <td></td>
+                          </tr>
+
+                          <tr>
+                                <td><code>previousSibling</code></td>
+                                <td></td>
+                          </tr>
+
+                          <tr>
+                                <td><code>textContent</code></td>
+                                <td></td>
+                          </tr>
+
+                        </tbody>
+                    </table>
+                </div>
+
+                <div class="table-responsive NodeMethod">   
+                    <h2 class="text-center">METHODS OF NODES</h2>       
+                      <table class="table">
+                        <thead>
+                          <tr>
+                            <th>Code</th>
+                            <th>Description</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                                <td><code>appendChild()</code></td>
+                                <td></td>
+                          </tr>
+
+                          <tr>
+                                <td><code>cloneNode()</code></td>
+                                <td></td>
+                          </tr>
+
+                          <tr>
+                                <td><code>compareDocumentPosition()</code></td>
+                                <td></td>
+                          </tr>
+
+                          <tr>
+                                <td><code>contains()</code></td>
+                                <td></td>
+                          </tr>
+
+                          <tr>
+                                <td><code>getRootNode()</code></td>
+                                <td></td>
+                          </tr>
+
+                          <tr>
+                                <td><code>hasChildNodes()</code></td>
+                                <td></td>
+                          </tr>
+
+                          <tr>
+                                <td><code>insertBefore()</code></td>
+                                <td></td>
+                          </tr>
+
+                          <tr>
+                                <td><code>isEqualNode()</code></td>
+                                <td></td>
+                          </tr>
+
+                          <tr>
+                                <td><code>isSameNode()</code></td>
+                                <td></td>
+                          </tr>
+
+                          <tr>
+                                <td><code>normalize()</code></td>
+                                <td></td>
+                          </tr>
+
+                          <tr>
+                                <td><code>removeChild()</code></td>
+                                <td></td>
+                          </tr>
+
+                          <tr>
+                                <td><code>replaceChild()</code></td>
+                                <td></td>
+                          </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div> <!--END OF ROW-->
+    </div> <!--END OF CONTAINER-->
+
     <footer>
         <div class="container">
             <img src="img/LogoWhite.png" alt="footerImage">
