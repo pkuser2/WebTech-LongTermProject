@@ -1,0 +1,27 @@
+
+NODES
+PROPERTIES OF NODES
+childNodes
+A NodeList which contains all children of a node is returned. Once NodeList is live and changes within the Node which have children, then the NodeList will be updated automatically. 
+firstChild
+A node which represents the first child node is returned. If not, then the result would be null if no child were to be found.
+lastChild
+A node which represents the last child node is returned. If not, then the result would be null if no child were to be found.
+nextSibling
+This node will be represented by the following node in the tree. It will be null if there is no node.
+nodeName
+A DOMString which contains the Node name is returned.
+nodeType
+A short representing a type of a node that is unsigned will be returned.
+nodeValue
+The value of a current node is returned.
+ownerDocument
+The document is returned from where it originated.
+parentNode
+The parent node is returned.
+parentElement
+The element that is the parent of the node is returned.
+previousSibling
+A node that represents the node before it through the document tree. It would be null if there is no node.
+textContent
+Content that is textual to its element and its descendants will be returned.
