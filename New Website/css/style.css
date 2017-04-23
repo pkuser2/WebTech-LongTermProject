@@ -97,6 +97,7 @@ code{
   font-size: 15px;
   line-height: 0;
   padding-left: 20px;
+  font-family: monospace, monospace;
 }
 
 .syntax{
@@ -112,4 +113,29 @@ code{
   padding: 15px 100px;
   border-radius: 20px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.hvr-bounce-in {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px transparent;
+  -webkit-transition-duration: 0.5s;
+  transition-duration: 0.5s;
+}
+.hvr-bounce-in:hover {
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2);
+  -webkit-transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
+  transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
+}
+.sampleCode{
+  background-color: #e5e5e5;
+  padding: 20px;
+}
+.sampleCode p{
+  font-size: 15px;
+  line-height: 0;
+  font-family: monospace, monospace;
 }

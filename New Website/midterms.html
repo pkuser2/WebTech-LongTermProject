@@ -1290,7 +1290,7 @@
                         <tbody>
                             <tr>
                                 <td>Boolean</td>
-                                <td>A logical data type that can have only the values true or false</td>
+                                <td>Data type which is logical holding two values which are true or false.</td>
                                 <td class="example">
                                     <p><code>if(0) {</code></p>
                                     <p><code>console.log("YES");</code></p>
@@ -1302,7 +1302,7 @@
 
                             <tr>
                                 <td>String</td>
-                                <td>A constructor for strings, or a sequence of characters</td>
+                                <td>A string or a succession of strings will be placed in this constructor</td>
                                 <td class="example">
                                     <p><code>'Sample String Text'</code></p>
                                 </td>
@@ -1310,7 +1310,7 @@
 
                             <tr>
                                 <td>Number</td>
-                                <td>Object allowing you to work with numerical values</td>
+                                <td>Values that are numerical will be allowed by the following object</td>
                                 <td class="example">
                                     <p><code>new Number(value);</code></p>
                                 </td>
@@ -1318,7 +1318,7 @@
 
                             <tr>
                                 <td>Symbol</td>
-                                <td>Used as an identifier for object properties</td>
+                                <td>The properties of an object is applied in this identifier</td>
                                 <td class="example">
                                     <p><code>Symbol([description])</code></p>
                                 </td>
@@ -1329,8 +1329,8 @@
             </div>
             <div class="row">
                 <h2 class="text-center">STRUCTURED / STANDARD TYPES</h2>
-                <div class="col-sm-8 col-sm-offset-2 MessageHeaders">
-                <button type="button" class="btn btn-info btn-block btn-group btn-padding" data-toggle="collapse" data-target="#array">ARRAY</button>
+                <div class="col-sm-8 col-sm-offset-2 StructuredTypes">
+                <button type="button" class="btn btn-info btn-block btn-group btn-padding hvr-bounce-in" data-toggle="collapse" data-target="#array">ARRAY</button>
                     <div id="array" class="collapse code collapseBG">
 
                         <h2 class="lead">Mutator Methods</h2>
@@ -1412,7 +1412,7 @@
                         <h3 class="lead"><code>Array.prototype.concat()</code></h3>
                             <div class="definition">
                                 <p>
-                                    
+                                A new array is returned by means of joining with  other values or arrays.    
                                 </p>
                             </div>
                             <div class="syntax">
@@ -1421,7 +1421,7 @@
                         <h3 class="lead"><code>Array.prototype.indexOf()</code></h3>
                             <div class="definition">
                                 <p>
-                                    
+                                The first or least index is returned if the array equals to a certain value or -1 which means none was found.    
                                 </p>
                             </div>
                             <div class="syntax">
@@ -1430,7 +1430,7 @@
                         <h3 class="lead"><code>Array.prototype.lastIndexOf()</code></h3>
                             <div class="definition">
                                 <p>
-                                    
+                                 The last or greatest index of the element with the array equal to specified value   
                                 </p>
                             </div>
                             <div class="syntax">
@@ -1538,6 +1538,65 @@
                             <div class="syntax">
                                 <p>array.reduceRight(callback[, initialValue])</p>
                             </div>
+                    </div>
+                    <button type="button" class="btn btn-info btn-block btn-group btn-padding hvr-bounce-in" data-toggle="collapse" data-target="#function">FUNCTION</button>
+                    <div id="function" class="collapse code collapseBG">
+                    <h2 class="lead">Functions Can Return Any Type of Value</h2>
+                        <div class="sampleCode">
+                            <p>function fn(arg){</p>
+                            <p>switch (arg){</p>
+                            <p>case 0: return true;</p>
+                            <p>case 1: return 100;</p>
+                            <p>case 2: return "hello";</p>
+                            <p>case 3: return [1,2,3];</p>
+                            <p>case 4: return [name, 'ako', age, '10'];</p>
+                            <p>case 5: return function();</p>
+                            <p>}</p>
+                            <p>}</p>
+                        </div>
+
+                    <h2 class="lead"> Function Expressions</h2>
+                        <div class="sampleCode">
+                            <p>(function (a,b) { return a + b})(10, 20);</p>
+                        </div>
+
+                    <h2 class="lead"> Arrow Syntax</h2>
+                        <div class="sampleCode">
+                            <p>var multiply = (a,b) => return {a*b};</p>
+                            <p>var product = multiply(10,20);</p>
+                        </div>
+
+                    <h2 class="lead"> Recursive Functions</h2>
+                        <div class="sampleCode">
+                            <p>function factorial(n){</p>
+                            <p>if (n = 0)</p>
+                            <p>throw "Invalid Argument";</p>
+                            <p>} else if (n >= 0) {</p>
+                            <p> return 1;</p>
+                            <p>} relse {</p>
+                            <p>return n * factorial (n-1)</p>
+                            <p>}</p>
+                            <p>}</p>
+                        </div>
+
+                    <h2 class="lead"> Functions Can Be Nested</h2>
+                        <div class="sampleCode">
+                            <p>function outer() {</p>
+                            <p>// some code here</p>
+                            <p>function inner() {</p>
+                            <p>// some inner code here</p>
+                            <p>}</p>
+                            <p>}</p>
+                        </div>
+                    </div>
+                    <button type="button" class="btn btn-info btn-block btn-group btn-padding hvr-bounce-in" data-toggle="collapse" data-target="#object">OBJECT</button>
+                    <div id="object" class="collapse code collapseBG">
+                        <h2 class="lead">Creating an Object</h2>
+                        <div class="sampleCode">
+                            <p>var school= new Object();</p>
+                            <p>school.name = ‘SLU’;</p>
+                            <p>school.description = ‘Light of the North’;</p>
+                        </div>
                     </div>
                 </div>
             </div>
