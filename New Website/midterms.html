@@ -1103,42 +1103,42 @@
 
                           <tr>
                                 <td><code>nodeName</code></td>
-                                <td></td>
+                                <td>A DOMString which contains the Node name is returned.</td>
                           </tr>
 
                           <tr>
                                 <td><code>nodeType</code></td>
-                                <td></td>
+                                <td>A short representing a type of a node that is unsigned will be returned.</td>
                           </tr>
 
                           <tr>
                                 <td><code>nodeValue</code></td>
-                                <td></td>
+                                <td>The value of a current node is returned.</td>
                           </tr>
 
                           <tr>
                                 <td><code>ownerDocument</code></td>
-                                <td></td>
+                                <td>The document is returned from where it originated</td>
                           </tr>
 
                           <tr>
                                 <td><code>parentNode</code></td>
-                                <td></td>
+                                <td>The parent node is returned.</td>
                           </tr>
 
                           <tr>
                                 <td><code>parentElement</code></td>
-                                <td></td>
+                                <td>The element that is the parent of the node is returned</td>
                           </tr>
 
                           <tr>
                                 <td><code>previousSibling</code></td>
-                                <td></td>
+                                <td>A node that represents the node before it through the document tree. It would be null if there is no node</td>
                           </tr>
 
                           <tr>
                                 <td><code>textContent</code></td>
-                                <td></td>
+                                <td>Content that is textual to its element and its descendants will be returned</td>
                           </tr>
 
                         </tbody>
@@ -1157,65 +1157,388 @@
                         <tbody>
                           <tr>
                                 <td><code>appendChild()</code></td>
-                                <td></td>
+                                <td>A selected childNode arguement will be included in the current node as last child.</td>
                           </tr>
 
                           <tr>
                                 <td><code>cloneNode()</code></td>
-                                <td></td>
+                                <td>A node can be cloned and possibly, all the contents associated with it.</td>
                           </tr>
 
                           <tr>
                                 <td><code>compareDocumentPosition()</code></td>
-                                <td></td>
+                                <td>Position will be compared from one node to another node originating from any document</td>
                           </tr>
 
                           <tr>
                                 <td><code>contains()</code></td>
-                                <td></td>
+                                <td>Elements that would be selected which are included in a string that is specified</td>
                           </tr>
 
                           <tr>
                                 <td><code>getRootNode()</code></td>
-                                <td></td>
+                                <td>The root of the context object could include a shadow root as long as it is obtainable.</td>
                           </tr>
 
                           <tr>
                                 <td><code>hasChildNodes()</code></td>
-                                <td></td>
+                                <td>A boolean will be returned if the element includes child nodes which are returned.</td>
                           </tr>
 
                           <tr>
                                 <td><code>insertBefore()</code></td>
-                                <td></td>
+                                <td>The first node located in the parameter will be inserted. It will be included before the second child of the element in the Node.</td>
                           </tr>
 
                           <tr>
                                 <td><code>isEqualNode()</code></td>
-                                <td></td>
+                                <td>A boolean that will be returned which could imply when two same type nodes match along with its established data point</td>
                           </tr>
 
                           <tr>
                                 <td><code>isSameNode()</code></td>
-                                <td></td>
+                                <td>A boolean that will be returned which could imply when two same type nodes are alike and reference the respective object.</td>
                           </tr>
 
                           <tr>
                                 <td><code>normalize()</code></td>
-                                <td></td>
+                                <td>All text nodes will be cleaned on an element where adjacents will be merged and empty content will be removed.</td>
                           </tr>
 
                           <tr>
                                 <td><code>removeChild()</code></td>
-                                <td></td>
+                                <td>A child node that should be a child of a present node will be removed from the present element</td>
                           </tr>
 
                           <tr>
                                 <td><code>replaceChild()</code></td>
-                                <td></td>
+                                <td>A current child node will be replaced with a second node in a given parameter. </td>
                           </tr>
                         </tbody>
                     </table>
+                </div>
+                <div class="row">
+                    <div class="col-md-6">
+                        <dl>
+                            <dt class="lead">CREATING ELEMENT NODE WITH CHILD NODE</dt>
+                                <dd><code>h1 = document.createElement</code></dd>
+                                <dd><code>t2 = document.createTextNode(‘Hi’)</code></dd>
+                                <dd><code>t1 = document.createTextNode(‘Hello’)</code></dd>
+                                <dd><code>h1.insertBefore(t2, t1)</code></dd>
+                                <dd><code>t3 = document.createTextNode(‘Bye’)</code></dd>
+                                <dd><code>h1.replaceChild(t3, t2)</code></dd>
+                                <dd><code>h1.removeChild(t2)</code></dd>
+                        </dl>
+                    </div>
+                    <div class="col-md-6">
+                        <dl>
+                            <dt class="lead">TO CLONE AN ELEMENT</dt>
+                                <dd><code>h2 = h1.cloneNode (true)</code> - for deep copy</dd>
+                                <dd><code>cloneNode()</code> - shallow copy</dd>
+                            <dt class="lead">CREATE DOCUMENT FRAGMENT</dt>
+                                <dd><code>df =  document.createDocumentFragment</code></dd>
+                                <dd><code>df.appendChild (document.createTextNode(‘hello’))</code></dd>
+                                <dd><code>imn = document.importNode (df.firstChild, true)</code></dd>
+                                <dd><code>adn = document.adoptNode (df.first-child)</code></dd>
+                        </dl>
+                    </div>
+                </div>
+                <div class="row">
+                    <h2>JAVASCRIPT SYNTAX</h2>
+                    <dl>
+                        <dt>Imperative programming language</dt>
+                            <dd>You create instructions</dd>
+                            <dd>You sequence the instructions</dd>
+                            <dd>You control the instructions</dd>
+                    </dl>
+                    <h2 class="text-center">DIFFERENCE OF JAVA AND JAVASCRIPT</h2>
+                    <div class="col-md-6">
+                        <dl>
+                            <dt class="lead">JAVA</dt>
+                                <dd>Strongly typed language</dd>
+                                <dd class="indentThis">Governed by a type system</dd>
+                                <dd>Java compiler can help you with your errors</dd>
+                        </dl>
+                    </div>
+                    <div class="col-md-6">
+                        <dl>
+                            <dt class="lead">JAVASCRIPT</dt>
+                                <dd>Weakly Type / Dynamic Type</dd>
+                                <dd>   
+                                    <ul>
+                                        <li>Declaring Variables <code>*var =</code></li>
+                                        <li>Declaring Functions <code>*function__()</code></li>
+                                    </ul>
+                                </dd>
+                                <dd>More flexible language</dd>
+                                <dd>JavaScript Compiler cannot help you from your errors.</dd>
+                        </dl>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="table-responsive PrimitiveTypes">   
+                    <h2 class="text-center">PRIMITIVE DATA TYPES</h2>       
+                      <table class="table">
+                        <thead>
+                            <tr>
+                                <th>Type</th>
+                                <th>Description</th>
+                                <th>Sample Code</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Boolean</td>
+                                <td>A logical data type that can have only the values true or false</td>
+                                <td class="example">
+                                    <p><code>if(0) {</code></p>
+                                    <p><code>console.log("YES");</code></p>
+                                    <p><code>} else {</code></p>
+                                    <p><code>console.log("NO");</code></p>
+                                    <p><code>}</code></p>
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td>String</td>
+                                <td>A constructor for strings, or a sequence of characters</td>
+                                <td class="example">
+                                    <p><code>'Sample String Text'</code></p>
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td>Number</td>
+                                <td>Object allowing you to work with numerical values</td>
+                                <td class="example">
+                                    <p><code>new Number(value);</code></p>
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td>Symbol</td>
+                                <td>Used as an identifier for object properties</td>
+                                <td class="example">
+                                    <p><code>Symbol([description])</code></p>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <div class="row">
+                <h2 class="text-center">STRUCTURED / STANDARD TYPES</h2>
+                <div class="col-sm-8 col-sm-offset-2 MessageHeaders">
+                <button type="button" class="btn btn-info btn-block btn-group btn-padding" data-toggle="collapse" data-target="#array">ARRAY</button>
+                    <div id="array" class="collapse code collapseBG">
+
+                        <h2 class="lead">Mutator Methods</h2>
+                        <h3 class="lead"><code>Array.prototype.copyWithin()</code></h3>
+                            <div class="definition">
+                                <p>A succession of array elements will be copied in the array.</p>
+                            </div>
+                            <div class="syntax">
+                                <p>arr.copyWithin(target)</p>
+                                <p>arr.copyWithin(target, start)</p>
+                                <p>arr.copyWithin(target, start, end)</p>
+                            </div>
+                        <h3 class="lead"><code>Array.prototype.pop()</code></h3>
+                            <div class="definition">
+                                <p>Last array element will be removed and will be brought back to its respective element.</p>
+                            </div>
+                            <div class="syntax">
+                                <p>array.pop()</p>
+                            </div>
+                        <h3 class="lead"><code>Array.prototype.push()</code></h3>
+                            <div class="definition">
+                                <p>
+                                 Element/s could be added to the end of the array and returns the array’s new length.   
+                                </p>
+                            </div>
+                            <div class="syntax">
+                                <p>array.push([element1[, ...[, elementN]]])</p>
+                            </div>
+                        <h3 class="lead"><code>Array.prototype.reverse()</code></h3>
+                            <div class="definition">
+                                <p>
+                                 Order of the elements will be interchanged where the first becomes last and vice versa.   
+                                </p>
+                            </div>
+                            <div class="syntax">
+                                <p>array.reverse()</p>
+                            </div>
+                        <h3 class="lead"><code>Array.prototype.shift()</code></h3>
+                            <div class="definition">
+                                <p>
+                                 The first element will be removed and that element will be returned.   
+                                </p>
+                            </div>
+                            <div class="syntax">
+                                <p>array.shift()</p>
+                            </div>
+                        <h3 class="lead"><code>Array.prototype.sort()</code></h3>
+                            <div class="definition">
+                                <p>
+                                Elements will be sorted and the array will return.    
+                                </p>
+                            </div>
+                            <div class="syntax">
+                                <p>array.sort()</p>
+                                <p>array.sort(compareFunction)</p>
+                            </div>
+                        <h3 class="lead"><code>Array.prototype.splice()</code></h3>
+                            <div class="definition">
+                                <p>
+                                In the array you can add or remove elements, you could even do both    
+                                </p>
+                            </div>
+                            <div class="syntax">
+                                <p>array.splice(start)</p>
+                                <p>array.splice(start, deleteCount)</p>
+                                <p>array.splice(start, deleteCount, item1, item2, ...)</p>
+                            </div>
+                        <h3 class="lead"><code>Array.prototype.unshift()</code></h3>
+                            <div class="definition">
+                                <p>
+                                 Element/s can be added to the array’s front and the array’s new length will be returned.   
+                                </p>
+                            </div>
+                            <div class="syntax">
+                                <p> array.unshift([element1[, ...[, elementN]]])</p>
+                            </div>
+
+                        <h2 class="lead">Accessor methods</h2>
+                        <h3 class="lead"><code>Array.prototype.concat()</code></h3>
+                            <div class="definition">
+                                <p>
+                                    
+                                </p>
+                            </div>
+                            <div class="syntax">
+                                <p>var new_array = old_array.concat(value1[, value2[, ...[, valueN]]])</p>
+                            </div>
+                        <h3 class="lead"><code>Array.prototype.indexOf()</code></h3>
+                            <div class="definition">
+                                <p>
+                                    
+                                </p>
+                            </div>
+                            <div class="syntax">
+                                <p>array.indexOf(searchElement[, fromIndex])</p>
+                            </div>
+                        <h3 class="lead"><code>Array.prototype.lastIndexOf()</code></h3>
+                            <div class="definition">
+                                <p>
+                                    
+                                </p>
+                            </div>
+                            <div class="syntax">
+                                <p>array.lastIndexOf(searchElement)</p>
+                                <p>array.lastIndexOf(searchElement, fromIndex)</p>
+                            </div>
+                        <h3 class="lead"><code>Array.prototype.toString()</code></h3>
+                            <div class="definition">
+                                <p>
+                                    
+                                </p>
+                            </div>
+                            <div class="syntax">
+                                <p>array.toString()</p>
+                            </div>
+                        <h3 class="lead"><code>Array.prototype.toLocaleString()</code></h3>
+                            <div class="definition">
+                                <p>
+                                    
+                                </p>
+                            </div>
+                            <div class="syntax">
+                                <p>array.toLocaleString();</p>
+                            </div>
+
+                        <h2 class="lead">Iteration methods</h2>
+                        <h3 class="lead"><code>Array.prototype.entries()</code></h3>
+                            <div class="definition">
+                                <p>
+                                    
+                                </p>
+                            </div>
+                            <div class="syntax">
+                                <p>array.entries()</p>
+                            </div>
+                        <h3 class="lead"><code>Array.prototype.every()</code></h3>
+                            <div class="definition">
+                                <p>
+                                    
+                                </p>
+                            </div>
+                            <div class="syntax">
+                                <p>array.every(callback[, thisArg])</p>
+                            </div>
+                        <h3 class="lead"><code>Array.prototype.filter()</code></h3>
+                            <div class="definition">
+                                <p>
+                                    
+                                </p>
+                            </div>
+                            <div class="syntax">
+                                <p>var newArray = arr.filter(callback[, thisArg])</p>
+                            </div>
+                        <h3 class="lead"><code>Array.prototype.findIndex()</code></h3>
+                            <div class="definition">
+                                <p>
+                                    
+                                </p>
+                            </div>
+                            <div class="syntax">
+                                <p>array.findIndex(callback[, thisArg])</p>
+                            </div>
+                        <h3 class="lead"><code>Array.prototype.forEach()</code></h3>
+                            <div class="definition">
+                                <p>
+                                    
+                                </p>
+                            </div>
+                            <div class="syntax">
+                                <p>arr.forEach(function callback(currentValue, index, array) {//your iterator}[, thisArg]);</p>
+                            </div>
+                        <h3 class="lead"><code>Array.prototype.keys()</code></h3>
+                            <div class="definition">
+                                <p>
+                                    
+                                </p>
+                            </div>
+                            <div class="syntax">
+                                <p>array.keys()</p>
+                            </div>
+                        <h3 class="lead"><code>Array.prototype.map()</code></h3>
+                            <div class="definition">
+                                <p>
+                                    
+                                </p>
+                            </div>
+                            <div class="syntax">
+                                <p>var new_array = arr.map(callback[, thisArg])</p>
+                            </div>
+                        <h3 class="lead"><code>Array.prototype.reduce()</code></h3>
+                            <div class="definition">
+                                <p>
+                                    
+                                </p>
+                            </div>
+                            <div class="syntax">
+                                <p>array.reduce(callback, [initialValue])</p>
+                            </div>
+                        <h3 class="lead"><code>Array.prototype.reduceRight()</code></h3>   
+                            <div class="definition">
+                                <p>
+                                    
+                                </p>
+                            </div>
+                            <div class="syntax">
+                                <p>array.reduceRight(callback[, initialValue])</p>
+                            </div>
+                    </div>
                 </div>
             </div>
         </div> <!--END OF ROW-->

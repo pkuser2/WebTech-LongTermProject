@@ -73,3 +73,43 @@
 .indentThis{
 	text-indent: 35px;
 }
+
+.example p{
+	line-height: 0px;
+	font-size: 15px;
+	padding: 2px;
+}
+
+.collapse,
+.code{
+	padding:0 10px;
+}
+
+h3,
+.lead
+code{
+  font-size: 15px;
+  padding: 5;
+  margin: 0;
+}
+
+.syntax p{
+  font-size: 15px;
+  line-height: 0;
+  padding-left: 20px;
+}
+
+.syntax{
+  background-color: #e5e5e5;
+  padding: 20px;
+}
+
+.definition{
+  background-color: #f4f7af;
+}
+
+.collapseBG{
+  padding: 15px 100px;
+  border-radius: 20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
