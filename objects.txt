@@ -1,0 +1,3 @@
+In Javascript objects, can be compared to those in real life. It is an entity that is independent. 
+An object is defined through properties and characteristics.A property is assigned with a value. 
+example: objectName.propertyName
