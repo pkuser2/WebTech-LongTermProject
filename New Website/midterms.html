@@ -328,10 +328,9 @@
                         </tbody>
                       </table>
                 </div> <!--End of Table Division-->
-
-            </div>
+            </div> <!--END OF TABLE ROW-->
         </div><!--END OF ROW-->
-    </div><!--END OF CONTAINER-->
+    </div><!--END OF HTML CONTAINER-->
 
     <section id="css" class="sectBG bg-primary7 text-center">
         <div class="container">
@@ -376,26 +375,510 @@
                         </ul>
                     </dd>
                 <dt class="lead">Sources of Styles</dt>
-                <dd>
-                    <ol>
-                        <li>Author Style</li>
-                            <ul>
-                                <li>Style that the author of the website created</li>
-                            </ul>
-                        <li>User Style</li>
-                            <ul>
-                                <li>Allow the user to override the author style</li>
-                            </ul>
-                        <li>User Agent Style</li>
-                            <ul>
-                                <li>A style that is already available in the browser</li>
-                            </ul>
-                    </ol>
-                </dd>
-
+                    <dd>
+                        <ol>
+                            <li>Author Style
+                                <ul>
+                                    <li>Style that the author of the website created</li>
+                                </ul>
+                            </li>
+                            <li>User Style
+                                <ul>
+                                    <li>Allow the user to override the author style</li>
+                                </ul>
+                            </li>
+                            <li>User Agent Style
+                                <ul>
+                                    <li>A style that is already available in the browser</li>
+                                </ul>
+                            </li>
+                        </ol>
+                    </dd>
             </dl>
-        </div> <!--END OF ROW-->
-    </div> <!--END OF CONTAINER-->
+
+            <div class="col-sm-10 col-sm-offset-1 CSSStatements">
+                <button type="button" class="btn btn-info btn-block btn-group btn-padding" data-toggle="collapse" data-target="#Statements">CSS Statements</button>
+                <div id="Statements" class="collapse">
+                <table class="table">
+                        <thead>
+                          <tr>
+                            <th>AT-RULES</th>
+                            <th>DESCRIPTION</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                                <td><code>@charset</code></td>
+                                <td>It interprets the character set that can be applied with the style sheet.</td>
+                          </tr>
+
+                          <tr>
+                                <td><code>@import</code></td>
+                                <td>It informs the CSS to add a stylesheet that is external.</td>
+                          </tr>
+
+                          <tr>
+                                <td><code>@namespace</code></td>
+                                <td>Informs the CSS engine that the content must have an XML container that could hold identifiers</td>
+                          </tr>
+
+                          <tr>
+                                <td><code>@media</code></td>
+                                <td>A group rule which could pertain with media as long as it meets specified conditions and content can be applied accordingly. It is also conditional.</td>
+                          </tr>
+
+                          <tr>
+                                <td><code>@supports</code></td>
+                                <td>Also conditional, this group rule affects content if the browser meets specified conditions. </td>
+                          </tr>
+
+                          <tr>
+                                <td><code>@document</code></td>
+                                <td>Group rule that applies content once the document stylesheets meets conditions.</td>
+                          </tr>
+
+                          <tr>
+                                <td><code>@page</code></td>
+                                <td>This describes layout changes especially once he document is printed.</td>
+                          </tr>
+
+
+                          <tr>
+                                <td><code>@font-face</code></td>
+                                <td>Describes the feature of an external font that would be downloaded.</td>
+                          </tr>
+
+                          <tr>
+                                <td><code>@keyframes</code></td>
+                                <td>Shows the aspect of intermediary steps of the animation sequence in CSS.</td>
+                          </tr>
+
+                          <tr>
+                                <td><code>@viewport</code></td>
+                                <td>Outlines the viewport for devices which utilize small screens.</td>
+                          </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+                <button type="button" class="btn btn-info btn-block btn-group btn-padding" data-toggle="collapse" data-target="#CSSRuleSet">CSS Rule Set</button>
+                <div id="CSSRuleSet" class="collapse">
+                    <img src="img/rule-set.png" class="img-responsive center-block" alt="Rule Set Image">
+                    <p>Consists of a selector followed by a declaration block that are delimited by braces. Inside the declaration block are the property declarations.-Property name and Property Value</p>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="table-responsive History">   
+            <h2 class="text-center">CSS Selectors </h2>       
+                <table class="table table-hover">
+                    <thead>
+                      <tr class="bg-primary">
+                        <th>SELECTOR</th>
+                        <th>TYPES OF SELECTOR</th>
+                        <th>KIND/S OF SELCTOR</th>
+                        <th>CODE</th>
+                        <th>CODE DESCRIPTION</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                    <!--SIMPLE SELECTORS-->
+                      <tr class="bg-info">
+                          <td>SIMPLE SELECTORS </td>
+                          <td>Type Selector</td>
+                          <td></td>
+                          <td><code>h1</code>, <code>p</code><code>div</code></td>
+                          <td></td>
+                      </tr>
+
+                      <tr class="bg-info">
+                          <td></td>
+                          <td colspan="2">Universal Selector</td>
+                          <td colspan="2"><code>*</code></td>
+                      </tr>
+
+                      <tr class="bg-info">
+                          <td></td>
+                          <td colspan="2">Attribute Selector</td>
+                          <td><code>[attr=value]</code></td>
+                          <td>This is a representation of an element which has the att attribute where the value is appointed with “val”.</td>
+                      </tr>
+
+                      <tr class="bg-info">
+                          <td colspan="3"></td>
+                          <td><code>[attr~=value]</code></td>
+                          <td>This is a representation of an element which has the att attribute where the value is appointed with separated list of words which have whitespace.</td>
+                      </tr>
+
+                      <tr class="bg-info"> 
+                          <td colspan="3"></td>
+                          <td><code>[attr|=value]</code></td>
+                          <td>This is a representation of an element which has the att attribute where the value is begins either with “val” or is followed by an “-”.</td>
+                      </tr>
+
+                      <tr class="bg-info">
+                          <td colspan="3"></td>
+                          <td><code>[attr^=value]</code></td>
+                          <td>This is a representation of an element which has the att attribute where the prefix begins with “val”.</td>
+                      </tr>
+
+                      <tr class="bg-info">
+                          <td colspan="3"></td>
+                          <td><code>[attr$=value]</code></td>
+                          <td>This is a representation of an element which has the att attribute where the value ends with “val” as the suffix.</td>
+                      </tr>
+
+                      <tr class="bg-info">
+                          <td colspan="3"></td>
+                          <td><code>[attr*=value]</code></td>
+                          <td>This is a representation of an element which has the att attribute where one instance of substring “val” is contained.</td>
+                      </tr>
+
+                      <tr class="bg-info">
+                          <td></td>
+                          <td>Class Selector</td>
+                          <td></td>
+                          <td><code>.class</code></td>
+                          <td></td>
+                      </tr>
+
+                      <tr class="bg-info">
+                          <td></td>
+                          <td colspan="2">ID Selector</td>
+                          <td colspan="2"><code>#id</code></td>
+                      </tr>
+
+                      <tr class="bg-danger">
+                          <td>PSEUDO CLASSES</td>
+                          <td>Dynamic Pseudo-Class</td>
+                          <td>Link Pseudo-Classes</td>
+                          <td><code>:link</code></td>
+                          <td>applies to links that have not yet been visited.</td>
+                      </tr>
+
+                      <tr class="bg-danger">
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td><code>:visited </code></td>
+                          <td>applies once the link has been visited by the user.</td>
+                      </tr>
+
+                      <tr class="bg-danger">
+                          <td colspan="2"></td>
+                          <td>User Action Pseudo-Classes</td>
+                          <td><code>:hover</code></td>
+                          <td>applies while the user designates an element with a pointing device</td>
+                      </tr>
+
+                      <tr class="bg-danger">
+                          <td colspan="3"></td>
+                          <td><code>:active</code></td>
+                          <td>applies while an element is being activated by the user</td>
+                      </tr>
+
+                      <tr class="bg-danger">
+                          <td colspan="3"></td>
+                          <td><code>:focus</code></td>
+                          <td>applies while an element has the focus</td>
+                      </tr>
+
+                      <tr class="bg-danger">
+                          <td></td>
+                          <td colspan="2">Target Pseudo-Class</td>
+                          <td><code>:target</code></td>
+                          <td>It is represented with the pseudo-class, :target.</td>
+                      </tr>
+
+                      <tr class="bg-danger">
+                          <td></td>
+                          <td colspan="2">Language Pseudo-Class</td>
+                          <td><code>:lang()</code></td>
+                          <td>It is represented as an element in the C language.</td>
+                      </tr>
+
+                      <tr class="bg-danger">
+                          <td></td>
+                          <td colspan="2">UI Element States Pseudo-Classes</td>
+                          <td><code>:enabled</code></td>
+                          <td>User elements will be in a state that is enabled.</td>
+                      </tr>
+
+                      <tr class="bg-danger">
+                          <td colspan="3"></td>
+                          <td><code>:disabled</code></td>
+                          <td>User elements will be in a state that is disabled</td>
+                      </tr>
+
+                      <tr class="bg-danger">
+                          <td colspan="3"></td>
+                          <td><code>:checked</code></td>
+                          <td>The user can toggle checkbox and radio elements with this state.</td>
+                      </tr>
+
+                      <tr class="bg-danger">
+                          <td colspan="3"></td>
+                          <td><code>:indeterminate</code></td>
+                          <td></td>
+                      </tr>
+
+                      <tr class="bg-danger">
+                          <td></td>
+                          <td colspan="2">Structural Pseudo-Classes</td>
+                          <td><code>:root</code></td>
+                          <td>In the document, this represents the root as an element.</td>
+                      </tr>
+
+                      <tr class="bg-danger">
+                          <td colspan="3"></td>
+                          <td><code>:first-child</code></td>
+                          <td>this represents the first child of another element as an element.</td>
+                      </tr>
+
+                      <tr class="bg-danger">
+                          <td colspan="3"></td>
+                          <td><code>:last-child</code></td>
+                          <td>This represents the last child of another element as an element.</td>
+                      </tr>
+
+                      <tr class="bg-danger">
+                          <td colspan="3"></td>
+                          <td><code>:only-child</code></td>
+                          <td>This represents the parent element as an element and no other children are in the parent element. </td>
+                      </tr>
+
+                      <tr class="bg-danger">
+                          <td colspan="3"></td>
+                          <td><code>:nth-child()</code></td>
+                          <td>This element in the document tree would have an+b-1 siblings before it.</td>
+                      </tr>
+
+                      <tr class="bg-danger">
+                          <td colspan="3"></td>
+                          <td><code>:nth-last-child()</code></td>
+                          <td>This element in the document tree would have an+b-1 siblings after it.</td>
+                      </tr>
+
+                      <tr class="bg-danger">
+                          <td colspan="3"></td>
+                          <td><code>:first-of-type</code></td>
+                          <td>This element would be represented with in the list of children of its own parent element that it is the type of its siblings.</td>
+                      </tr>
+
+                      <tr class="bg-danger">
+                          <td colspan="3"></td>
+                          <td><code>:last-of-type</code></td>
+                          <td>This element would be represented with in the list of children of its own parent element that it is the type of its siblings.</td>
+                      </tr>
+
+                      <tr class="bg-danger">
+                          <td colspan="3"></td>
+                          <td><code>:only-of-type</code></td>
+                          <td>This represents the parent element as an element and no other children are in the parent element and the element name is the same and is also expanded.</td>
+                      </tr>
+
+                      <tr class="bg-danger">
+                          <td colspan="3"></td>
+                          <td><code>:nth-of-type()</code></td>
+                          <td>This element in the document tree would have an+b-1 siblings before it and the element is the same expanded.</td>
+                      </tr>
+
+                      <tr class="bg-danger">
+                          <td colspan="3"></td>
+                          <td><code>:nth-last-of-type()</code></td>
+                          <td>This element in the document tree would have an+b-1 siblings after it and the element is the same expanded.</td>
+                      </tr>
+
+                      <tr class="bg-danger">
+                          <td colspan="3"></td> 
+                          <td><code>:empty</code></td>
+                          <td>In the document tree, this element has no children.</td>
+                      </tr>
+
+                      <tr class="bg-warning">
+                          <td>COMBINATORS</td>
+                          <td colspan="3">Descendant combinator</td>
+                          <td>The two sequences of simple selectors are separated by whitespace.</td>
+                      </tr>
+
+                      <tr class="bg-warning">
+                          <td></td>
+                          <td colspan="2">Child combinators</td>
+                          <td><code>></code></td>
+                          <td>Two elements are described with a childhood relationship </td>
+                      </tr>
+
+                      <tr class="bg-warning">
+                          <td></td>
+                          <td colspan="2">Sibling combinators</td>
+                          <td><code>+</code>, <code>~</code></td>
+                          <td>Two different sibling combinators: a.) adjacent and b.) general.</td>
+                      </tr>
+
+                      <tr class="bg-success">
+                          <td colspan="3">PSEUDO ELEMENTS</td>
+                          <td><code>::first-line pseudo-element</code></td>
+                          <td>These are described in the element as the contents of first formatted line. </td>
+                      </tr>
+
+                      <tr class="bg-success">
+                          <td colspan="3"></td>
+                          <td><code>::first-letter pseudo-element</code></td>
+                          <td> This would represent the elements first letter as long as any content is not preceded on its respective line.</td>
+                      </tr>
+
+                      <tr class="bg-success">
+                          <td colspan="3"></td>
+                          <td><code>::before</code> and <code>::after</code></td>
+                          <td>These describe the elements content before or after.</td>
+                      </tr>
+                    </tbody>
+                </table> <!--END OF TABLE-->
+            </div> <!--END OF TABLE DIVISION-->
+
+            <dl>
+                <dt class="lead">CSS RULE PRECEDENCE</dt>
+                    <dd>
+                        <ol>
+                            <li><strong>By Origin and Importance</strong>
+                                <ul>
+                                    <li>User agent important declaration</li>
+                                    <li>User important declarations</li>
+                                    <li>Author important declarations</li>
+                                    <li>Author normal declarations</li>
+                                    <li>User normal declarations</li>
+                                    <li>User agent normal declaration</li>
+                                </ul>
+                            </li>
+                            <li><strong>By Specificity</strong>
+                                <ul>
+                                    <li>Inline style</li>
+                                    <li>Number of ID selectors</li>
+                                    <li>Number of class selectors, attribute selectors, and pseudo-classes</li>
+                                    <li>Number of type selectors and pseudo-elements</li>
+                                </ul>
+                            </li>
+                            <li><strong>By Order</strong>
+                                <ul>
+                                    <li>The later the declaration, the higher priority</li>
+                                </ul>
+                            </li>
+                        </ol>
+                    </dd>
+
+                <dt class="lead">CSS Class Declarations</dt>
+                    <dd>
+                        <ol>
+                            <li> <strong> Properties </strong>
+                                <ul>
+                                    <li>Shorthand Properties</li>
+                                    <li>Vendor Specific Extensions</li>
+                                </ul>
+                            </li>
+
+                            <li> <strong> Values </strong>
+                                <ul>
+                                    <li>Keywords</li>
+                                    <li>Numbers
+                                        <ul>
+                                            <li>Int and real number in decimal notation</li>
+                                        </ul>
+                                    </li>
+                                    <li>Dimesions
+                                        <ul>
+                                            <li>Length, angle, duration frequency, resolution</li>
+                                            <li>Length Units
+                                                <ul>
+                                                    <li>Font Relative
+                                                        <ul>
+                                                            <li><code>ex</code></li>
+                                                            <li><code>em</code></li>
+                                                            <li><code>ch</code></li>
+                                                            <li><code>rem</code></li>
+                                                        </ul>
+                                                    </li>
+                                                    <li>Viewport Percentage
+                                                        <ul>
+                                                            <li><code>vw</code></li>
+                                                            <li><code>vh</code></li>
+                                                            <li><code>vmin</code></li>
+                                                            <li><code>vmax</code></li>
+                                                        </ul>
+                                                    </li>
+                                                    <li>Absolute Lengths
+                                                        <ul>
+                                                            <li><code>cm</code></li>
+                                                            <li><code>mm</code></li>
+                                                            <li><code>q</code></li>
+                                                            <li><code>in</code></li>
+                                                            <li><code>pt</code></li>
+                                                            <li><code>pc</code></li>
+                                                            <li><code>px</code></li>
+                                                        </ul>
+                                                    </li>
+                                                </ul>
+                                            </li>
+                                            <li>Angle Units
+                                                <ul>
+                                                    <li><code>deg</code></li>
+                                                    <li><code>grad</code></li>
+                                                    <li><code>rad</code></li>
+                                                    <li><code>turn</code></li>
+                                                </ul>
+                                            </li>
+                                            <li>Duration Units
+                                                <ul>
+                                                    <li><code>s</code></li>
+                                                    <li><code>m</code></li>
+                                                </ul>
+                                            </li>
+                                            <li>Frequency Units
+                                                <ul>
+                                                    <li><code>hx</code></li>
+                                                    <li><code>khz</code></li>
+                                                </ul>
+                                            </li>
+                                            <li>Resolution Units
+                                                <ul>
+                                                    <li><code>dpi</code></li>
+                                                    <li><code>dpcm</code></li>
+                                                    <li><code>dppc</code></li>
+                                                </ul>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li>Percentage</li>
+                                    <li>URI's and URL's</li>
+                                    <li>Colors
+                                        <ul>
+                                            <li><code>#rgb</code></li>
+                                            <li><code>#rgba</code></li>
+                                            <li><code>#hsl</code></li>
+                                            <li><code>#hsla</code></li>
+                                        </ul>
+                                    </li>
+                                    <li>Strings</li>
+                                    <li>Functions
+                                        <ul>
+                                            <li><code>calc()</code></li>
+                                            <li><code>attr()</code></li>
+                                            <li><code>counter()</code></li>
+                                            <li><code>counter()</code></li>
+                                            <li><code>linear-gradient()</code></li>
+                                            <li><code>radial-gradient()</code></li>
+                                            <li><code>translate()</code></li>
+                                            <li><code>scale()</code></li>
+                                            <li><code>rotate()</code></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ol>
+                    </dd>
+            </dl>
+
+        </div><!--END OF ROW-->
+    </div> <!--END OF CSS CONTAINER-->
 
     <section id="javascript" class="sectBG bg-primary8 text-center">
         <div class="container">
