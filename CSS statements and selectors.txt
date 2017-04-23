@@ -1,0 +1,42 @@
+CSS Preprocessors, CSS Frameworks
+This is where data types are taken and converted to another data type.
+CSS Frameworks
+CSS Frameworks are software that is pre-prepared which can for effortless web design that follows the standards correctly with use of the language of Cascading Style Sheets (CSS).
+
+CSS STATEMENTS
+@charset
+It interprets the character set that can be applied with the style sheet.
+@import
+It informs the CSS to add a stylesheet that is external. 
+@namespace
+Informs the CSS engine that the content must have an XML container that could hold identifiers.
+@media
+A group rule which could pertain with media as long as it meets specified conditions and content can be applied accordingly. It is also conditional.
+@supports
+Also conditional, this group rule affects content if the browser meets specified conditions. 
+@document
+Group rule that applies content once the document stylesheets meets conditions.
+@page
+This describes layout changes especially once he document is printed.
+@font-face
+Describes the feature of an external font that would be downloaded.
+@keyframes
+Shows the aspect of intermediary steps of the animation sequence in CSS.
+@viewport
+Outlines the viewport for devices which utilize small screens.
+CSS SELECTORS
+Construct that is used in the CSS rule as a condition to decide elements in the document tree when partnered with a selector.
+Attribute Selector
+Target an element base on the value of the attribute
+[attr=value] -This is a representation of an element which has the att attribute where the value is appointed with “val”.
+[attr~=value] - This is a representation of an element which has the att attribute where the value is appointed with separated list of words which have whitespace.
+[attr|=value] -This is a representation of an element which has the att attribute where the value is begins either with “val” or is followed by an “-”.
+[attr^=value] - This is a representation of an element which has the att attribute where the prefix begins with “val”.
+[attr$=value] -This is a representation of an element which has the att attribute where the value ends with “val” as the suffix.
+[attr*=value] - This is a representation of an element which has the att attribute where one instance of substring “val” is contained.
+Target Pseudo-Class
+It is represented with the pseudo-class, :target.
+:target
+Language Pseudo-Class
+It is represented as an element in the C language.
+
