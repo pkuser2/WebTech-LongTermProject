@@ -10,27 +10,28 @@ CSS
 - It is developed by Hakon Wium Lee (LHSS) & Bert Bos (JOP)
 
 Versions of CSS:
-CSS 1
-CSS 2.1 - June 7, 2011
-CSS 3
+ CSS 1
+ CSS 2.1 - June 7, 2011
+ CSS 3
+
 JS - Involves the behavioral aspect of the website.
 
 Versions of HTML:
-HTML 1.0
-HTML 2.0 - 1995
-HTML 3.0
-HTML 3.2
-HTML 4.0
-HTML 4.01 - December 24, 1999
- -Strict
- -Transitional
- -Frameset
-HTML 5.0 - 2014
-HTML 5.01 - 2016
+ HTML 1.0
+ HTML 2.0 - 1995
+ HTML 3.0
+ HTML 3.2
+ HTML 4.0
+ HTML 4.01 - December 24, 1999
+  -Strict
+  -Transitional
+  -Frameset
+ HTML 5.0 - 2014
+ HTML 5.01 - 2016
 
-From HTML 3.0 to 4.01 it was W3c Reccomendation 
-There was a 15 year hiatus from HTML 4.0 to 5.0.
-HTML 5.1 is the current HTML version being used.
+ From HTML 3.0 to 4.01 it was W3c Reccomendation 
+ There was a 15 year hiatus from HTML 4.0 to 5.0.
+ HTML 5.1 is the current HTML version being used.
 
 XHTML - Extensible Hypertext Markup Language
 - It is a reformulation in XML.
@@ -57,46 +58,48 @@ They are embodied in elements.
 ex. <head>, <body>, <title>, <meta>, etc.
 -Each of them follows a certain syntax.
 example:
-<a href = "___" > (Link) </a> - This will all lead to a document tree structure element.
-<a href = "___" > - start tag
-a- tagname
-href- attribute name
-"__"- attribute value
-(Link) - content
-</a> - end tag
+ <a href = "___" > (Link) </a> - This will all lead to a document tree structure element.
+ <a href = "___" > - start tag
+ a- tagname
+ href- attribute name
+ "__"- attribute value
+ (Link) - content
+ </a> - end tag
+
 Note: Empty elements do not have an end tag.
-<img src "__" alt = "__">
+ <img src "__" alt = "__">
 
 CSS Preprocessor, CSS Frameworks
 - Sass, Less, 960 Grid System, Bootstrap, Foundation, Materialize
+
 SASS(Syntactically Awesome Style Sheets) - The most popular preprocessors and is implemented in Ruby.
--You can also define variables.
+- You can also define variables.
 
 LESS- A Preprocessor implemented in Javascript
 
 HTML/XHTML Stylesheets
--Author styles- what author created.
--User styles- preference, seperate stylesheet.
--User Agent styles- user viewing the file.
--External stylesheets(recommended)- CSS link to HTML.
--Emebedded styles- style element
--Inline styles- style attribute
+- Author styles- what author created.
+- User styles- preference, seperate stylesheet.
+- User Agent styles- user viewing the file.
+- External stylesheets(recommended)- CSS link to HTML.
+- Emebedded styles- style element
+- Inline styles- style attribute
 
 CSS Statements
-@charset- character encoding scheme for mapping
-@import- import other documents
-@namespace- targets other documents
-@document- stylesheet only applies to documents in specific page
-@font-face- web donloadable files
-@key frames- CSS animation
-@media- responsive design
+ @charset- character encoding scheme for mapping
+ @import- import other documents
+ @namespace- targets other documents
+ @document- stylesheet only applies to documents in specific page
+ @font-face- web donloadable files
+ @key frames- CSS animation
+ @media- responsive design
 
 CSS Selectors
--specify which element you want to edit 
+- specify which element you want to edit 
      *Selector - used as a condition in a CSS rule
      *Selector Syntax - chain of one or more sequences of simple selectors
                       - always start with type selector  and universal selector
--SIMPLE SELECTOR
+- SIMPLE SELECTOR
     - type 
     - universal
     - attribute 
@@ -120,42 +123,42 @@ CLASS
     
     
 CSS Rule Precedence- From highest to lowest priority
--By origin and importance
-	-user agent important declarations
-	-user importance declorations
-	-author important declarations
-	-author normal declarations
-	-user normal declorations
-	-user agent normal declarations
--By specificity- The higer the priority
-	-Inline style
-	-Number of ID selectors
-	-Number of class selectors, attribute selectors, pseudo-class
-	-Number of type selectors & pseudo-elements
+- By origin and importance
+	- user agent important declarations
+	- user importance declorations
+	- author important declarations
+	- author normal declarations
+	- user normal declorations
+	- user agent normal declarations
+- By specificity- The higer the priority
+	- Inline style
+	- Number of ID selectors
+	- Number of class selectors, attribute selectors, pseudo-class
+	- Number of type selectors & pseudo-elements
 -By order - If it comes later, it goes first.
 
 CSS Declarations
--Properties
-	-Shorthand properties
-	-vendor specific extensions (a.k.a. vendor prefixes)
--Values
-	-keywords
-	-numbers(integers & reals indecimal notation)
-	-dimensions
+- Properties
+	- Shorthand properties
+	- vendor specific extensions (a.k.a. vendor prefixes)
+- Values
+	- keywords
+	- numbers(integers & reals indecimal notation)
+	- dimensions
 		length, angle, duration, frequency, resolution
-	-length units:
+	- length units:
 		font relative: em, ex, ch, rem
 		viewport precentage: vw, vh, vmin, vmax
-	-absolute lengths: cm, mm q, in, pt ,pc ,px
-	-angle units: deg, grad, rad, turn
-	-duration units:  s, ms
-	-frequency units: hz, khz
-	-resolution units: dpi, dpem, dppx
-	-percentages
-	-URLs and URIs
-	-colors
-	-strings
-	-functions: calc(), attr(), counter(), counters(), linear-gradient(), radial-gradient(), translate(), scale(), rotate()
+	- absolute lengths: cm, mm q, in, pt ,pc ,px
+	- angle units: deg, grad, rad, turn
+	- duration units:  s, ms
+	- frequency units: hz, khz
+	- resolution units: dpi, dpem, dppx
+	- percentages
+	- URLs and URIs
+	- colors
+	- strings
+	- functions: calc(), attr(), counter(), counters(), linear-gradient(), radial-gradient(), translate(), scale(), rotate()
 The elements of HTML:
 html
 	head
