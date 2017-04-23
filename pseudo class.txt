@@ -1,0 +1,32 @@
+UI Element States Pseudo-Classes
+:enabled
+User elements will be in a state that is enabled.
+:disabled
+User elements will be in a state that is disabled
+:checked
+The user can toggle checkbox and radio elements with this state.
+Structural Pseudo-Classes
+root
+In the document, this represents the root as an element.
+:first-child.
+this represents the first child of another element as an element.
+:last-child
+This represents the last child of another element as an element.
+:only-child
+This represents the parent element as an element and no other children are in the parent element. 
+:nth-child()
+This element in the document tree would have an+b-1 siblings before it.
+:nth-last-child()
+This element in the document tree would have an+b-1 siblings after it.
+:first-of-type
+This element would be represented with in the list of children of its own parent element that it is the type of its siblings.
+:last-of-type
+This element would be represented with in the list of children of its own parent element that it is the type of its siblings.
+:only-of-type
+This represents the parent element as an element and no other children are in the parent element and the element name is the same and is also expanded.
+:nth-of-type()
+This element in the document tree would have an+b-1 siblings before it and the element is the same expanded.
+:nth-last-of-type()
+This element in the document tree would have an+b-1 siblings after it and the element is the same expanded.
+:empty
+In the document tree, no children are in this element.
