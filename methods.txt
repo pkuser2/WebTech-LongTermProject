@@ -1,0 +1,65 @@
+
+Boolean - Data type which is logical holding two values which are true or false.
+String- A string or a succession of strings will be placed in this constructor.
+Number-Values that are numerical will be allowed by the following object.
+Symbol - The properties of an object is applied in this identifier.
+
+
+Mutator Methods: These are methods that can modify the array.
+Array.prototype.copyWithin() -  A succession of array elements will be copied in the array.
+Array.prototype.fill() - All elements of a array will be filled from an index from the beginning to the end associated with a static value.
+Array.prototype.pop()- Last array element will be removed and will be brought back to its respective element.
+Array.prototype.push() - Element/s could be added to the end of the array and returns the array’s new length.
+Array.prototype.reverse() - Order of the elements will be interchanged where the first becomes last and vice versa.
+
+Array. prototype.shift()- The first element will be removed and that element will be returned.
+Array.prototype.sort()- Elements will be sorted and the array will return.
+Array.prototype.splice()- In the array you can add or remove elements, you could even do both.
+Array.prototype.unshift()- Element/s can be added to the array’s front and the array’s new length will be returned.
+
+Accessor Methods- Methods that do not modify but returns array representations.
+
+Array.prototype.concat()-  A new array is returned by means of joining with  other values or arrays.
+Array.prototype.includes()- This would define when an array has a particular element and could return a value of true or false if suitable.
+Array.prototype.indexOf()- The first or least index is returned if the array equals to a certain value or -1 which means none was found.
+Array.prototype.join()- elements of a string are all joined/combined.
+Array.prototype.lastIndexOf()- The last or greatest index  is returned if the array equals to a certain value or -1 which means none was found.
+
+Array.prototype.slice()- An array section is extracted. A new array is also returned.
+Array.prototype.toSource()-  An  array literal is returned which represents a particular array. The value here could then be used to generate new array. The Object.prototype.toSource() will also override.
+Array.prototype.toLocaleString()-  Localized string that represents the array will be returned along with its elements. The Object.prototype.toLocaleString() method will also be overridden.
+
+
+Iteration methods- Numerous methods as argument functions are called back to process an array.
+
+
+Array.prototype.entries()- A new array iterator object can contain pairs with key or values in the array with each index.
+Array.prototype,every()-  The true element will be returned once the array has a testing function provided and is assured.
+Array.prototype.filter()- Once a new array is created, all elements of the respective array are given filtering function that can return the true value.
+Array.prototype.find()- The arrays found value is returned and when an array element satisfies the testing function that was provided.  Undefined will be returned if the function cannot be found. 
+
+
+ 
+
+
+Array.prototype.findIndex()- The array’s found index is returned  if the array equals to a certain value or -1 which means none was found.
+Array.prototype.forEach()-  A function for each array element is called.
+Array.prototype.keys()- A new array called Iterator is returned and contains keys for the individual indexes in the array.
+Array.prototype.map()- A new array with results is created. These results would then call a function provided on all the elements in the array.
+Array.prototype.reduce()- A function is applied against an accumulator. Each array value from left to right would decrease it to a single value.
+
+
+Array.prototype.reduceRight()- Array.prototype.reduce()- A function is applied against an accumulator. Each array value from right to left would decrease it to a single value.
+Array.prototype.some()- It will return a true value should at least a single element (or more) satisfies the testing function that was provided.
+Array.prototype.values()-  A new array iterator object is returned and in the array, it includes values for each index.
+Array.prototype.[@@iterator]()- A new array iterator object is returned and in the array, it includes values for each index.
+
+
+
+
+
+
+
+
+
+
