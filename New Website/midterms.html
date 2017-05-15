@@ -70,6 +70,8 @@
         <!-- /.container-fluid -->
     </nav>
 
+    <button onclick="topFunction()" class="page-scroll" id="myBtn" title="Go to top"><span class="fa fa-chevron-up"></span></button>
+
     <section id="html" class="sectBG bg-primary6 text-center">
         <div class="container">
             <div class="row">
@@ -1621,6 +1623,26 @@
 
     <!-- Theme JavaScript -->
     <script src="js/new-age.min.js"></script>
+
+    <script type="text/javascript">
+
+    window.onscroll = function() {scrollFunction()};
+
+    function scrollFunction() {
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+            document.getElementById("myBtn").style.display = "block";
+        } else {
+            document.getElementById("myBtn").style.display = "none";
+        }
+    }
+
+
+    function topFunction() {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+    }
+
+    </script>
 
 </body>
 
