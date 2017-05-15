@@ -139,3 +139,21 @@ code{
   line-height: 0;
   font-family: monospace, monospace;
 }
+#myBtn {
+    display: none; 
+    position: fixed; 
+    bottom: 50px; 
+    right: 50px; 
+    z-index: 99; 
+    border: none; 
+    outline: none; 
+    background-color: rgba(0, 0, 0, 0.66); 
+    color: white; 
+    cursor: pointer; 
+    padding: 15px; 
+    border-radius: 50px; 
+}
+
+#myBtn:hover {
+    background-color: rgba(0, 91, 133, 0.76);
+}
