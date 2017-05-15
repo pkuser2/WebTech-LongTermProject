@@ -157,3 +157,7 @@ code{
 #myBtn:hover {
     background-color: rgba(0, 91, 133, 0.76);
 }
+.skill{
+  color: #3d5496 !important;
+  margin-top: -20px;
+}

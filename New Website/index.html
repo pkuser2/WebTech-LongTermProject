@@ -70,6 +70,8 @@
         <!-- /.container-fluid -->
     </nav>
 
+    <button onclick="topFunction()" class="page-scroll" id="myBtn" title="Go to top"><span class="fa fa-chevron-up"></span></button>
+
     <header>
         <div class="container">
             <div class="row">
@@ -112,31 +114,37 @@
 
     <section id="team" class="bg-primaryContact">
         <div class="container">
-        <h2 class="text-center">THE TEAM</h2>
+        <h2 class="text-center">ABOUT US</h2>
+        <p class="text-center"> This website is a project of the Course Web Systems and Technologies of the Saint Louis University - Baguio City. The purpose of this site is to share the ideas and knowledge about the web. This includes the topics in the Client Side - Hypertext Transfer Protocol, Hypertext Markup Language, Cascading Stylesheets, JavaScript and also in the Server Side Scripting - Node Js, Java Servlets and JSP's and Php.</p>
             <div class="row">
                 <div class="col-md-12">
                     <img src="img/members/Basco.jpg" class="teamImg img-circle img-responsive center-block" alt="Basco">
                     <p class="text-center">John Allen Basco</p>
+                    <p class="text-center skill">Structure Builder and Designer</p>
                 </div>
             </div>
             <div class="row">
                 <div class="col-md-6">
                     <img src="img/members/Gueco.jpg" class="teamImg img-circle img-responsive center-block" alt="Gueco">
                     <p class="text-center">Jessirine Nichole Gueco</p>
+                    <p class="text-center skill">Content Builder</p>
                 </div>
                 <div class="col-md-6">
                     <img src="img/members/Mina.jpg" class="teamImg img-circle img-responsive center-block" alt="Mina">
                     <p class="text-center">Apollo Joshua Mina</p>
+                    <p class="text-center skill">Content Researcher</p>
                 </div>
             </div>
             <div class="row">
                 <div class="col-md-6">
                     <img src="img/members/Romero.jpg" class="teamImg img-circle img-responsive center-block" alt="Romero">
                     <p class="text-center">Ceasar Jim Romero</p>
+                    <p class="text-center skill">Content Researcher</p>
                 </div>
                 <div class="col-md-6">
                     <img src="img/members/Samson.jpg" class="teamImg img-circle img-responsive center-block" alt="Samson">
                     <p class="text-center">Sean Eric Samson</p>
+                    <p class="text-center skill">Content Researcher</p>
                 </div>
             </div>
         </div>
@@ -160,6 +168,26 @@
 
     <!-- Theme JavaScript -->
     <script src="js/new-age.min.js"></script>
+
+    <script type="text/javascript">
+
+    window.onscroll = function() {scrollFunction()};
+
+    function scrollFunction() {
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+            document.getElementById("myBtn").style.display = "block";
+        } else {
+            document.getElementById("myBtn").style.display = "none";
+        }
+    }
+
+
+    function topFunction() {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+    }
+
+    </script>
 
 </body>
 
