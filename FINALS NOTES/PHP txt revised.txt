@@ -1,0 +1,89 @@
+PHP: 
+The most famous server-side language found on the web. PHP is drafted to pull and edit database info. It is bundled with SQL language databases. It was designed exclusively for the web. It is straightforward in its installation as well as deploying it. Among the number of content-management systems, this is the foundation.
+PHP Global Variables - Superglobals
+PHP $GLOBALS is a PHP super global variable which is used to access global variables from anywhere in the PHP script (also from within functions or methods).PHP stores all global variables in an array called $GLOBALS[index].
+
+
+
+
+
+
+Element/Code
+Description
+$_SERVER['PHP_SELF']
+
+The filename of the script that is currently executed is returned.
+$_SERVER['GATEWAY_INTERFACE']
+
+The version of what the Common Gateway Interface is using is returned.
+$_SERVER['SERVER_ADDR']
+The host server’s IP address is returned. 
+$_SERVER['SERVER_NAME']
+Host server’s name is returned(e.g.. www.java.com)
+$_SERVER['SERVER_SOFTWARE']
+
+The server identification string is returned (ex. Apache/1.1)
+$_SERVER['SERVER_PROTOCOL']
+
+The name and revision of the information protocol is returned (ex. HTTP/2.2)
+$_SERVER['REQUEST_METHOD']
+The page for access that is used by the request method is returned (ex. GET)
+$_SERVER['REQUEST_TIME']
+
+A requested timestamp is returned at the start of the request. (ex. 1928374)
+$_SERVER['QUERY_STRING']
+The query string of a page is accessed with another query string and is returned.
+$_SERVER['HTTP_ACCEPT']
+Current request of the Accept header is returned.
+$_SERVER['HTTP_ACCEPT_CHARSET']
+The current request’s Accept_Charset header is returned (ex. utf -7, ISO -5995-1)
+$_SERVER['HTTP_HOST']
+
+The current request’s Host header is returned. 
+$_SERVER['HTTP_REFERER']
+
+Complete URL of the current page is returned, not many user-agents support it though.
+$_SERVER['HTTPS']
+The queried script through a protected HTTP protocol.
+$_SERVER['REMOTE_ADDR']
+
+IP address from where user is viewing is returned to the current page.
+$_SERVER['REMOTE_HOST']
+
+Host name where user is viewing the current page is returned.
+$_SERVER['REMOTE_PORT']
+
+Port being integrated in a users machine to interact with the web server is returned.
+$_SERVER['SCRIPT_FILENAME']
+
+Absolute pathname of the currently executing script is returned
+$_SERVER['SERVER_ADMIN']
+
+The given value to the SERVER_ADMIN directive in the web configuration file is returned.
+(if your script runs on a virtual host, it will be the value defined for that virtual host)
+$_SERVER['SERVER_PORT']
+
+The server machine’s port being used by the web server is returned. (ex. Port 80)
+
+
+$_SERVER['SERVER_SIGNATURE']
+
+Server version and virtual host name are added to pages that are server-generated is returned.
+$_SERVER['PATH_TRANSLATED']
+
+File system based path to current script is returned.
+$_SERVER['SCRIPT_NAME']
+
+The path’s current script is returned.
+$_SERVER['SCRIPT_URI']
+
+Current page URI is returned.
+
+2.) PHP $_SERVER 
+This PHP super global variable holds information, paths, and locations of scripts.
+3.) PHP $_REQUEST 
+Gathers data after submitting HTML form. An example is submitting data, sending the specified file in the form of an action attribute tag called “<form>”.
+4.) PHP $_POST 
+an extensively used way to gather form data after sending an HTML form with the method “post”. It is also used to pass variables.
+5.) PHP $_GET
+Used to gather form data after submitting an HTML form with the get method. Sends data to the URL.
