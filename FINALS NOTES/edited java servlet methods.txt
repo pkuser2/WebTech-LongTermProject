@@ -1,0 +1,59 @@
+Method
+Void
+attributeAdded(ServletContextAttributeEvent scab)
+- A notification where in the servlet, a new attribute was added
+Void
+attributeRemoved(ServletContextAttributeEvent scab)
+- A notification where in the servlet, an existing attribute was removed.
+
+ 
+Void
+attributeReplaced(ServletContextAttributeEvent scab)
+- A notification where in the servlet, an attribute was replaced.
+
+
+ 
+ 
+-          ServletContextListener - Notifications events are received with this interface and its about the lifecycle changes of ServletContext
+Method
+Void
+contextDestroyed(ServletContextEvent sce)
+- A notification where in the servlet context it is about to cease.
+Void
+contextInitialized(ServletContextEvent sce)
+- A notification where in the web application, a loaded process is about to start.
+
+
+ 
+ 
+-          ServletRequest - An object is defined where client request information are provided to a servlet.
+ 
+ 
+ 
+ 
+-          ServletRequestAttributeListener - ServletRequest attribute changes are involved with notification events being received in its respective interface.
+
+
+
+Method
+Void
+attributeAdded(ServletRequestAttributeEvent srae)
+
+- Notify that an attribute that is new was included to the servlet.
+Void
+attributeRemoved(ServletRequestAttributeEvent srae)
+- Notify an attribute that is present was deleted for the request servlet.
+Void
+attributeReplaced(ServletRequestAttributeEvent srae)
+- Notify an attribute on the request servlet that has been altered.
+
+
+ 
+-          ServletRequestListener - This an interface where events can be received through notification where requests can go inside and outside of the web application.
+Method
+Void
+requestDestroyed(ServletRequestEvent sre)
+- Request would be going out for the web app.
+Void
+requestInitialized(SerlvetRequestEvent sre)
+- Request would be coming in the web app.
