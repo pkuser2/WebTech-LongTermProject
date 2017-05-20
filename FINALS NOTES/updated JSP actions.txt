@@ -1,0 +1,30 @@
+ Standard Actions 
+Actions(which are performed through tag) that help define JSP and the directive “taglib” is optional. They all have a jsp: prefix as a default.
+
+The following is the list of Standard Actions in JSP.
+Action Element
+Description
+<jsp:useBean>
+       In that page, JavaBeans are enabled.
+<jsp:getProperty>
+Can get from the JavaBeans component a property value  where it can be included to the response.
+
+
+<jsp:setProperty>
+             JavaBeans property value is set.
+<jsp:include>
+Response from jsp page is included as its being processed.
+<jsp:forward>
+The request being processed is forwarded to a jsp page.
+<jsp:param>
+A paramater value is added and a request that uses <jsp:include> or <jsp:forward> is added
+<jsp:plugin>
+HTML elements are generated, if needed, to a applet using Java Plugin to a browser.
+<jsp:attribute>
+A value of an action element is set based on the element body.
+<jsp:body>
+An action element situated on the element’s body.
+<jsp:element>
+Generates an XML element, dynamically.
+<jsp:text>
+Template text is encapsulated, needed in XML- written JSP pages.
