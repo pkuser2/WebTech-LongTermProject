@@ -1,0 +1,62 @@
+
+JAVA SERVLET 
+A program in java that further the server capabilities. It can respond to all type of requests. They implement Web hosting applications which were hosted and is the Java equivalent of other dynamic web content technologies. 
+
+ 
+Interface Summary
+Filter
+An object that filters tasks with either a request to resource, or response from resource or both. 
+FilterChain
+
+An object provided by the servlet container to developer giving view into the invocation chain of a resource filtered request.
+FilterConfig
+
+Also called filter configuration. It is an servlet container object to send info to a filter when being initialized.
+RequestDispatcher
+Defines an object that receives requests from the client and sends them to any resource (such as a servlet, HTML file, or JSP file) on the server.
+Servlet
+Defines methods that all servlets must implement.
+ServletConfig
+A servlet configuration object used by a servlet container to pass information to a servlet during initialization.
+ServletContext
+Defines a set of methods that a servlet uses to communicate with its servlet container, for example, to get the MIME type of a file, dispatch requests, or write to a log file.
+ServletContextAttributeListener
+Implementations of this interface receive notifications of changes to the attribute list on the servlet context of a web application.
+ServletContextListener
+Implementations of this interface receive notifications about changes to the servlet context of the web application they are part of.
+ServletRequest
+Defines an object to provide client request information to a servlet.
+ServletRequestAttributeListener
+
+If the developer wants to change things the ServletAttributeListener can be implemented.
+ServletRequestListener
+
+If the developer is interested to be notified with requests going in and out of a web component’s scope, The ServerRequestListener can be implemented.
+ServletResponse
+
+An object is defined to assist in sending servlet response to the client.
+SingleThreadModel
+Deprecated. As of Java Servlet API 2.4, with no direct replacement.
+ 
+Class Summary
+GenericServlet
+
+A generic, protocol independent servlet is defined.
+ServletContextAttributeEvent
+
+An event class for notifications that changes attributes of the web application’s servlet context.
+ServletContextEvent
+This is the event class for notifications about changes to the servlet context of a web application.
+ServletInputStream
+Provides an input stream for reading binary data from a client request, including an efficient readLine method for reading data one line at a time.
+ServletOutputStream
+Provides an output stream for sending binary data to the client.
+ServletRequestAttributeEvent
+This is the event class for notifications of changes to the attributes of the servlet request in an application.
+ServletRequestEvent
+Events of this kind indicate lifecycle events for a ServletRequest.
+ServletRequestWrapper
+Provides a convenient implementation of the ServletRequest interface that can be subclassed by developers wishing to adapt the request to a Servlet.
+ServletResponseWrapper
+Provides a convenient implementation of the ServletResponse interface that can be subclassed by developers wishing to adapt the response from a Servlet.
+
